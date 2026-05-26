@@ -13,38 +13,75 @@ Automatizar el análisis de información estadística y financiera publicada por
 
 ## Uso
 
-Cada script en `src/` es independiente y cubre un tema específico. Para ejecutar un análisis:
+El proyecto está organizado por subproyecto. Cada uno tiene su propio directorio con scripts, datos y figuras. Para ejecutar un análisis:
 
 1.  Abrir el proyecto `datopedia.Rproj` en RStudio.
 2.  Restaurar el entorno con `renv::restore()`.
-3.  Ejecutar el script correspondiente desde `src/`.
+3.  Ejecutar primero el script `importar_datasets.R` del subproyecto para descargar los datos.
+4.  Ejecutar el script de análisis principal del subproyecto.
 
-Los datos descargados se guardan en `data/raw/`, los procesados en `data/processed/` y las figuras en `figures/`.
+Los datos descargados se guardan en `<subproyecto>/data/raw/`, los procesados en `<subproyecto>/data/processed/` y las figuras en `<subproyecto>/figures/`.
 
-## Scripts disponibles
+## Subproyectos
 
-| Script | Descripción | Fuente |
-|--------------------|--------------------------------|--------------------|
-| `sbs_sistema_financiero.R` | Resultado neto de banca múltiple, financieras, cajas municipales y cajas rurales | SBS |
-| `mef_inversion_publica.R` | Pasivo de inversiones y otros aspectos de la inversión pública (Invierte.pe) | MEF |
+| Subproyecto | Descripción | Fuente |
+|----------------------------------|--------------------------------------------------|--------|
+| `sbs_sistema_financiero/`        | Resultado neto de banca múltiple, financieras, cajas municipales y cajas rurales | SBS |
+| `mef_inversion_publica/`         | Pasivo de inversiones y otros aspectos de la inversión pública (Invierte.pe) | MEF |
+| `osinergmin_combustibles/`       | Precios de combustibles por departamento y distrito | Osinergmin |
+| `mef_gasto_publico/`             | Análisis del gasto público | MEF |
+
+## Módulos compartidos
+
+Los módulos en `modules/` definen funciones reutilizables para todos los subproyectos:
+
+| Módulo | Función principal |
+|------------------------|------------------------------------------|
+| `bar_chart.R`          | `bar_chart()` — gráfico de barras vertical u horizontal |
+| `line_charts.R`        | `line_chart()` — gráfico de líneas con múltiples series |
+| `choropleth_map.R`     | `mapa_departamentos()`, `mapa_lima_callao()` — mapas coropléticos |
+| `gt_table.R`           | `gt_table()` — tabla estilizada con formato numérico configurable |
 
 ## Estructura del proyecto
 
 ```
 📁 datopedia/
-├── 📁 data/
-│   ├── 📁 raw/
-│   │   ├── 📁 mef_inversion_publica/   # archivos CSV descargados del MEF
-│   │   └── 📁 sbs_sistema_financiero/  # archivos XLS/XLSX descargados de la SBS
-│   └── 📁 processed/                   # datasets procesados en CSV
-├── 📁 figures/
-│   ├── 📁 mef_inversion_publica/       # tablas y gráficos de inversión pública
-│   └── 📁 sbs_sistema_financiero/      # gráficos del sistema financiero
-├── 📁 src/
-│   ├── 📄 graphics_functions.R         # funciones reutilizables: bar_chart, line_chart, gt_table
-│   ├── 📄 mef_inversion_publica.R      # análisis de inversión pública (MEF)
-│   └── 📄 sbs_sistema_financiero.R     # análisis del sistema financiero (SBS)
-├── 📁 renv/                            # entorno virtual de paquetes
+├── 📁 modules/
+│   ├── 📄 bar_chart.R
+│   ├── 📄 choropleth_map.R
+│   ├── 📄 gt_table.R
+│   └── 📄 line_charts.R
+├── 📁 sbs_sistema_financiero/
+│   ├── 📁 data/
+│   │   ├── 📁 raw/        # archivos XLS/XLSX descargados de la SBS
+│   │   └── 📁 processed/  # dataset procesado en CSV
+│   ├── 📁 figures/        # gráficos por tipo de empresa
+│   └── 📁 src/
+│       ├── 📄 importar_datasets.R  # descarga EEFF desde la SBS
+│       └── 📄 resultado_neto.R     # procesa y visualiza el resultado neto
+├── 📁 mef_inversion_publica/
+│   ├── 📁 data/
+│   │   ├── 📁 raw/        # CSVs descargados del MEF
+│   │   └── 📁 processed/  # dataset procesado en CSV
+│   ├── 📁 figures/        # tablas y gráficos de inversión pública
+│   └── 📁 src/
+│       ├── 📄 importar_datasets.R  # descarga CSVs desde Datos Abiertos del MEF
+│       └── 📄 mef_inversion_publica.R  # procesa y visualiza el pasivo de inversiones
+├── 📁 osinergmin_combustibles/
+│   ├── 📁 data/
+│   │   ├── 📁 raw/        # archivos descargados de Osinergmin
+│   │   └── 📁 processed/  # precios procesados en CSV
+│   ├── 📁 figures/        # mapas y gráficos de precios
+│   └── 📁 src/
+│       └── 📄 scop_precio_combustibles.R
+├── 📁 mef_gasto_publico/
+│   ├── 📁 data/
+│   │   ├── 📁 raw/
+│   │   └── 📁 processed/
+│   ├── 📁 figures/
+│   └── 📁 src/
+│       └── 📄 mef_gasto_publico.R
+├── 📁 renv/               # entorno virtual de paquetes
 ├── 📄 renv.lock
 └── 📄 datopedia.Rproj
 ```
@@ -53,6 +90,7 @@ Los datos descargados se guardan en `data/raw/`, los procesados en `data/process
 
 - **MEF — Datos Abiertos:** <https://datosabiertos.mef.gob.pe/>
 - **SBS — Estadísticas del Sistema Financiero:** <https://intranet2.sbs.gob.pe/estadistica/financiera/>
+- **Osinergmin — SCOP:** <https://www.osinergmin.gob.pe/>
 
 ## Resultados
 

@@ -1,51 +1,44 @@
 #===============================================================================
-# sbs-sistema-financiero
+# resultado_neto.R  [sbs_sistema_financiero]
 #
-# Objetivo: descargar, procesar y visualizar el resultado neto de las empresas
-#           del sistema financiero peruano: banca múltiple, empresas financieras,
-#           cajas municipales y cajas rurales.
+# Objetivo: procesar y visualizar el resultado neto de las empresas del sistema
+#           financiero peruano: banca múltiple, empresas financieras, cajas
+#           municipales y cajas rurales.
+#
+# Prerequisito: ejecutar importar_datasets.R para descargar los archivos XLS.
 #
 # Outputs:
-#   - data/processed/sbs_sistema_financiero.csv  (datos procesados)
-#   - figures/sbs_sistema_financiero/            (gráficos por tipo de empresa)
+#   - sbs_sistema_financiero/data/processed/sbs_sistema_financiero.csv
+#   - sbs_sistema_financiero/figures/bm_fig1.png
+#   - sbs_sistema_financiero/figures/ef_fig1.png
+#   - sbs_sistema_financiero/figures/cm_fig1.png
+#   - sbs_sistema_financiero/figures/cr_fig1.png
 #
 # Fuente: SBS - Estadísticas del Sistema Financiero
 #   https://intranet2.sbs.gob.pe/estadistica/financiera/
 #===============================================================================
 
 
-source("src/graphics_functions.R")
+source("modules/bar_chart.R")
 
 
-if (!require("pacman")) {install.packages("pacman", dependencies = TRUE)}
-pacman::p_load(
-  tidyverse,  # para manejo y visualización de datos
-  lubridate,  # para manejo de fechas
-  readxl,     # para leer archivos de Excel
-  renv,       # para entorno virtual
-  tools,      # para manejo de archivos
-  glue,       # para texto dinamico
-  fs          # para manejor de directorios
-)
+library(tidyverse) # para manejo y visualización de datos
+library(lubridate) # para manejo de fechas
+library(readxl)    # para leer archivos de Excel
+library(tools)     # para file_path_sans_ext()
+library(glue)      # para texto dinámico en títulos
+library(fs)        # para manejo de directorios
 
 
-dir_raw        <- path("data/raw/sbs_sistema_financiero")
-dir_processed  <- path("data/processed")
-dir_figures    <- path("figures/sbs_sistema_financiero")
-
+dir_subproject <- "sbs_sistema_financiero"
+dir_raw        <- path(dir_subproject, "data/raw")
+dir_processed  <- path(dir_subproject, "data/processed")
+dir_figures    <- path(dir_subproject, "figures")
 
 path_datasets <- path(dir_processed, "sbs_sistema_financiero.csv")
 
 
-#===============================================================================
-# extraccion de datos
-#===============================================================================
-
-
-# --- crear URLs ---
-
-
-# tabla de meses y abreviaturas
+# La SBS publica los EEFF con 2 meses de rezago respecto al mes en curso
 
 months_str <- tibble(
   month = 1:12,
@@ -53,9 +46,6 @@ months_str <- tibble(
             "Julio","Agosto","Setiembre","Octubre","Noviembre","Diciembre"),
   abbr  = c("en","fe","ma","ab","my","jn","jl","ag","se","oc","no","di")
 )
-
-
-# La SBS publica los EEFF con 2 meses de rezago respecto al mes en curso
 
 current_date  <- today()
 current_year  <- year(current_date)
@@ -65,72 +55,9 @@ month_str       <- months_str$name[current_month]
 month_str_short <- months_str$abbr[current_month]
 
 
-# URLs de estados financieros (EEFF):
-#   B-2201: banca múltiple       B-3101: empresas financieras
-#   C-1101: cajas municipales    C-2101: cajas rurales
-
-urls <- c(
-  glue("https://intranet2.sbs.gob.pe/estadistica/financiera/{current_year}/{month_str}/B-2201-{month_str_short}{current_year}.XLS"),
-  glue("https://intranet2.sbs.gob.pe/estadistica/financiera/{current_year}/{month_str}/B-3101-{month_str_short}{current_year}.XLS"),
-  glue("https://intranet2.sbs.gob.pe/estadistica/financiera/{current_year}/{month_str}/C-1101-{month_str_short}{current_year}.XLS"),
-  glue("https://intranet2.sbs.gob.pe/estadistica/financiera/{current_year}/{month_str}/C-2101-{month_str_short}{current_year}.XLS")
-)
-
-
-# --- descargar datasets ---
-
-
-# limpiar descargas previas para evitar mezclar archivos de distintos periodos
-dir_ls(dir_raw, type = "file") %>% file_delete()
-
-
-# datasets de eeff
-
-iwalk(urls, ~{
-  
-  file_name   <- basename(.x)
-  
-  output_path <- path(dir_raw, file_name)
-  
-  message("Intentando descargar: ", file_name)
-  
-  tryCatch({
-    download.file(
-      url      = .x, 
-      destfile = output_path, 
-      mode     = "wb",
-      quiet    = TRUE
-    )
-    message("  [OK] Descarga exitosa.\n")
-    
-  }, error = function(condicion) {
-    message("  [ERROR] No se pudo descargar el archivo. \n")
-  })
-})
-
-
-# --- Corregir extension de archivos ---
-
-
-# Los archivos B-22xx y B-31xx se descargan como .XLS (formato Excel 97-2003)
-# pero read_excel los rechaza por extensión; renombrarlos a .xlsx lo resuelve.
-rename_xls_to_xlsx <- function(directory) {
-  xls_files <- list.files(directory, pattern = "(B-2201|B-3101|B-3301|B-2401).*\\.XLS$",
-                          full.names = TRUE, ignore.case = TRUE)
-
-  for (src in xls_files) {
-    dst <- sub("\\.XLS$", ".xlsx", src, ignore.case = TRUE)
-    if (file.copy(src, dst)) {
-      file.remove(src)
-      message("Renombrado: ", basename(src), " -> ", basename(dst))
-    }
-  }
-}
-
-rename_xls_to_xlsx(dir_raw)
-
-
-# --- abrir datasets ---
+#===============================================================================
+# abrir datasets
+#===============================================================================
 
 
 # datasets eeff
