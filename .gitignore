@@ -50,5 +50,5 @@ rsconnect/
 .positai
 
 # Data raw
-data/raw
+**/raw/
 

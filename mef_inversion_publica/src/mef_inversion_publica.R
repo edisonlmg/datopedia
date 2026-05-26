@@ -1,7 +1,7 @@
 #===============================================================================
-# mef-inversion-publica
+# mef_inversion_publica.R
 #
-# Objetivo: descargar y analizar diferentes aspectos de la inversión pública
+# Objetivo: procesar y visualizar diferentes aspectos de la inversión pública
 #           del Sistema Nacional de Programación Multianual y Gestión de
 #           Inversiones (Invierte.pe).
 #
@@ -9,72 +9,34 @@
 #             1. Pasivo de inversiones: inversiones activas sin presupuesto
 #                y con antigüedad suficiente para considerarlas abandonadas.
 #
+# Prerequisito: ejecutar importar_datasets.R para descargar los datos crudos.
+#
 # Outputs:
-#   - data/processed/mef_inversion_publica.csv
-#   - figures/mef_inversion_publica/pasivo_inversiones.png
+#   - mef_inversion_publica/data/processed/mef_inversion_publica.csv
+#   - mef_inversion_publica/figures/pasivo_inversiones.png
 #
 # Fuente: Datos Abiertos del MEF
 #   https://datosabiertos.mef.gob.pe/
 #===============================================================================
 
 
-source("src/graphics_functions.R")
+source("modules/gt_table.R")
 
 
-if (!require("pacman")) {install.packages("pacman", dependencies = TRUE)}
-pacman::p_load(
-  tidyverse,  # para manejo y visualización de datos
-  lubridate,  # para manejo de fechas
-  janitor,    # para adorn_totals(): agrega fila de totales a tablas
-  vroom,      # para leer CSVs grandes eficientemente
-  tools,      # para file_path_sans_ext()
-  fs,         # para manejo de directorios
-  httr        # para descarga con write_disk() y stop_for_status()
-)
+library(tidyverse) # para manejo y visualización de datos
+library(lubridate) # para manejo de fechas
+library(janitor)   # para adorn_totals(): agrega fila de totales a tablas
+library(vroom)     # para leer CSVs grandes eficientemente
+library(tools)     # para file_path_sans_ext()
+library(fs)        # para manejo de directorios
 
 
-dir_raw       <- path("data/raw/mef_inversion_publica")
-dir_processed <- path("data/processed")
-dir_figures   <- path("figures/mef_inversion_publica")
+dir_subproject <- "mef_inversion_publica"
+dir_raw        <- path(dir_subproject, "data/raw")
+dir_processed  <- path(dir_subproject, "data/processed")
+dir_figures    <- path(dir_subproject, "figures")
 
 path_dataset <- path(dir_processed, "mef_inversion_publica.csv")
-
-
-#===============================================================================
-# extraccion de datos
-#===============================================================================
-
-
-# DETALLE_INVERSIONES:      ficha completa de cada inversión activa (viable/aprobada)
-# CIERRE_INVERSIONES:       inversiones que cerraron o culminaron
-# INVERSIONES_DESACTIVADAS: inversiones dadas de baja del sistema
-urls <- c(
-  "https://fs.datosabiertos.mef.gob.pe/datastorefiles/DETALLE_INVERSIONES.csv",
-  "https://fs.datosabiertos.mef.gob.pe/datastorefiles/CIERRE_INVERSIONES.csv",
-  "https://fs.datosabiertos.mef.gob.pe/datastorefiles/INVERSIONES_DESACTIVADAS.csv"
-)
-
-
-iwalk(urls, ~{
-
-  file_name   <- basename(.x)
-  output_path <- path(dir_raw, file_name)
-
-  message("Intentando descargar: ", file_name)
-
-  tryCatch({
-    respuesta <- GET(
-      url = .x,
-      write_disk(output_path, overwrite = TRUE), # escribe directo a disco sin cargar en memoria
-      progress()
-    )
-    stop_for_status(respuesta) # lanza error si el servidor responde con HTTP 4xx/5xx
-    message("  [OK] Descarga exitosa.\n")
-
-  }, error = function(condicion) {
-    message("  [ERROR] No se pudo descargar el archivo.\n")
-  })
-})
 
 
 #===============================================================================
