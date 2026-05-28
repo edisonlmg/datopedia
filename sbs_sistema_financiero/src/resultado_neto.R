@@ -5,153 +5,161 @@
 #           financiero peruano: banca múltiple, empresas financieras, cajas
 #           municipales y cajas rurales.
 #
-# Prerequisito: ejecutar importar_datasets.R para descargar los archivos XLS.
+# Input (descarga manual desde la fuente):
+#   - sbs_sistema_financiero/data/raw/B-2201*.XLS  (banca múltiple)
+#   - sbs_sistema_financiero/data/raw/B-2401*.XLS  (empresas financieras)
+#   - sbs_sistema_financiero/data/raw/B-3101*.XLS  (cajas municipales)
+#   - sbs_sistema_financiero/data/raw/B-3301*.XLS  (cajas rurales)
 #
 # Outputs:
-#   - sbs_sistema_financiero/data/processed/sbs_sistema_financiero.csv
-#   - sbs_sistema_financiero/figures/bm_fig1.png
-#   - sbs_sistema_financiero/figures/ef_fig1.png
-#   - sbs_sistema_financiero/figures/cm_fig1.png
-#   - sbs_sistema_financiero/figures/cr_fig1.png
+#   - sbs_sistema_financiero/data/processed/resultado_neto.csv
+#   - fig_banca, fig_financieras, fig_cajas_municipales, fig_cajas_rurales
+#     (objetos ggplot en memoria — exportar manualmente a 1048x762 px)
 #
 # Fuente: SBS - Estadísticas del Sistema Financiero
 #   https://intranet2.sbs.gob.pe/estadistica/financiera/
 #===============================================================================
 
-
 source("modules/bar_chart.R")
-
 
 library(tidyverse) # para manejo y visualización de datos
 library(lubridate) # para manejo de fechas
 library(readxl)    # para leer archivos de Excel
-library(tools)     # para file_path_sans_ext()
+library(tools)     # para usar file_path_sans_ext
 library(glue)      # para texto dinámico en títulos
 library(fs)        # para manejo de directorios
 
+
+# Rutas -------------------------------------------------------------------
 
 dir_subproject <- "sbs_sistema_financiero"
 dir_raw        <- path(dir_subproject, "data/raw")
 dir_processed  <- path(dir_subproject, "data/processed")
 dir_figures    <- path(dir_subproject, "figures")
 
-path_datasets <- path(dir_processed, "sbs_sistema_financiero.csv")
-
-
-# La SBS publica los EEFF con 2 meses de rezago respecto al mes en curso
-
-months_str <- tibble(
-  month = 1:12,
-  name  = c("Enero","Febrero","Marzo","Abril","Mayo","Junio",
-            "Julio","Agosto","Setiembre","Octubre","Noviembre","Diciembre"),
-  abbr  = c("en","fe","ma","ab","my","jn","jl","ag","se","oc","no","di")
-)
-
-current_date  <- today()
-current_year  <- year(current_date)
-current_month <- month(current_date) - 2
-
-month_str       <- months_str$name[current_month]
-month_str_short <- months_str$abbr[current_month]
-
-
-#===============================================================================
-# abrir datasets
-#===============================================================================
-
-
-# datasets eeff
+dir_create(dir_raw)
+dir_create(dir_processed)
+dir_create(dir_figures)
 
 path_files <- dir_ls(dir_raw)
-
-datasets_raw <- map(path_files, read_excel, sheet = 2, col_names = FALSE)
-
-names(datasets_raw) <- file_path_sans_ext(basename(path_files))
+output_path <- path(dir_processed, "resultado_neto.csv")
 
 
-#===============================================================================
-# procesar datasets eeff
-#===============================================================================
+# Corregir extensión de archivos ------------------------------------------
+
+# Los archivos B-22xx y B-31xx se descargan como .XLS (formato Excel 97-2003)
+# pero read_excel los rechaza porque su extensión correcta es .xlsx
+
+xls_a_xlsx <- function(rutas) {
+  archivos_xls <- list.files(
+    rutas, 
+    pattern = "(B-2201|B-3101|B-3301|B-2401).*\\.XLS$",
+    full.names = TRUE, 
+    ignore.case = TRUE
+    )
+  
+  walk(archivos_xls, ~ {
+    dst <- sub("\\.XLS$", ".xlsx", .x, ignore.case = TRUE)
+    if (file.copy(.x, dst)) {
+      file.remove(.x)
+      message("Renombrado: ", basename(.x), " -> ", basename(dst))
+    }
+  })
+}
+
+xls_a_xlsx(dir_raw)
 
 
-# --- parametros ---
+# abrir datasets ----------------------------------------------------------
 
-# row_names:  fila con los nombres de las entidades
-# row_result: fila con el resultado neto (en miles de S/)
-# row_tc:     fila con el tipo de cambio cierre del periodo
+df_raw <- map(path_files, read_excel, sheet = 2, col_names = FALSE)
 
-params_fs <- list(
-  list(year = current_year, type = "BANCA MULTIPLE",    row_names = 5, row_result = 78, row_tc = 80),
-  list(year = current_year, type = "EMPRESA FINANCIERA", row_names = 5, row_result = 77, row_tc = 79),
-  list(year = current_year, type = "CAJAS MUNICIPALES",  row_names = 5, row_result = 78, row_tc = 79),
-  list(year = current_year, type = "CAJAS RURALES",      row_names = 5, row_result = 76, row_tc = 77)
+names(df_raw) <- file_path_sans_ext(basename(path_files))
+
+
+# establecer parametros ---------------------------------------------------
+
+# establecer manualmente periodo y mes
+periodo = 2026
+mes     = "MARZO"
+
+# establecer manualmente en cada dataset el número de fila donde se encuentran
+# los siguientes datos:
+# - fila_nombres    : fila con los nombres de las entidades
+# - fila_resultados : fila con el resultado neto (en miles de S/)
+# - fila_tc         : fila con el tipo de cambio cierre del periodo
+
+parametros <- tribble(
+  ~tipo,                 ~fila_nombres, ~fila_resultados, ~fila_tc,
+  "BANCA MULTIPLE",                  5,               78,       80,
+  "EMPRESA FINANCIERA",              5,               77,       79,
+  "CAJAS MUNICIPALES",               5,               78,       79,
+  "CAJAS RURALES",                   5,               76,       77
 )
 
-names(params_fs) <- file_path_sans_ext(basename(path_files))
+parametros$dataset <- file_path_sans_ext(basename(path_files))
 
 
-# --- funcion de procesamiento ---
+# funcion de procesamiento ------------------------------------------------
 
-
-processing_fs <- function(df, name_file, params_file) {
+procesar_datasets <- function(df, dataset_nombre, parametros) {
   
-  # Parametros
-  params <- params_file[[name_file]]
+  # parametros
+  params <- parametros %>%
+    filter(dataset == dataset_nombre)
   
-  # Nombres de entidades
-  names_col <- df %>%
-    slice(params$row_names) %>%
+  # nombres de entidades
+  entidades <- df %>%
+    slice(params$fila_nombres) %>%
     select(where(~ !all(is.na(.)))) %>%
     unlist(use.names = FALSE) %>%
     str_replace_all(fixed("*"), "")
   
-  # Resultado neto
-  net_results <- df %>%
-    slice(params$row_result) %>%
+  # resultado neto
+  resultado_neto <- df %>%
+    slice(params$fila_resultados) %>%
     mutate(across(everything(), as.numeric)) %>%
     select(where(~ !all(is.na(.)))) %>%
     flatten_dbl()
   
-  # Tipo de cambio
+  # tipo de cambio
   tc <- df %>%
-    slice(params$row_tc) %>%
+    slice(params$fila_tc) %>%
     select(where(~ !all(is.na(.)))) %>%
     flatten_chr() %>%
     str_replace_all(",", ".") %>%
     parse_number()
   
-  money <- c("MN", "ME", "TOTAL") # moneda nacional, moneda extranjera, total
-
+  # moneda nacional, moneda extranjera, total
+  moneda <- c("MN", "ME", "TOTAL")
+  
+  # largo de tabla
+  largo = length(resultado_neto)
+  
   # cada entidad aparece 3 veces en el archivo (una fila por moneda)
   tibble(
-    PERIODO        = params$year,
-    MES            = month_str,
-    TIPO           = params$type,
-    ENTIDAD        = rep(rep(names_col, each = 3), length.out = length(net_results)),
-    MONEDA         = rep(money, length.out = length(net_results)),
-    TC             = rep(tc, length.out = length(net_results)),
-    RESULTADO_NETO = net_results
+    TIPO           = params$tipo,
+    ENTIDAD        = rep(rep(entidades, each = 3), length.out = largo),
+    MONEDA         = rep(moneda, length.out = largo),
+    TC             = rep(tc, length.out = largo),
+    RESULTADO_NETO = resultado_neto
   )
 }
 
 
-# --- aplicar funcion a todos los datasets y unir ---
+# procesar datasets y guardar ---------------------------------------------
 
-datasets_fs <- datasets_raw %>%
-  imap(~ processing_fs(.x, .y, params_fs)) %>%
+df_procesado <- df_raw %>%
+  imap(~ procesar_datasets(.x, .y, parametros)) %>%
   list_rbind()
 
-
-#===============================================================================
-# visualizaciones resultado neto total
-#===============================================================================
+write_csv(df_procesado, output_path)
 
 
-# --- banca multiple ---
+# fig: banca multiple -----------------------------------------------------
 
-bm_fig1_data <- datasets_fs %>%
+df_banca <- df_procesado %>%
   filter(
-    PERIODO == current_year,
     !str_detect(ENTIDAD, "(?i)total|(?i)sucursal"),
     TIPO == "BANCA MULTIPLE",
     MONEDA == "TOTAL"
@@ -161,14 +169,13 @@ bm_fig1_data <- datasets_fs %>%
   ) %>%
   arrange(desc(RESULTADO_NETO))
 
-
-bm_fig1 <- bar_chart(
-  x              = bm_fig1_data$ENTIDAD,
-  y              = bm_fig1_data$RESULTADO_NETO,
+fig_banca <- bar_chart(
+  x              = df_banca$ENTIDAD,
+  y              = df_banca$RESULTADO_NETO,
   orientation    = "horizontal",
-  title          = glue("RESULTADO NETO (TOTAL) DE BANCA MÚLTIPLE A {str_to_upper(month_str)} {current_year}"),
+  title          = glue("RESULTADO NETO DE BANCA MÚLTIPLE A {str_to_upper(mes)} {periodo}"),
   subtitle       = "(Millones de S/)",
-  caption        = "Fuente: SBS | Elaborado por: @EdisonMondragon",
+  caption        = "Fuente: SBS | X: @EdisonMondragon",
   x_label        = NULL,
   y_label        = NULL,
   label_decimals =  0,
@@ -176,28 +183,26 @@ bm_fig1 <- bar_chart(
   theme          = "light"
 )
 
-bm_fig1
+fig_banca
 
 
-# --- empresas financieras ---
+# fig: empresas financieras -----------------------------------------------
 
-ef_fig1_data <- datasets_fs %>%
+df_financieras <- df_procesado %>%
   filter(
-    PERIODO == current_year,
     !str_detect(ENTIDAD, "(?i)total"),
     TIPO == "EMPRESA FINANCIERA",
     MONEDA == "TOTAL"
   ) %>%
   arrange(desc(RESULTADO_NETO))
 
-
-ef_fig1 <- bar_chart(
-  x              = ef_fig1_data$ENTIDAD,
-  y              = ef_fig1_data$RESULTADO_NETO,
+fig_financieras <- bar_chart(
+  x              = df_financieras$ENTIDAD,
+  y              = df_financieras$RESULTADO_NETO,
   orientation    = "horizontal",
-  title          = glue("RESULTADO NETO (TOTAL) DE EMPRESAS FINANCIERAS A {str_to_upper(month_str)} {current_year}"),
+  title          = glue("RESULTADO NETO DE EMPRESAS FINANCIERAS A {str_to_upper(mes)} {periodo}"),
   subtitle       = "(Miles de S/)",
-  caption        = "Fuente: SBS | Elaborado por: @EdisonMondragon",
+  caption        = "Fuente: SBS | X: @EdisonMondragon",
   label_decimals =  0,
   label_big_mark = ",",
   x_label        = NULL,
@@ -205,14 +210,13 @@ ef_fig1 <- bar_chart(
   theme          = "light"
 )
 
-ef_fig1
+fig_financieras
 
 
-# --- cajas municipales ---
+# fig: cajas municipales --------------------------------------------------
 
-cm_fig1_data <- datasets_fs %>%
+df_cajas_municipales <- df_procesado %>%
   filter(
-    PERIODO == current_year,
     !str_detect(ENTIDAD, "(?i)total"),
     TIPO == "CAJAS MUNICIPALES",
     MONEDA == "TOTAL"
@@ -226,13 +230,13 @@ cm_fig1_data <- datasets_fs %>%
   arrange(desc(RESULTADO_NETO))
 
 
-cm_fig1 <- bar_chart(
-  x              = cm_fig1_data$ENTIDAD,
-  y              = cm_fig1_data$RESULTADO_NETO,
+fig_cajas_municipales <- bar_chart(
+  x              = df_cajas_municipales$ENTIDAD,
+  y              = df_cajas_municipales$RESULTADO_NETO,
   orientation    = "horizontal",
-  title          = glue("RESULTADO NETO (TOTAL) DE CAJAS MUNICIPALES A {str_to_upper(month_str)} {current_year}"),
+  title          = glue("RESULTADO NETO DE CAJAS MUNICIPALES A {str_to_upper(mes)} {periodo}"),
   subtitle       = "(Miles de S/)",
-  caption        = "Fuente: SBS | Elaborado por: @EdisonMondragon",
+  caption        = "Fuente: SBS | X: @EdisonMondragon",
   label_decimals =  0,
   label_big_mark = ",",
   x_label        = NULL,
@@ -240,28 +244,26 @@ cm_fig1 <- bar_chart(
   theme          = "light"
 )
 
-cm_fig1
+fig_cajas_municipales
 
 
-# --- cajas rurales ---
+# fig: cajas rurales ------------------------------------------------------
 
-cr_fig1_data <- datasets_fs %>%
+df_cajas_rurales <- df_procesado %>%
   filter(
-    PERIODO == current_year,
     !str_detect(ENTIDAD, "(?i)total"),
     TIPO == "CAJAS RURALES",
     MONEDA == "TOTAL"
   ) %>%
   arrange(desc(RESULTADO_NETO))
 
-
-cr_fig1 <- bar_chart(
-  x              = cr_fig1_data$ENTIDAD,
-  y              = cr_fig1_data$RESULTADO_NETO,
+fig_cajas_rurales <- bar_chart(
+  x              = df_cajas_rurales$ENTIDAD,
+  y              = df_cajas_rurales$RESULTADO_NETO,
   orientation    = "horizontal",
-  title          = glue("RESULTADO NETO (TOTAL) DE CAJAS RURALES A {str_to_upper(month_str)} {current_year}"),
+  title          = glue("RESULTADO NETO DE CAJAS RURALES A {str_to_upper(mes)} {periodo}"),
   subtitle       = "(Miles de S/)",
-  caption        = "Fuente: SBS | Elaborado por: @EdisonMondragon",
+  caption        = "Fuente: SBS | X: @EdisonMondragon",
   label_decimals =  0,
   label_big_mark = ",",
   x_label        = NULL,
@@ -269,23 +271,9 @@ cr_fig1 <- bar_chart(
   theme          = "light"
 )
 
-cr_fig1
+fig_cajas_rurales
 
 
-#===============================================================================
-# guardar resultados
-#===============================================================================
-
-
-write_csv(datasets_fs, path_datasets)
-
-ggsave(path(dir_figures, "bm_fig1.png"), plot = bm_fig1, dpi = 120)
-
-ggsave(path(dir_figures, "ef_fig1.png"), plot = ef_fig1, dpi = 120)
-
-ggsave(path(dir_figures, "cm_fig1.png"), plot = cm_fig1, dpi = 120)
-
-ggsave(path(dir_figures, "cr_fig1.png"), plot = cr_fig1, dpi = 120)
 
 
 

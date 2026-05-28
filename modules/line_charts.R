@@ -68,7 +68,7 @@ line_chart <- function(
   if (multi) {
     df <- data.frame(x = x, y = y, group = as.character(group))
   } else {
-    df <- data.frame(x = x, y = y, group = series_name)
+    df <- data.frame(x = x, y = y, group = if (is.null(series_name)) "Serie" else series_name)
   }
   
   grupos    <- unique(df$group)
