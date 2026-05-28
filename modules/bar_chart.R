@@ -171,9 +171,10 @@ bar_chart <- function(
       panel.background = element_rect(fill = bg_color, color = NA),
       text             = element_text(family = "montserrat", color = text_color),
       
-      plot.title    = element_text(hjust = 0.5, face = "bold", size = 22, margin = margin(b = 10)),
-      plot.subtitle = element_markdown(hjust = 0.5, size = 18, margin = margin(b = 20)),
-      plot.caption  = element_markdown(hjust = 0.5, size = 16, margin = margin(t = 20)),
+      plot.title          = element_text(hjust = 0.5, face = "bold", size = 22, margin = margin(b = 10)),
+      plot.title.position = "plot",
+      plot.subtitle       = element_markdown(hjust = 0.5, size = 18, margin = margin(b = 20)),
+      plot.caption        = element_markdown(hjust = 0.5, size = 16, margin = margin(t = 20)),
       
       axis.line         = element_line(color = text_color, linewidth = 0.5),
       axis.ticks        = element_line(color = text_color, linewidth = 0.5),
