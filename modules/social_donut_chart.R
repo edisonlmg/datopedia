@@ -1,11 +1,6 @@
 #===============================================================================
-# donut_chart.R
-#
-# Funciones:
-#   - donut_chart()  gráfico de donut con etiquetas y leyenda
-#
-# Colores disponibles: "verde", "rojo", "morado", "marron", "azul", "verde_claro"
-# colores: vector de nombres/hex para los segmentos; NULL = combinación por defecto
+# social_donut_chart.R  —  versión redes sociales
+# Formato vertical 4:5  →  ggsave(..., width = 8, height = 10, dpi = 135)
 #===============================================================================
 
 library(ggplot2)
@@ -13,6 +8,7 @@ library(ggtext)
 library(showtext)
 
 font_add_google("Montserrat", "montserrat")
+font_add_google("Playfair Display", "playfair")
 showtext_auto()
 
 .PALETA <- c(
@@ -36,10 +32,10 @@ showtext_auto()
 }
 
 
-donut_chart <- function(
+social_donut_chart <- function(
     labels,
     values,
-    colores        = NULL,    # vector de nombres/hex; NULL = combinación por defecto
+    colores        = NULL,
     title          = "",
     subtitle       = "",
     caption        = "",
@@ -48,12 +44,15 @@ donut_chart <- function(
     label_decimals = 1,
     hole_size      = 0.5,
     center_label   = NULL,
-    center_size    = 6,
-    fondo          = "blanco"  # "blanco" o "beige"
+    center_size    = 8,
+    fondo          = "blanco"
 ) {
-  bg_color    <- if (fondo == "beige") "#F6F5F0" else "white"
-  text_color  <- "#2a2a2a"
-  label_color <- "#2a2a2a"
+  .mb_titulo <- function(s) (ceiling(nchar(s) / 28) - 1) * 22 + 5
+
+  bg_color   <- if (fondo == "beige") "#F6F5F0" else "white"
+  text_color <- "#2a2a2a"
+  sub_color  <- "#555555"
+  cap_color  <- "#888888"
 
   df        <- data.frame(label = as.character(labels), value = as.numeric(values))
   df$label  <- factor(df$label, levels = df$label)
@@ -69,19 +68,21 @@ donut_chart <- function(
   color_map <- setNames(paleta, levels(df$label))
 
   p <- ggplot(df, aes(ymax = ymax, ymin = ymin, xmax = 1, xmin = hole_size, fill = label)) +
-    geom_rect(color = bg_color, linewidth = 0.8) +
+    geom_rect(color = bg_color, linewidth = 1) +
     scale_fill_manual(values = color_map, name = NULL) +
     coord_polar(theta = "y", start = 0) +
     xlim(0, 1.05)
 
   if (show_labels) {
-    df$pct_label <- ifelse(df$pct >= 3,
-                           paste0(formatC(df$pct, digits = label_decimals, format = "f"), "%"),
-                           "")
+    df$pct_label <- ifelse(
+      df$pct >= 4,
+      paste0(formatC(df$pct, digits = label_decimals, format = "f"), "%"),
+      ""
+    )
     p <- p + geom_text(
       data = df, aes(x = label_r, y = y_mid, label = pct_label),
-      color = label_color, family = "montserrat", fontface = "bold",
-      size = 4.5, inherit.aes = FALSE
+      color = "white", family = "montserrat", fontface = "bold",
+      size = 6, inherit.aes = FALSE
     )
   }
 
@@ -99,17 +100,27 @@ donut_chart <- function(
       panel.background = element_rect(fill = bg_color, color = NA),
       text             = element_text(family = "montserrat", color = text_color),
 
-      plot.title          = element_text(hjust = 0.5, face = "bold", size = 22, margin = margin(b = 10)),
-      plot.title.position = "plot",
-      plot.subtitle       = element_markdown(hjust = 0.5, size = 12, margin = margin(b = 20)),
-      plot.caption        = element_markdown(hjust = 0.5, size = 10, margin = margin(t = 20)),
+      plot.title = element_textbox_simple(
+        family = "playfair", face = "bold", size = 28, color = text_color,
+        halign = 0, lineheight = 1.2, margin = margin(b = .mb_titulo(title), t = 8)
+      ),
+      plot.subtitle = element_textbox_simple(
+        family = "montserrat", size = 18, color = sub_color,
+        halign = 0, lineheight = 1.3, margin = margin(b = 14)
+      ),
+      plot.caption = element_textbox_simple(
+        family = "montserrat", size = 18, color = cap_color,
+        halign = 0, lineheight = 1.4, margin = margin(t = 12)
+      ),
+      plot.title.position   = "plot",
+      plot.caption.position = "plot",
 
-      legend.position   = if (show_legend) "right" else "none",
+      legend.position   = if (show_legend) "bottom" else "none",
       legend.background = element_blank(),
       legend.key        = element_blank(),
-      legend.text       = element_text(color = text_color, size = 12),
-      legend.margin     = margin(l = 15),
+      legend.text       = element_text(color = text_color, size = 14),
+      legend.margin     = margin(t = 10),
 
-      plot.margin = margin(30, 30, 30, 30)
+      plot.margin = margin(10, 10, 10, 10)
     )
 }

@@ -1,12 +1,6 @@
 #===============================================================================
-# choropleth_map.R
-#
-# Funciones:
-#   - mapa_departamentos()  mapa coroplético a nivel departamental
-#   - mapa_lima_callao()    mapa coroplético a nivel distrital (Lima y Callao)
-#
-# Colores disponibles: "verde", "rojo", "morado", "marron", "azul", "verde_claro"
-# color_alto: color del extremo alto del gradiente (nombre o hex); default = "azul"
+# social_choropleth_map.R  —  versión redes sociales
+# Formato vertical 4:5  →  ggsave(..., width = 8, height = 10, dpi = 135)
 #===============================================================================
 
 library(dplyr)
@@ -19,6 +13,7 @@ library(terra)
 library(stringi)
 
 font_add_google("Montserrat", "montserrat")
+font_add_google("Playfair Display", "playfair")
 showtext_auto()
 
 .PALETA <- c(
@@ -47,17 +42,19 @@ showtext_auto()
 }
 
 
-mapa_departamentos <- function(
+.mb_titulo <- function(s) (ceiling(nchar(s) / 28) - 1) * 22 + 5
+
+social_mapa_departamentos <- function(
     data,
     value_col,
-    color_alto         = "azul",   # extremo alto del gradiente: nombre de .PALETA o hex
-    title              = "",
-    subtitle           = "",
-    caption            = "",
-    label_format       = "%.1f",
-    mostrar_etiquetas  = TRUE,
-    etiqueta           = "ambos",  # "ambos" | "nombre" | "valor"
-    fondo              = "blanco"  # "blanco" o "beige"
+    color_alto        = "azul",
+    title             = "",
+    subtitle          = "",
+    caption           = "",
+    label_format      = "%.1f",
+    mostrar_etiquetas = TRUE,
+    etiqueta          = "ambos",
+    fondo             = "blanco"
 ) {
   bg_color     <- if (fondo == "beige") "#F6F5F0" else "white"
   low_color    <- if (fondo == "beige") "#dedad2" else "#e8e8e8"
@@ -65,6 +62,8 @@ mapa_departamentos <- function(
   na_color     <- if (fondo == "beige") "#c8c4bc" else "#d0d0d0"
   border_color <- bg_color
   text_color   <- "#2a2a2a"
+  sub_color    <- "#555555"
+  cap_color    <- "#888888"
   label_color  <- "#2a2a2a"
 
   peru_sf <- geodata::gadm("PER", level = 1, path = tempdir()) |>
@@ -103,6 +102,7 @@ mapa_departamentos <- function(
   ggplot(map_df) +
     geom_sf(aes(fill = .data[[value_col]]), color = border_color, linewidth = 0.3) +
     label_layers +
+    coord_sf(xlim = c(-81.5, -68.5), ylim = c(-18.5, -0.04), expand = FALSE) +
     scale_fill_gradient(low = low_color, high = high_color, na.value = na_color,
                         name = NULL, labels = \(x) sprintf(label_format, x)) +
     labs(title = title, subtitle = subtitle, caption = caption) +
@@ -111,27 +111,41 @@ mapa_departamentos <- function(
       plot.background  = element_rect(fill = bg_color, color = NA),
       panel.background = element_rect(fill = bg_color, color = NA),
       text             = element_text(family = "montserrat", color = text_color),
-      plot.title       = element_text(hjust = 0.5, face = "bold", size = 22, margin = margin(b = 10)),
-      plot.subtitle    = element_markdown(hjust = 0.5, size = 12, margin = margin(b = 20)),
-      plot.caption     = element_markdown(hjust = 0.5, size = 10, margin = margin(t = 20)),
+
+      plot.title = element_textbox_simple(
+        family = "playfair", face = "bold", size = 28, color = text_color,
+        halign = 0, lineheight = 1.2, margin = margin(b = .mb_titulo(title), t = 8)
+      ),
+      plot.subtitle = element_textbox_simple(
+        family = "montserrat", size = 18, color = sub_color,
+        halign = 0, lineheight = 1.3, margin = margin(b = 14)
+      ),
+      plot.caption = element_textbox_simple(
+        family = "montserrat", size = 18, color = cap_color,
+        halign = 0, lineheight = 1.4, margin = margin(t = 12)
+      ),
+      plot.title.position   = "plot",
+      plot.caption.position = "plot",
+
       legend.position  = "right",
-      legend.text      = element_text(color = text_color, size = 10),
-      plot.margin      = margin(30, 30, 30, 30)
+      legend.text      = element_text(color = text_color, size = 13),
+
+      plot.margin = margin(20, 10, 10, 10)
     )
 }
 
 
-mapa_lima_callao <- function(
+social_mapa_lima_callao <- function(
     data,
     value_col,
-    color_alto         = "azul",
-    title              = "",
-    subtitle           = "",
-    caption            = "",
-    label_format       = "%.1f",
-    mostrar_etiquetas  = TRUE,
-    etiqueta           = "ambos",
-    fondo              = "blanco"  # "blanco" o "beige"
+    color_alto        = "azul",
+    title             = "",
+    subtitle          = "",
+    caption           = "",
+    label_format      = "%.1f",
+    mostrar_etiquetas = TRUE,
+    etiqueta          = "ambos",
+    fondo             = "blanco"
 ) {
   bg_color     <- if (fondo == "beige") "#F6F5F0" else "white"
   low_color    <- if (fondo == "beige") "#dedad2" else "#e8e8e8"
@@ -139,6 +153,8 @@ mapa_lima_callao <- function(
   na_color     <- if (fondo == "beige") "#c8c4bc" else "#d0d0d0"
   border_color <- bg_color
   text_color   <- "#2a2a2a"
+  sub_color    <- "#555555"
+  cap_color    <- "#888888"
   label_color  <- "#2a2a2a"
 
   peru_dist_sf <- geodata::gadm("PER", level = 3, path = tempdir()) |>
@@ -181,6 +197,7 @@ mapa_lima_callao <- function(
   ggplot(map_df) +
     geom_sf(aes(fill = .data[[value_col]]), color = border_color, linewidth = 0.2) +
     label_layers +
+    coord_sf(expand = FALSE) +
     scale_fill_gradient(low = low_color, high = high_color, na.value = na_color,
                         name = NULL, labels = \(x) sprintf(label_format, x)) +
     labs(title = title, subtitle = subtitle, caption = caption) +
@@ -189,11 +206,25 @@ mapa_lima_callao <- function(
       plot.background  = element_rect(fill = bg_color, color = NA),
       panel.background = element_rect(fill = bg_color, color = NA),
       text             = element_text(family = "montserrat", color = text_color),
-      plot.title       = element_text(hjust = 0.5, face = "bold", size = 22, margin = margin(b = 10)),
-      plot.subtitle    = element_markdown(hjust = 0.5, size = 12, margin = margin(b = 20)),
-      plot.caption     = element_markdown(hjust = 0.5, size = 10, margin = margin(t = 20)),
-      legend.position  = "right",
-      legend.text      = element_text(color = text_color, size = 10),
-      plot.margin      = margin(30, 30, 30, 30)
+
+      plot.title = element_textbox_simple(
+        family = "playfair", face = "bold", size = 28, color = text_color,
+        halign = 0, lineheight = 1.2, margin = margin(b = .mb_titulo(title), t = 8)
+      ),
+      plot.subtitle = element_textbox_simple(
+        family = "montserrat", size = 18, color = sub_color,
+        halign = 0, lineheight = 1.3, margin = margin(b = 14)
+      ),
+      plot.caption = element_textbox_simple(
+        family = "montserrat", size = 18, color = cap_color,
+        halign = 0, lineheight = 1.4, margin = margin(t = 12)
+      ),
+      plot.title.position   = "plot",
+      plot.caption.position = "plot",
+
+      legend.position = "right",
+      legend.text     = element_text(color = text_color, size = 13),
+
+      plot.margin = margin(20, 10, 10, 10)
     )
 }
