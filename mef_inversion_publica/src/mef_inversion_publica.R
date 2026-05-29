@@ -16,7 +16,7 @@
 #   - mef_inversion_publica/figures/pasivo_inversiones.png
 #
 # Fuente: Datos Abiertos del MEF
-#   https://datosabiertos.mef.gob.pe/
+#   https://datosabiertos.mef.gob.pe/organization/inversion-publica
 #===============================================================================
 
 
