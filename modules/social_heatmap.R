@@ -41,30 +41,36 @@ social_mapa_calor <- function(
     mostrar_eje_y      = TRUE,
     max_x              = 30,   # máx. caracteres etiquetas eje x (0 = sin truncar)
     max_y              = 44,   # máx. caracteres etiquetas eje y
+    orden_x            = NULL, # vector con orden personalizado para eje x (NULL = por media)
+    orden_y            = NULL, # vector con orden personalizado para eje y (NULL = por media)
     fondo              = "blanco"
 ) {
   bg_color   <- if (fondo == "beige") "#F6F5F0" else "white"
   low_color  <- if (fondo == "beige") "#dedad2" else "#e8e8e8"
   high_color <- .resolver_color(color_alto)
   na_color   <- if (fondo == "beige") "#c8c4bc" else "#d0d0d0"
-  .mb_titulo <- function(s) (ceiling(nchar(s) / 40) - 1) * 15 + 4
+  .mb_titulo <- function(s) (ceiling(nchar(s) / 50) - 1) * 15 + 4
 
   text_color <- "#2a2a2a"
   sub_color  <- "#555555"
   cap_color  <- "#888888"
   grid_color <- bg_color
 
-  x_order <- data |>
-    group_by(.data[[x_col]]) |>
-    summarise(.m = mean(.data[[value_col]], na.rm = TRUE), .groups = "drop") |>
-    arrange(.m) |>
-    pull(.data[[x_col]])
+  x_order <- if (!is.null(orden_x)) orden_x else {
+    data |>
+      group_by(.data[[x_col]]) |>
+      summarise(.m = mean(.data[[value_col]], na.rm = TRUE), .groups = "drop") |>
+      arrange(.m) |>
+      pull(.data[[x_col]])
+  }
 
-  y_order <- data |>
-    group_by(.data[[y_col]]) |>
-    summarise(.m = mean(.data[[value_col]], na.rm = TRUE), .groups = "drop") |>
-    arrange(.m) |>
-    pull(.data[[y_col]])
+  y_order <- if (!is.null(orden_y)) orden_y else {
+    data |>
+      group_by(.data[[y_col]]) |>
+      summarise(.m = mean(.data[[value_col]], na.rm = TRUE), .groups = "drop") |>
+      arrange(.m) |>
+      pull(.data[[y_col]])
+  }
 
   .truncar <- function(s, n) ifelse(nchar(s) > n, paste0(substr(s, 1, n - 1), "…"), s)
 

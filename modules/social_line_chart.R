@@ -62,11 +62,11 @@ social_line_chart <- function(
   cap_color  <- "#888888"
   ref_color  <- "#555555"
 
-  .mb_titulo <- function(s) (ceiling(nchar(s) / 28) - 1) * 22 + 5
+  .mb_titulo <- function(s) (ceiling(nchar(s) / 44) - 1) * 16 + 5
 
   multi <- !is.null(group)
   df    <- data.frame(x = x, y = y,
-                      group = if (multi) as.character(group) else series_name)
+                      group = if (multi) as.character(group) else if (is.null(series_name)) "Serie" else series_name)
 
   grupos   <- unique(df$group)
   n_grupos <- length(grupos)
@@ -126,8 +126,8 @@ social_line_chart <- function(
 
   if (show_labels) {
     p <- p + geom_text(
-      aes(label = sprintf(label_format, y), color = group),
-      vjust = -1.5, family = "montserrat", fontface = "bold",
+      aes(label = sprintf(label_format, y)),
+      vjust = -1.5, color = text_color, family = "montserrat", fontface = "bold",
       size = 5, show.legend = FALSE
     )
   }
@@ -139,14 +139,14 @@ social_line_chart <- function(
 
   if (inherits(x, "Date")) {
     p <- p + if (x_breaks_user)
-      scale_x_date(limits = x_limits, breaks = x_breaks, date_labels = "%b %Y")
+      scale_x_date(limits = x_limits, breaks = x_breaks, date_labels = "%b\n%Y")
     else
-      scale_x_date(limits = x_limits, date_breaks = "1 month", date_labels = "%b %Y")
+      scale_x_date(limits = x_limits, date_breaks = "1 month", date_labels = "%b\n%Y")
   } else if (inherits(x, c("POSIXct", "POSIXlt"))) {
     p <- p + if (x_breaks_user)
-      scale_x_datetime(limits = x_limits, breaks = x_breaks, date_labels = "%b %Y")
+      scale_x_datetime(limits = x_limits, breaks = x_breaks, date_labels = "%b\n%Y")
     else
-      scale_x_datetime(limits = x_limits, date_breaks = "1 month", date_labels = "%b %Y")
+      scale_x_datetime(limits = x_limits, date_breaks = "1 month", date_labels = "%b\n%Y")
   } else {
     p <- p + scale_x_continuous(limits = x_limits, breaks = x_breaks)
   }
@@ -178,7 +178,11 @@ social_line_chart <- function(
       axis.line         = element_line(color = "#bbbbbb", linewidth = 0.4),
       axis.ticks        = element_blank(),
       axis.text         = element_text(color = sub_color, size = 13, lineheight = 1.2),
-      axis.text.x       = element_text(lineheight = 1.2),
+      axis.text.x       = element_text(
+        lineheight = 1.2,
+        angle      = if (inherits(x, c("Date", "POSIXct", "POSIXlt"))) 45 else 0,
+        hjust      = if (inherits(x, c("Date", "POSIXct", "POSIXlt"))) 1  else 0.5
+      ),
       axis.title        = element_text(size = 13, color = sub_color),
       axis.title.y      = element_text(margin = margin(r = 10)),
 

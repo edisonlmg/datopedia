@@ -15,7 +15,7 @@
 #   - inei_ipc/figures/calor_anual.png
 #
 # Fuente: INEI - Índice de Precios al Consumidor
-#   https://m.inei.gob.pe/estadisticas/indice-tematico/price-indexes/
+#   https://webapp.inei.gob.pe:8443/sirtod-series/
 #===============================================================================
 
 source("inei_ipc/src/calcular_inflacion.R")
@@ -26,6 +26,15 @@ library(tidyverse)
 library(readxl)
 library(glue)
 library(fs)
+
+
+# Parámetros --------------------------------------------------------------
+
+fecha_inicio <- "2022-01-01"
+fecha_fin    <- "2026-04-01"
+
+fechas       <- seq(as.Date(fecha_inicio), as.Date(fecha_fin), by = "month")
+titulo_fecha <- toupper(format(as.Date(fecha_fin), "%B %Y"))
 
 
 # Rutas -------------------------------------------------------------------
@@ -39,48 +48,11 @@ dir_create(dir_raw)
 dir_create(dir_processed)
 dir_create(dir_figures)
 
+path_ipc_nacional <- path(dir_processed, "ipc_nacional.csv")
+path_ipc_region   <- path(dir_processed, "ipc_region.csv")
 
-# Parámetros --------------------------------------------------------------
-
-fecha_inicio <- "2022-01-01"
-fecha_fin    <- "2026-04-01"
-
-fechas       <- seq(as.Date(fecha_inicio), as.Date(fecha_fin), by = "month")
-titulo_fecha <- toupper(format(as.Date(fecha_fin), "%B %Y"))
-
-
-# IPC por región ----------------------------------------------------------
-
-# Col 1 = departamento (celdas combinadas), col 2 = indicador,
-# col 3 = vacía, col 4+ = valores mensuales con coma decimal
-
-raw_ipc_region <- read_excel(
-  path(dir_raw, "ipc_region_2021.xlsx"),
-  sheet     = 1,
-  skip      = 15,
-  col_names = FALSE
-)
-
-names(raw_ipc_region) <- c("DEPARTAMENTO", "INDICADOR", ".drop", as.character(fechas))
-
-ipc_region <- raw_ipc_region %>%
-  select(-`.drop`) %>%
-  mutate(DEPARTAMENTO = na_if(DEPARTAMENTO, "NA")) %>%
-  fill(DEPARTAMENTO, .direction = "down") %>%
-  filter(!is.na(INDICADOR)) %>%
-  pivot_longer(
-    cols      = -c(DEPARTAMENTO, INDICADOR),
-    names_to  = "FECHA",
-    values_to = "IPC"
-  ) %>%
-  mutate(
-    FECHA = as.Date(FECHA),
-    IPC   = as.numeric(gsub(",", ".", IPC))
-  )
-
-ipc_region <- calcular_inflacion(ipc_region, grupos = c("DEPARTAMENTO", "INDICADOR"))
-
-write_csv(ipc_region, path(dir_processed, "ipc_region.csv"))
+path_fig_mapa  <- path(dir_figures, glue("inflacion_departamento_{fecha_fin}.png"))
+path_fig_calor <- path(dir_figures, glue("inflacion_categoria_{fecha_fin}.png"))
 
 
 # IPC nacional ------------------------------------------------------------
@@ -115,12 +87,67 @@ ipc_nacional <- raw_ipc_nacional %>%
 
 ipc_nacional <- calcular_inflacion(ipc_nacional, grupos = "INDICADOR")
 
-write_csv(ipc_nacional, path(dir_processed, "ipc_nacional.csv"))
+write_csv(ipc_nacional, path_ipc_nacional)
+
+
+# IPC por región ----------------------------------------------------------
+
+# Col 1 = departamento (celdas combinadas), col 2 = indicador,
+# col 3 = vacía, col 4+ = valores mensuales con coma decimal
+
+raw_ipc_region <- read_excel(
+  path(dir_raw, "ipc_region_2021.xlsx"),
+  sheet     = 1,
+  skip      = 15,
+  col_names = FALSE
+)
+
+names(raw_ipc_region) <- c("DEPARTAMENTO", "INDICADOR", ".drop", as.character(fechas))
+
+ipc_region <- raw_ipc_region %>%
+  select(-`.drop`) %>%
+  mutate(DEPARTAMENTO = na_if(DEPARTAMENTO, "NA")) %>%
+  fill(DEPARTAMENTO, .direction = "down") %>%
+  filter(!is.na(INDICADOR)) %>%
+  pivot_longer(
+    cols      = -c(DEPARTAMENTO, INDICADOR),
+    names_to  = "FECHA",
+    values_to = "IPC"
+  ) %>%
+  mutate(
+    FECHA = as.Date(FECHA),
+    IPC   = as.numeric(gsub(",", ".", IPC))
+  )
+
+ipc_region <- calcular_inflacion(ipc_region, grupos = c("DEPARTAMENTO", "INDICADOR"))
+
+write_csv(ipc_region, path_ipc_region)
+
+
+# inflacion nacional ------------------------------------------------------
+
+ipc_nacional %>%
+  filter(
+    INDICADOR == "Índice general de precios al consumidor a nivel nacional"
+    ) %>%
+  select(-INDICADOR) %>%
+  tail()
+
+
+# inflacion lima metropolitana --------------------------------------------
+
+ipc_region %>%
+  filter(
+    DEPARTAMENTO == "LIMA",
+    INDICADOR == "Índice general de precios al consumidor"
+    ) %>%
+  select(-INDICADOR) %>%
+  tail()
 
 
 # fig: mapa anual por departamento ----------------------------------------
 
-mapa_anual_depto <- ipc_region %>%
+fig_mapa <- ipc_region %>%
   filter(
     grepl("ndice general", INDICADOR, ignore.case = TRUE),
     FECHA == as.Date(fecha_fin)
@@ -128,6 +155,7 @@ mapa_anual_depto <- ipc_region %>%
   social_mapa_departamentos(
     value_col    = "ANUAL",
     color_alto   = "rojo",
+    fondo        = "beige", 
     title        = paste(
       "INFLACIÓN ANUAL POR DEPARTAMENTO -",
       glue("{titulo_fecha} (%)")
@@ -140,10 +168,7 @@ mapa_anual_depto <- ipc_region %>%
     label_format = "%.1f"
   )
 
-mapa_anual_depto
-
-ggsave(path(dir_figures, "mapa_anual_depto.png"),
-       plot = mapa_anual_depto, width = 8, height = 10, dpi = 135)
+ggsave(path_fig_mapa, plot = fig_mapa, width = 8, height = 10, dpi = 135)
 
 
 # fig: mapa de calor anual por departamento e indicador -------------------
@@ -158,6 +183,7 @@ calor_anual <- ipc_region %>%
     x_col              = "INDICADOR",
     y_col              = "DEPARTAMENTO",
     value_col          = "ANUAL",
+    fondo              = "beige", 
     color_alto         = "rojo",
     title              = paste(
       "INFLACIÓN ANUAL POR DEPARTAMENTO Y CATEGORÍA -",
@@ -165,11 +191,11 @@ calor_anual <- ipc_region %>%
       ),
     subtitle           = paste(
       "Inflación del periodo es explicada principalmente por la categoría de",
-      "Transporte, siendo Madre de Dios la región más afectada"
+      "'Transportes', siendo Madre de Dios la región más afectada"
     ),
     caption            = paste(
-      "Nota: La categoría Transporte tiene un peso de 12.2 % en la canasta",
-      "básica, de acuerdo con la metodología de cálculo del INEI.\n\n",
+      "Nota: 'Transportes' es la 3ra categoría de mayor peso en la canasta",
+      "básica con una participación de 12.2 %.\n\n",
       "Fuente: INEI | X: @EdisonMondragon"
     ),
     label_format       = "%.1f",
@@ -177,7 +203,6 @@ calor_anual <- ipc_region %>%
     mostrar_cuadricula = TRUE
   )
 
-calor_anual
+ggsave(path_fig_calor, plot = calor_anual, width = 8, height = 10, dpi = 135)
 
-ggsave(path(dir_figures, "calor_anual.png"),
-       plot = calor_anual, width = 8, height = 10, dpi = 135)
+

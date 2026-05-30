@@ -13,14 +13,16 @@
 #
 # Outputs:
 #   - sbs_sistema_financiero/data/processed/resultado_neto.csv
-#   - fig_banca, fig_financieras, fig_cajas_municipales, fig_cajas_rurales
-#     (objetos ggplot en memoria — exportar manualmente a 1048x762 px)
+#   - sbs_sistema_financiero/figures/sbs_banca_{periodo}_{mes}.png
+#   - sbs_sistema_financiero/figures/sbs_financieras_{periodo}_{mes}.png
+#   - sbs_sistema_financiero/figures/sbs_cajas_municipales_{periodo}_{mes}.png
+#   - sbs_sistema_financiero/figures/sbs_cajas_rurales_{periodo}_{mes}.png
 #
 # Fuente: SBS - Estadísticas del Sistema Financiero
 #   https://intranet2.sbs.gob.pe/estadistica/financiera/
 #===============================================================================
 
-source("modules/bar_chart.R")
+source("modules/social_bar_chart.R")
 
 library(tidyverse) # para manejo y visualización de datos
 library(lubridate) # para manejo de fechas
@@ -41,7 +43,7 @@ dir_create(dir_raw)
 dir_create(dir_processed)
 dir_create(dir_figures)
 
-path_files <- dir_ls(dir_raw)
+
 output_path <- path(dir_processed, "resultado_neto.csv")
 
 
@@ -72,6 +74,8 @@ xls_a_xlsx(dir_raw)
 
 # abrir datasets ----------------------------------------------------------
 
+path_files <- dir_ls(dir_raw)
+
 df_raw <- map(path_files, read_excel, sheet = 2, col_names = FALSE)
 
 names(df_raw) <- file_path_sans_ext(basename(path_files))
@@ -98,6 +102,11 @@ parametros <- tribble(
 )
 
 parametros$dataset <- file_path_sans_ext(basename(path_files))
+
+path_fig_banca             <- path(dir_figures, glue("sbs_banca_{periodo}_{tolower(mes)}.png"))
+path_fig_financieras       <- path(dir_figures, glue("sbs_financieras_{periodo}_{tolower(mes)}.png"))
+path_fig_cajas_municipales <- path(dir_figures, glue("sbs_cajas_municipales_{periodo}_{tolower(mes)}.png"))
+path_fig_cajas_rurales     <- path(dir_figures, glue("sbs_cajas_rurales_{periodo}_{tolower(mes)}.png"))
 
 
 # funcion de procesamiento ------------------------------------------------
@@ -169,21 +178,23 @@ df_banca <- df_procesado %>%
   ) %>%
   arrange(desc(RESULTADO_NETO))
 
-fig_banca <- bar_chart(
+fig_banca <- social_bar_chart(
   x              = df_banca$ENTIDAD,
   y              = df_banca$RESULTADO_NETO,
   orientation    = "horizontal",
-  title          = glue("RESULTADO NETO DE BANCA MÚLTIPLE A {str_to_upper(mes)} {periodo}"),
-  subtitle       = "(Millones de S/)",
+  fondo          = "beige",
+  color          = "azul", 
+  title          = glue("PERÚ | BANCA MÚLTIPLE: RESULTADO NETO A {str_to_upper(mes)} {periodo} (MILLONES DE S/)"),
+  subtitle       = paste(
+    "El Banco de Crédito del Perú lidera el resultado neto del sistema,",
+    "concentrando la mayor parte de las utilidades del período."
+  ),
   caption        = "Fuente: SBS | X: @EdisonMondragon",
-  x_label        = NULL,
-  y_label        = NULL,
-  label_decimals =  0,
-  label_big_mark = ",",
-  theme          = "light"
+  label_decimals = 0,
+  label_big_mark = ","
 )
 
-fig_banca
+ggsave(path_fig_banca, plot = fig_banca, width = 8, height = 10, dpi = 135)
 
 
 # fig: empresas financieras -----------------------------------------------
@@ -196,21 +207,23 @@ df_financieras <- df_procesado %>%
   ) %>%
   arrange(desc(RESULTADO_NETO))
 
-fig_financieras <- bar_chart(
+fig_financieras <- social_bar_chart(
   x              = df_financieras$ENTIDAD,
   y              = df_financieras$RESULTADO_NETO,
   orientation    = "horizontal",
-  title          = glue("RESULTADO NETO DE EMPRESAS FINANCIERAS A {str_to_upper(mes)} {periodo}"),
-  subtitle       = "(Miles de S/)",
+  fondo          = "beige",
+  color          = "verde_claro", 
+  title          = glue("PERÚ | EMPRESAS FINANCIERAS: RESULTADO NETO A {str_to_upper(mes)} {periodo} (MILES DE S/)"),
+  subtitle       = paste(
+    "Efectiva, Mitsui y Confianza lideran el segmento, mientras Surgir es la",
+    "más rezagada."
+  ),
   caption        = "Fuente: SBS | X: @EdisonMondragon",
-  label_decimals =  0,
-  label_big_mark = ",",
-  x_label        = NULL,
-  y_label        = NULL,
-  theme          = "light"
+  label_decimals = 0,
+  label_big_mark = ","
 )
 
-fig_financieras
+ggsave(path_fig_financieras, plot = fig_financieras, width = 8, height = 10, dpi = 135)
 
 
 # fig: cajas municipales --------------------------------------------------
@@ -230,21 +243,23 @@ df_cajas_municipales <- df_procesado %>%
   arrange(desc(RESULTADO_NETO))
 
 
-fig_cajas_municipales <- bar_chart(
+fig_cajas_municipales <- social_bar_chart(
   x              = df_cajas_municipales$ENTIDAD,
   y              = df_cajas_municipales$RESULTADO_NETO,
   orientation    = "horizontal",
-  title          = glue("RESULTADO NETO DE CAJAS MUNICIPALES A {str_to_upper(mes)} {periodo}"),
-  subtitle       = "(Miles de S/)",
+  fondo          = "beige",
+  color          = "morado", 
+  title          = glue("PERÚ | CAJAS MUNICIPALES: RESULTADO NETO A {str_to_upper(mes)} {periodo} (MILES DE S/)"),
+  subtitle       = paste(
+    "Huancayo, Piura, Cusco y Arequipa lideran el segmento, mientras Del Santa",
+    "es la más rezagada."
+  ),
   caption        = "Fuente: SBS | X: @EdisonMondragon",
-  label_decimals =  0,
-  label_big_mark = ",",
-  x_label        = NULL,
-  y_label        = NULL,
-  theme          = "light"
+  label_decimals = 0,
+  label_big_mark = ","
 )
 
-fig_cajas_municipales
+ggsave(path_fig_cajas_municipales, plot = fig_cajas_municipales, width = 8, height = 10, dpi = 135)
 
 
 # fig: cajas rurales ------------------------------------------------------
@@ -257,21 +272,23 @@ df_cajas_rurales <- df_procesado %>%
   ) %>%
   arrange(desc(RESULTADO_NETO))
 
-fig_cajas_rurales <- bar_chart(
+fig_cajas_rurales <- social_bar_chart(
   x              = df_cajas_rurales$ENTIDAD,
   y              = df_cajas_rurales$RESULTADO_NETO,
   orientation    = "horizontal",
-  title          = glue("RESULTADO NETO DE CAJAS RURALES A {str_to_upper(mes)} {periodo}"),
-  subtitle       = "(Miles de S/)",
+  fondo          = "beige",
+  color          = "rojo", 
+  title          = glue("PERÚ | CAJAS RURALES: RESULTADO NETO A {str_to_upper(mes)} {periodo} (MILES DE S/)"),
+  subtitle       = paste(
+    "Las cajas rurales presentan los resultados más ajustados del sistema.",
+    "CRAC Del Centro presenta fuerte pérdida y fue intervenida por la SBS."
+  ),
   caption        = "Fuente: SBS | X: @EdisonMondragon",
-  label_decimals =  0,
-  label_big_mark = ",",
-  x_label        = NULL,
-  y_label        = NULL,
-  theme          = "light"
+  label_decimals = 0,
+  label_big_mark = ","
 )
 
-fig_cajas_rurales
+ggsave(path_fig_cajas_rurales, plot = fig_cajas_rurales, width = 8, height = 10, dpi = 135)
 
 
 

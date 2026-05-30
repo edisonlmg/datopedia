@@ -55,7 +55,7 @@ social_bar_chart <- function(
 
   # Margen inferior del título: compensa líneas adicionales de wrap
   # (~28 chars/línea a 28pt en 8 pulgadas; 36pt por línea extra)
-  .mb_titulo <- function(s) (ceiling(nchar(s) / 28) - 1) * 22 + 5
+  .mb_titulo <- function(s) (ceiling(nchar(s) / 44) - 1) * 22 + 5
 
   df   <- data.frame(x = as.character(x), y = as.numeric(y))
   df$x <- factor(df$x, levels = df$x)

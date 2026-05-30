@@ -1,0 +1,2813 @@
+FECHA,INDICADOR,IPC,MENSUAL,ACUMULADO,ANUAL
+2014-01-01,Agrícola,99.06,NA,NA,NA
+2014-02-01,Agrícola,99.64,0.6,NA,NA
+2014-03-01,Agrícola,102.01,2.4,NA,NA
+2014-04-01,Agrícola,104.18,2.1,NA,NA
+2014-05-01,Agrícola,108.2,3.9,NA,NA
+2014-06-01,Agrícola,107.21,-0.9,NA,NA
+2014-07-01,Agrícola,108.11,0.8,NA,NA
+2014-08-01,Agrícola,108.39,0.3,NA,NA
+2014-09-01,Agrícola,106.6,-1.7,NA,NA
+2014-10-01,Agrícola,106.73,0.1,NA,NA
+2014-11-01,Agrícola,106.45,-0.3,NA,NA
+2014-12-01,Agrícola,106.29,-0.2,NA,NA
+2015-01-01,Agrícola,110.22,3.7,3.7,11.3
+2015-02-01,Agrícola,110.51,0.3,4,10.9
+2015-03-01,Agrícola,111.93,1.3,5.3,9.7
+2015-04-01,Agrícola,112.26,0.3,5.6,7.8
+2015-05-01,Agrícola,108.86,-3,2.4,0.6
+2015-06-01,Agrícola,110.55,1.6,4,3.1
+2015-07-01,Agrícola,112.58,1.8,5.9,4.1
+2015-08-01,Agrícola,114.75,1.9,8,5.9
+2015-09-01,Agrícola,118.94,3.7,11.9,11.6
+2015-10-01,Agrícola,119.97,0.9,12.9,12.4
+2015-11-01,Agrícola,123.14,2.6,15.9,15.7
+2015-12-01,Agrícola,124.23,0.9,16.9,16.9
+2016-01-01,Agrícola,125.54,1.1,1.1,13.9
+2016-02-01,Agrícola,124.26,-1,0,12.4
+2016-03-01,Agrícola,120.89,-2.7,-2.7,8
+2016-04-01,Agrícola,118.49,-2,-4.6,5.5
+2016-05-01,Agrícola,114.68,-3.2,-7.7,5.3
+2016-06-01,Agrícola,115.9,1.1,-6.7,4.8
+2016-07-01,Agrícola,117.55,1.4,-5.4,4.4
+2016-08-01,Agrícola,120.69,2.7,-2.8,5.2
+2016-09-01,Agrícola,124.53,3.2,0.2,4.7
+2016-10-01,Agrícola,126.34,1.5,1.7,5.3
+2016-11-01,Agrícola,125.93,-0.3,1.4,2.3
+2016-12-01,Agrícola,126.4,0.4,1.7,1.7
+2017-01-01,Agrícola,127.55,0.9,0.9,1.6
+2017-02-01,Agrícola,125.99,-1.2,-0.3,1.4
+2017-03-01,Agrícola,129.38,2.7,2.4,7
+2017-04-01,Agrícola,128.4,-0.8,1.6,8.4
+2017-05-01,Agrícola,125.6,-2.2,-0.6,9.5
+2017-06-01,Agrícola,121.82,-3,-3.6,5.1
+2017-07-01,Agrícola,122.98,1,-2.7,4.6
+2017-08-01,Agrícola,124.2,1,-1.7,2.9
+2017-09-01,Agrícola,125.51,1.1,-0.7,0.8
+2017-10-01,Agrícola,121.38,-3.3,-4,-3.9
+2017-11-01,Agrícola,118.59,-2.3,-6.2,-5.8
+2017-12-01,Agrícola,116,-2.2,-8.2,-8.2
+2018-01-01,Agrícola,114.74,-1.1,-1.1,-10
+2018-02-01,Agrícola,113.27,-1.3,-2.4,-10.1
+2018-03-01,Agrícola,113.41,0.1,-2.2,-12.3
+2018-04-01,Agrícola,113.56,0.1,-2.1,-11.6
+2018-05-01,Agrícola,112.06,-1.3,-3.4,-10.8
+2018-06-01,Agrícola,111.83,-0.2,-3.6,-8.2
+2018-07-01,Agrícola,113.04,1.1,-2.6,-8.1
+2018-08-01,Agrícola,114.21,1,-1.5,-8
+2018-09-01,Agrícola,117.2,2.6,1,-6.6
+2018-10-01,Agrícola,119.23,1.7,2.8,-1.8
+2018-11-01,Agrícola,122.22,2.5,5.4,3.1
+2018-12-01,Agrícola,122.56,0.3,5.7,5.7
+2019-01-01,Agrícola,123.35,0.6,0.6,7.5
+2019-02-01,Agrícola,122.22,-0.9,-0.3,7.9
+2019-03-01,Agrícola,121.56,-0.5,-0.8,7.2
+2019-04-01,Agrícola,124.18,2.2,1.3,9.4
+2019-05-01,Agrícola,122.36,-1.5,-0.2,9.2
+2019-06-01,Agrícola,121.09,-1,-1.2,8.3
+2019-07-01,Agrícola,121.22,0.1,-1.1,7.2
+2019-08-01,Agrícola,121.12,-0.1,-1.2,6.1
+2019-09-01,Agrícola,122.27,0.9,-0.2,4.3
+2019-10-01,Agrícola,123.26,0.8,0.6,3.4
+2019-11-01,Agrícola,123.54,0.2,0.8,1.1
+2019-12-01,Agrícola,122.76,-0.6,0.2,0.2
+2020-01-01,Agrícola,120.18,-2.1,-2.1,-2.6
+2020-02-01,Agrícola,116.65,-2.9,-5,-4.6
+2020-03-01,Agrícola,115.51,-1,-5.9,-5
+2020-04-01,Agrícola,119.74,3.7,-2.5,-3.6
+2020-05-01,Agrícola,122.53,2.3,-0.2,0.1
+2020-06-01,Agrícola,121.83,-0.6,-0.8,0.6
+2020-07-01,Agrícola,121,-0.7,-1.4,-0.2
+2020-08-01,Agrícola,119.35,-1.4,-2.8,-1.5
+2020-09-01,Agrícola,119.27,-0.1,-2.8,-2.5
+2020-10-01,Agrícola,119.57,0.3,-2.6,-3
+2020-11-01,Agrícola,120.18,0.5,-2.1,-2.7
+2020-12-01,Agrícola,120.37,0.2,-1.9,-1.9
+2021-01-01,Agrícola,122.02,1.4,1.4,1.5
+2021-02-01,Agrícola,123.87,1.5,2.9,6.2
+2021-03-01,Agrícola,126.75,2.3,5.3,9.7
+2021-04-01,Agrícola,126.62,-0.1,5.2,5.7
+2021-05-01,Agrícola,125.64,-0.8,4.4,2.5
+2021-06-01,Agrícola,125.94,0.2,4.6,3.4
+2021-07-01,Agrícola,128.14,1.7,6.5,5.9
+2021-08-01,Agrícola,130.63,1.9,8.5,9.5
+2021-09-01,Agrícola,131.99,1,9.7,10.7
+2021-10-01,Agrícola,134.68,2,11.9,12.6
+2021-11-01,Agrícola,135.3,0.5,12.4,12.6
+2021-12-01,Agrícola,135.45,0.1,12.5,12.5
+2022-01-01,Agrícola,135.85,0.3,0.3,11.3
+2022-02-01,Agrícola,138.49,1.9,2.2,11.8
+2022-03-01,Agrícola,141.08,1.9,4.2,11.3
+2022-04-01,Agrícola,145.17,2.9,7.2,14.7
+2022-05-01,Agrícola,146.14,0.7,7.9,16.3
+2022-06-01,Agrícola,148.23,1.4,9.4,17.7
+2022-07-01,Agrícola,151.93,2.5,12.2,18.6
+2022-08-01,Agrícola,153.09,0.8,13,17.2
+2022-09-01,Agrícola,155.75,1.7,15,18
+2022-10-01,Agrícola,160.03,2.7,18.1,18.8
+2022-11-01,Agrícola,163.2,2,20.5,20.6
+2022-12-01,Agrícola,167.1,2.4,23.4,23.4
+2023-01-01,Agrícola,174.03,4.1,4.1,28.1
+2023-02-01,Agrícola,175.31,0.7,4.9,26.6
+2023-03-01,Agrícola,170.39,-2.8,2,20.8
+2023-04-01,Agrícola,166.68,-2.2,-0.3,14.8
+2023-05-01,Agrícola,163.77,-1.7,-2,12.1
+2023-06-01,Agrícola,164.97,0.7,-1.3,11.3
+2023-07-01,Agrícola,170.07,3.1,1.8,11.9
+2023-08-01,Agrícola,177.87,4.6,6.4,16.2
+2023-09-01,Agrícola,174.08,-2.1,4.2,11.8
+2023-10-01,Agrícola,172.45,-0.9,3.2,7.8
+2023-11-01,Agrícola,169.53,-1.7,1.5,3.9
+2023-12-01,Agrícola,168.23,-0.8,0.7,0.7
+2024-01-01,Agrícola,165.12,-1.8,-1.8,-5.1
+2024-02-01,Agrícola,160.99,-2.5,-4.3,-8.2
+2024-03-01,Agrícola,164.37,2.1,-2.3,-3.5
+2024-04-01,Agrícola,167.71,2,-0.3,0.6
+2024-05-01,Agrícola,167.21,-0.3,-0.6,2.1
+2024-06-01,Agrícola,169.28,1.2,0.6,2.6
+2024-07-01,Agrícola,171.4,1.3,1.9,0.8
+2024-08-01,Agrícola,172.58,0.7,2.6,-3
+2024-09-01,Agrícola,169.76,-1.6,0.9,-2.5
+2024-10-01,Agrícola,170.06,0.2,1.1,-1.4
+2024-11-01,Agrícola,168.72,-0.8,0.3,-0.5
+2024-12-01,Agrícola,167.96,-0.5,-0.2,-0.2
+2025-01-01,Agrícola,169.17,0.7,0.7,2.5
+2025-02-01,Agrícola,170.44,0.8,1.5,5.9
+2025-03-01,Agrícola,173.32,1.7,3.2,5.4
+2025-04-01,Agrícola,175.03,1,4.2,4.4
+2025-05-01,Agrícola,172.97,-1.2,3,3.4
+2025-06-01,Agrícola,170.75,-1.3,1.7,0.9
+2025-07-01,Agrícola,170.95,0.1,1.8,-0.3
+2025-08-01,Agrícola,169.02,-1.1,0.6,-2.1
+2025-09-01,Agrícola,170.31,0.8,1.4,0.3
+2025-10-01,Agrícola,170.62,0.2,1.6,0.3
+2025-11-01,Agrícola,168.43,-1.3,0.3,-0.2
+2025-12-01,Agrícola,166.2,-1.3,-1,-1
+2026-01-01,Agrícola,169.68,2.1,2.1,0.3
+2026-02-01,Agrícola,168,-1,1.1,-1.4
+2026-03-01,Agrícola,174.87,4.1,5.2,0.9
+2026-04-01,Agrícola,179.6,2.7,8.1,2.6
+2014-01-01,Alimentos y Bebidas,100.27,NA,NA,NA
+2014-02-01,Alimentos y Bebidas,100.29,0,NA,NA
+2014-03-01,Alimentos y Bebidas,100.38,0.1,NA,NA
+2014-04-01,Alimentos y Bebidas,100.38,0,NA,NA
+2014-05-01,Alimentos y Bebidas,100.3,-0.1,NA,NA
+2014-06-01,Alimentos y Bebidas,100.25,-0,NA,NA
+2014-07-01,Alimentos y Bebidas,100.23,-0,NA,NA
+2014-08-01,Alimentos y Bebidas,100.62,0.4,NA,NA
+2014-09-01,Alimentos y Bebidas,101.25,0.6,NA,NA
+2014-10-01,Alimentos y Bebidas,101.8,0.5,NA,NA
+2014-11-01,Alimentos y Bebidas,102.26,0.5,NA,NA
+2014-12-01,Alimentos y Bebidas,102.64,0.4,NA,NA
+2015-01-01,Alimentos y Bebidas,102.68,0,0,2.4
+2015-02-01,Alimentos y Bebidas,103,0.3,0.4,2.7
+2015-03-01,Alimentos y Bebidas,102.99,-0,0.3,2.6
+2015-04-01,Alimentos y Bebidas,103.02,0,0.4,2.6
+2015-05-01,Alimentos y Bebidas,103.4,0.4,0.7,3.1
+2015-06-01,Alimentos y Bebidas,103.86,0.4,1.2,3.6
+2015-07-01,Alimentos y Bebidas,104.05,0.2,1.4,3.8
+2015-08-01,Alimentos y Bebidas,104.28,0.2,1.6,3.6
+2015-09-01,Alimentos y Bebidas,104.33,0,1.6,3
+2015-10-01,Alimentos y Bebidas,104.42,0.1,1.7,2.6
+2015-11-01,Alimentos y Bebidas,104.76,0.3,2.1,2.4
+2015-12-01,Alimentos y Bebidas,104.99,0.2,2.3,2.3
+2016-01-01,Alimentos y Bebidas,105.08,0.1,0.1,2.3
+2016-02-01,Alimentos y Bebidas,105.11,0,0.1,2
+2016-03-01,Alimentos y Bebidas,105.23,0.1,0.2,2.2
+2016-04-01,Alimentos y Bebidas,105.27,0,0.3,2.2
+2016-05-01,Alimentos y Bebidas,105.47,0.2,0.5,2
+2016-06-01,Alimentos y Bebidas,105.72,0.2,0.7,1.8
+2016-07-01,Alimentos y Bebidas,105.71,-0,0.7,1.6
+2016-08-01,Alimentos y Bebidas,106.11,0.4,1.1,1.8
+2016-09-01,Alimentos y Bebidas,106.16,0,1.1,1.8
+2016-10-01,Alimentos y Bebidas,106.66,0.5,1.6,2.1
+2016-11-01,Alimentos y Bebidas,106.77,0.1,1.7,1.9
+2016-12-01,Alimentos y Bebidas,107.49,0.7,2.4,2.4
+2017-01-01,Alimentos y Bebidas,107.55,0.1,0.1,2.4
+2017-02-01,Alimentos y Bebidas,107.58,0,0.1,2.3
+2017-03-01,Alimentos y Bebidas,107.98,0.4,0.5,2.6
+2017-04-01,Alimentos y Bebidas,107.99,0,0.5,2.6
+2017-05-01,Alimentos y Bebidas,108.17,0.2,0.6,2.6
+2017-06-01,Alimentos y Bebidas,107.83,-0.3,0.3,2
+2017-07-01,Alimentos y Bebidas,107.78,-0,0.3,2
+2017-08-01,Alimentos y Bebidas,107.91,0.1,0.4,1.7
+2017-09-01,Alimentos y Bebidas,107.32,-0.5,-0.2,1.1
+2017-10-01,Alimentos y Bebidas,107.36,0,-0.1,0.7
+2017-11-01,Alimentos y Bebidas,107.4,0,-0.1,0.6
+2017-12-01,Alimentos y Bebidas,107.61,0.2,0.1,0.1
+2018-01-01,Alimentos y Bebidas,107.85,0.2,0.2,0.3
+2018-02-01,Alimentos y Bebidas,108.19,0.3,0.5,0.6
+2018-03-01,Alimentos y Bebidas,108.48,0.3,0.8,0.5
+2018-04-01,Alimentos y Bebidas,108.38,-0.1,0.7,0.4
+2018-05-01,Alimentos y Bebidas,109.11,0.7,1.4,0.9
+2018-06-01,Alimentos y Bebidas,109.31,0.2,1.6,1.4
+2018-07-01,Alimentos y Bebidas,109.13,-0.2,1.4,1.3
+2018-08-01,Alimentos y Bebidas,109.31,0.2,1.6,1.3
+2018-09-01,Alimentos y Bebidas,109.33,0,1.6,1.9
+2018-10-01,Alimentos y Bebidas,109.1,-0.2,1.4,1.6
+2018-11-01,Alimentos y Bebidas,109.34,0.2,1.6,1.8
+2018-12-01,Alimentos y Bebidas,109.44,0.1,1.7,1.7
+2019-01-01,Alimentos y Bebidas,109.34,-0.1,-0.1,1.4
+2019-02-01,Alimentos y Bebidas,109.44,0.1,0,1.2
+2019-03-01,Alimentos y Bebidas,109.18,-0.2,-0.2,0.6
+2019-04-01,Alimentos y Bebidas,109.15,-0,-0.3,0.7
+2019-05-01,Alimentos y Bebidas,109.15,0,-0.3,0
+2019-06-01,Alimentos y Bebidas,109.04,-0.1,-0.4,-0.2
+2019-07-01,Alimentos y Bebidas,109.9,0.8,0.4,0.7
+2019-08-01,Alimentos y Bebidas,109.89,-0,0.4,0.5
+2019-09-01,Alimentos y Bebidas,109.93,0,0.4,0.5
+2019-10-01,Alimentos y Bebidas,109.82,-0.1,0.3,0.7
+2019-11-01,Alimentos y Bebidas,109.88,0.1,0.4,0.5
+2019-12-01,Alimentos y Bebidas,110.09,0.2,0.6,0.6
+2020-01-01,Alimentos y Bebidas,110.18,0.1,0.1,0.8
+2020-02-01,Alimentos y Bebidas,110.61,0.4,0.5,1.1
+2020-03-01,Alimentos y Bebidas,110.92,0.3,0.8,1.6
+2020-04-01,Alimentos y Bebidas,111.42,0.5,1.2,2.1
+2020-05-01,Alimentos y Bebidas,111.11,-0.3,0.9,1.8
+2020-06-01,Alimentos y Bebidas,110.92,-0.2,0.8,1.7
+2020-07-01,Alimentos y Bebidas,110.81,-0.1,0.7,0.8
+2020-08-01,Alimentos y Bebidas,111.03,0.2,0.9,1
+2020-09-01,Alimentos y Bebidas,111.1,0.1,0.9,1.1
+2020-10-01,Alimentos y Bebidas,111.14,0,1,1.2
+2020-11-01,Alimentos y Bebidas,111.27,0.1,1.1,1.3
+2020-12-01,Alimentos y Bebidas,111.59,0.3,1.4,1.4
+2021-01-01,Alimentos y Bebidas,111.84,0.2,0.2,1.5
+2021-02-01,Alimentos y Bebidas,112.29,0.4,0.6,1.5
+2021-03-01,Alimentos y Bebidas,113.31,0.9,1.5,2.2
+2021-04-01,Alimentos y Bebidas,113.31,0,1.5,1.7
+2021-05-01,Alimentos y Bebidas,113.99,0.6,2.2,2.6
+2021-06-01,Alimentos y Bebidas,115.51,1.3,3.5,4.1
+2021-07-01,Alimentos y Bebidas,117.75,1.9,5.5,6.3
+2021-08-01,Alimentos y Bebidas,120.21,2.1,7.7,8.3
+2021-09-01,Alimentos y Bebidas,122.05,1.5,9.4,9.9
+2021-10-01,Alimentos y Bebidas,123.09,0.9,10.3,10.8
+2021-11-01,Alimentos y Bebidas,124.22,0.9,11.3,11.6
+2021-12-01,Alimentos y Bebidas,124.94,0.6,12,12
+2022-01-01,Alimentos y Bebidas,125.91,0.8,0.8,12.6
+2022-02-01,Alimentos y Bebidas,126,0.1,0.8,12.2
+2022-03-01,Alimentos y Bebidas,127.97,1.6,2.4,12.9
+2022-04-01,Alimentos y Bebidas,130.86,2.3,4.7,15.5
+2022-05-01,Alimentos y Bebidas,131.51,0.5,5.3,15.4
+2022-06-01,Alimentos y Bebidas,132.35,0.6,5.9,14.6
+2022-07-01,Alimentos y Bebidas,133.74,1.1,7,13.6
+2022-08-01,Alimentos y Bebidas,135.07,1,8.1,12.4
+2022-09-01,Alimentos y Bebidas,136.64,1.2,9.4,12
+2022-10-01,Alimentos y Bebidas,137.05,0.3,9.7,11.3
+2022-11-01,Alimentos y Bebidas,137.99,0.7,10.4,11.1
+2022-12-01,Alimentos y Bebidas,137.96,-0,10.4,10.4
+2023-01-01,Alimentos y Bebidas,138.56,0.4,0.4,10
+2023-02-01,Alimentos y Bebidas,139.37,0.6,1,10.6
+2023-03-01,Alimentos y Bebidas,140.12,0.5,1.6,9.5
+2023-04-01,Alimentos y Bebidas,141.21,0.8,2.4,7.9
+2023-05-01,Alimentos y Bebidas,141.46,0.2,2.5,7.6
+2023-06-01,Alimentos y Bebidas,141.5,0,2.6,6.9
+2023-07-01,Alimentos y Bebidas,141.1,-0.3,2.3,5.5
+2023-08-01,Alimentos y Bebidas,141.24,0.1,2.4,4.6
+2023-09-01,Alimentos y Bebidas,140.9,-0.2,2.1,3.1
+2023-10-01,Alimentos y Bebidas,140.94,0,2.2,2.8
+2023-11-01,Alimentos y Bebidas,140.89,-0,2.1,2.1
+2023-12-01,Alimentos y Bebidas,140.95,0,2.2,2.2
+2024-01-01,Alimentos y Bebidas,140.67,-0.2,-0.2,1.5
+2024-02-01,Alimentos y Bebidas,140.49,-0.1,-0.3,0.8
+2024-03-01,Alimentos y Bebidas,140.34,-0.1,-0.4,0.2
+2024-04-01,Alimentos y Bebidas,139.92,-0.3,-0.7,-0.9
+2024-05-01,Alimentos y Bebidas,139.62,-0.2,-0.9,-1.3
+2024-06-01,Alimentos y Bebidas,139.28,-0.2,-1.2,-1.6
+2024-07-01,Alimentos y Bebidas,139.33,0,-1.1,-1.3
+2024-08-01,Alimentos y Bebidas,139.54,0.2,-1,-1.2
+2024-09-01,Alimentos y Bebidas,139.58,0,-1,-0.9
+2024-10-01,Alimentos y Bebidas,139.26,-0.2,-1.2,-1.2
+2024-11-01,Alimentos y Bebidas,139.37,0.1,-1.1,-1.1
+2024-12-01,Alimentos y Bebidas,139.53,0.1,-1,-1
+2025-01-01,Alimentos y Bebidas,139.25,-0.2,-0.2,-1
+2025-02-01,Alimentos y Bebidas,138.97,-0.2,-0.4,-1.1
+2025-03-01,Alimentos y Bebidas,139.14,0.1,-0.3,-0.9
+2025-04-01,Alimentos y Bebidas,138.62,-0.4,-0.7,-0.9
+2025-05-01,Alimentos y Bebidas,138.41,-0.2,-0.8,-0.9
+2025-06-01,Alimentos y Bebidas,138.06,-0.3,-1.1,-0.9
+2025-07-01,Alimentos y Bebidas,137.93,-0.1,-1.1,-1
+2025-08-01,Alimentos y Bebidas,137.51,-0.3,-1.4,-1.5
+2025-09-01,Alimentos y Bebidas,137.29,-0.2,-1.6,-1.6
+2025-10-01,Alimentos y Bebidas,137.24,-0,-1.6,-1.5
+2025-11-01,Alimentos y Bebidas,136.95,-0.2,-1.8,-1.7
+2025-12-01,Alimentos y Bebidas,137.26,0.2,-1.6,-1.6
+2026-01-01,Alimentos y Bebidas,137.37,0.1,0.1,-1.4
+2026-02-01,Alimentos y Bebidas,137.55,0.1,0.2,-1
+2026-03-01,Alimentos y Bebidas,138.08,0.4,0.6,-0.8
+2026-04-01,Alimentos y Bebidas,137.88,-0.1,0.5,-0.5
+2014-01-01,Cueros y Productos de Cuero,100.18,NA,NA,NA
+2014-02-01,Cueros y Productos de Cuero,100.05,-0.1,NA,NA
+2014-03-01,Cueros y Productos de Cuero,100.08,0,NA,NA
+2014-04-01,Cueros y Productos de Cuero,100.12,0,NA,NA
+2014-05-01,Cueros y Productos de Cuero,99.99,-0.1,NA,NA
+2014-06-01,Cueros y Productos de Cuero,99.96,-0,NA,NA
+2014-07-01,Cueros y Productos de Cuero,99.88,-0.1,NA,NA
+2014-08-01,Cueros y Productos de Cuero,99.85,-0,NA,NA
+2014-09-01,Cueros y Productos de Cuero,100.05,0.2,NA,NA
+2014-10-01,Cueros y Productos de Cuero,100.23,0.2,NA,NA
+2014-11-01,Cueros y Productos de Cuero,100.34,0.1,NA,NA
+2014-12-01,Cueros y Productos de Cuero,100.81,0.5,NA,NA
+2015-01-01,Cueros y Productos de Cuero,100.94,0.1,0.1,0.8
+2015-02-01,Cueros y Productos de Cuero,101.16,0.2,0.3,1.1
+2015-03-01,Cueros y Productos de Cuero,101.35,0.2,0.5,1.3
+2015-04-01,Cueros y Productos de Cuero,101.47,0.1,0.7,1.3
+2015-05-01,Cueros y Productos de Cuero,101.05,-0.4,0.2,1.1
+2015-06-01,Cueros y Productos de Cuero,100.74,-0.3,-0.1,0.8
+2015-07-01,Cueros y Productos de Cuero,100.93,0.2,0.1,1.1
+2015-08-01,Cueros y Productos de Cuero,101.91,1,1.1,2.1
+2015-09-01,Cueros y Productos de Cuero,102.19,0.3,1.4,2.1
+2015-10-01,Cueros y Productos de Cuero,102.09,-0.1,1.3,1.9
+2015-11-01,Cueros y Productos de Cuero,102.22,0.1,1.4,1.9
+2015-12-01,Cueros y Productos de Cuero,102.28,0.1,1.5,1.5
+2016-01-01,Cueros y Productos de Cuero,103.22,0.9,0.9,2.3
+2016-02-01,Cueros y Productos de Cuero,104.14,0.9,1.8,2.9
+2016-03-01,Cueros y Productos de Cuero,104.06,-0.1,1.7,2.7
+2016-04-01,Cueros y Productos de Cuero,103.84,-0.2,1.5,2.3
+2016-05-01,Cueros y Productos de Cuero,103.5,-0.3,1.2,2.4
+2016-06-01,Cueros y Productos de Cuero,103.64,0.1,1.3,2.9
+2016-07-01,Cueros y Productos de Cuero,103.61,-0,1.3,2.7
+2016-08-01,Cueros y Productos de Cuero,103.13,-0.5,0.8,1.2
+2016-09-01,Cueros y Productos de Cuero,102.97,-0.2,0.7,0.8
+2016-10-01,Cueros y Productos de Cuero,103.11,0.1,0.8,1
+2016-11-01,Cueros y Productos de Cuero,102.86,-0.2,0.6,0.6
+2016-12-01,Cueros y Productos de Cuero,102.9,0,0.6,0.6
+2017-01-01,Cueros y Productos de Cuero,103.14,0.2,0.2,-0.1
+2017-02-01,Cueros y Productos de Cuero,103.04,-0.1,0.1,-1.1
+2017-03-01,Cueros y Productos de Cuero,103,-0,0.1,-1
+2017-04-01,Cueros y Productos de Cuero,102.84,-0.2,-0.1,-1
+2017-05-01,Cueros y Productos de Cuero,102.76,-0.1,-0.1,-0.7
+2017-06-01,Cueros y Productos de Cuero,102.68,-0.1,-0.2,-0.9
+2017-07-01,Cueros y Productos de Cuero,102.73,0,-0.2,-0.8
+2017-08-01,Cueros y Productos de Cuero,102.75,0,-0.1,-0.4
+2017-09-01,Cueros y Productos de Cuero,102.77,0,-0.1,-0.2
+2017-10-01,Cueros y Productos de Cuero,102.85,0.1,-0,-0.3
+2017-11-01,Cueros y Productos de Cuero,103.43,0.6,0.5,0.6
+2017-12-01,Cueros y Productos de Cuero,103.43,0,0.5,0.5
+2018-01-01,Cueros y Productos de Cuero,103.86,0.4,0.4,0.7
+2018-02-01,Cueros y Productos de Cuero,103.93,0.1,0.5,0.9
+2018-03-01,Cueros y Productos de Cuero,103.76,-0.2,0.3,0.7
+2018-04-01,Cueros y Productos de Cuero,107.26,3.4,3.7,4.3
+2018-05-01,Cueros y Productos de Cuero,107.23,-0,3.7,4.3
+2018-06-01,Cueros y Productos de Cuero,107.2,-0,3.6,4.4
+2018-07-01,Cueros y Productos de Cuero,107.13,-0.1,3.6,4.3
+2018-08-01,Cueros y Productos de Cuero,107.11,-0,3.6,4.2
+2018-09-01,Cueros y Productos de Cuero,107.3,0.2,3.7,4.4
+2018-10-01,Cueros y Productos de Cuero,107.41,0.1,3.8,4.4
+2018-11-01,Cueros y Productos de Cuero,107.36,-0,3.8,3.8
+2018-12-01,Cueros y Productos de Cuero,107.56,0.2,4,4
+2019-01-01,Cueros y Productos de Cuero,107.6,0,0,3.6
+2019-02-01,Cueros y Productos de Cuero,107.63,0,0.1,3.6
+2019-03-01,Cueros y Productos de Cuero,107.71,0.1,0.1,3.8
+2019-04-01,Cueros y Productos de Cuero,107.92,0.2,0.3,0.6
+2019-05-01,Cueros y Productos de Cuero,107.72,-0.2,0.1,0.5
+2019-06-01,Cueros y Productos de Cuero,107.71,-0,0.1,0.5
+2019-07-01,Cueros y Productos de Cuero,107.94,0.2,0.4,0.8
+2019-08-01,Cueros y Productos de Cuero,107.94,0,0.4,0.8
+2019-09-01,Cueros y Productos de Cuero,107.99,0,0.4,0.6
+2019-10-01,Cueros y Productos de Cuero,107.75,-0.2,0.2,0.3
+2019-11-01,Cueros y Productos de Cuero,108.1,0.3,0.5,0.7
+2019-12-01,Cueros y Productos de Cuero,108.8,0.6,1.2,1.2
+2020-01-01,Cueros y Productos de Cuero,108.61,-0.2,-0.2,0.9
+2020-02-01,Cueros y Productos de Cuero,108.56,-0,-0.2,0.9
+2020-03-01,Cueros y Productos de Cuero,108.65,0.1,-0.1,0.9
+2020-04-01,Cueros y Productos de Cuero,108.59,-0.1,-0.2,0.6
+2020-05-01,Cueros y Productos de Cuero,108.59,0,-0.2,0.8
+2020-06-01,Cueros y Productos de Cuero,108.45,-0.1,-0.3,0.7
+2020-07-01,Cueros y Productos de Cuero,108.43,-0,-0.3,0.5
+2020-08-01,Cueros y Productos de Cuero,108.47,0,-0.3,0.5
+2020-09-01,Cueros y Productos de Cuero,108.26,-0.2,-0.5,0.3
+2020-10-01,Cueros y Productos de Cuero,108.29,0,-0.5,0.5
+2020-11-01,Cueros y Productos de Cuero,108.36,0.1,-0.4,0.2
+2020-12-01,Cueros y Productos de Cuero,108.11,-0.2,-0.6,-0.6
+2021-01-01,Cueros y Productos de Cuero,108.12,0,0,-0.5
+2021-02-01,Cueros y Productos de Cuero,108.14,0,0,-0.4
+2021-03-01,Cueros y Productos de Cuero,108.19,0,0.1,-0.4
+2021-04-01,Cueros y Productos de Cuero,108.18,-0,0.1,-0.4
+2021-05-01,Cueros y Productos de Cuero,108.25,0.1,0.1,-0.3
+2021-06-01,Cueros y Productos de Cuero,108.35,0.1,0.2,-0.1
+2021-07-01,Cueros y Productos de Cuero,108.48,0.1,0.3,0
+2021-08-01,Cueros y Productos de Cuero,108.56,0.1,0.4,0.1
+2021-09-01,Cueros y Productos de Cuero,109.26,0.6,1.1,0.9
+2021-10-01,Cueros y Productos de Cuero,110.65,1.3,2.3,2.2
+2021-11-01,Cueros y Productos de Cuero,110.64,-0,2.3,2.1
+2021-12-01,Cueros y Productos de Cuero,110.74,0.1,2.4,2.4
+2022-01-01,Cueros y Productos de Cuero,110.74,0,0,2.4
+2022-02-01,Cueros y Productos de Cuero,110.85,0.1,0.1,2.5
+2022-03-01,Cueros y Productos de Cuero,110.85,0,0.1,2.5
+2022-04-01,Cueros y Productos de Cuero,110.95,0.1,0.2,2.6
+2022-05-01,Cueros y Productos de Cuero,111.23,0.3,0.4,2.8
+2022-06-01,Cueros y Productos de Cuero,111.56,0.3,0.7,3
+2022-07-01,Cueros y Productos de Cuero,111.97,0.4,1.1,3.2
+2022-08-01,Cueros y Productos de Cuero,112.85,0.8,1.9,4
+2022-09-01,Cueros y Productos de Cuero,114.54,1.5,3.4,4.8
+2022-10-01,Cueros y Productos de Cuero,114.51,-0,3.4,3.5
+2022-11-01,Cueros y Productos de Cuero,114.66,0.1,3.5,3.6
+2022-12-01,Cueros y Productos de Cuero,114.66,0,3.5,3.5
+2023-01-01,Cueros y Productos de Cuero,114.86,0.2,0.2,3.7
+2023-02-01,Cueros y Productos de Cuero,114.85,-0,0.2,3.6
+2023-03-01,Cueros y Productos de Cuero,115.18,0.3,0.5,3.9
+2023-04-01,Cueros y Productos de Cuero,115.41,0.2,0.7,4
+2023-05-01,Cueros y Productos de Cuero,115.49,0.1,0.7,3.8
+2023-06-01,Cueros y Productos de Cuero,115.74,0.2,0.9,3.7
+2023-07-01,Cueros y Productos de Cuero,117.05,1.1,2.1,4.5
+2023-08-01,Cueros y Productos de Cuero,117.08,0,2.1,3.7
+2023-09-01,Cueros y Productos de Cuero,117.05,-0,2.1,2.2
+2023-10-01,Cueros y Productos de Cuero,117.05,0,2.1,2.2
+2023-11-01,Cueros y Productos de Cuero,117.17,0.1,2.2,2.2
+2023-12-01,Cueros y Productos de Cuero,117.08,-0.1,2.1,2.1
+2024-01-01,Cueros y Productos de Cuero,117.35,0.2,0.2,2.2
+2024-02-01,Cueros y Productos de Cuero,117.52,0.1,0.4,2.3
+2024-03-01,Cueros y Productos de Cuero,117.58,0.1,0.4,2.1
+2024-04-01,Cueros y Productos de Cuero,117.58,0,0.4,1.9
+2024-05-01,Cueros y Productos de Cuero,117.59,0,0.4,1.8
+2024-06-01,Cueros y Productos de Cuero,117.59,0,0.4,1.6
+2024-07-01,Cueros y Productos de Cuero,117.78,0.2,0.6,0.6
+2024-08-01,Cueros y Productos de Cuero,117.78,0,0.6,0.6
+2024-09-01,Cueros y Productos de Cuero,117.78,0,0.6,0.6
+2024-10-01,Cueros y Productos de Cuero,117.78,0,0.6,0.6
+2024-11-01,Cueros y Productos de Cuero,117.8,0,0.6,0.5
+2024-12-01,Cueros y Productos de Cuero,117.86,0.1,0.7,0.7
+2025-01-01,Cueros y Productos de Cuero,118.09,0.2,0.2,0.6
+2025-02-01,Cueros y Productos de Cuero,118.07,-0,0.2,0.5
+2025-03-01,Cueros y Productos de Cuero,118.07,0,0.2,0.4
+2025-04-01,Cueros y Productos de Cuero,118.13,0.1,0.2,0.5
+2025-05-01,Cueros y Productos de Cuero,118.18,0,0.3,0.5
+2025-06-01,Cueros y Productos de Cuero,118.18,0,0.3,0.5
+2025-07-01,Cueros y Productos de Cuero,118.33,0.1,0.4,0.5
+2025-08-01,Cueros y Productos de Cuero,118.25,-0.1,0.3,0.4
+2025-09-01,Cueros y Productos de Cuero,118.3,0,0.4,0.4
+2025-10-01,Cueros y Productos de Cuero,118.3,0,0.4,0.4
+2025-11-01,Cueros y Productos de Cuero,118.32,0,0.4,0.4
+2025-12-01,Cueros y Productos de Cuero,118.31,-0,0.4,0.4
+2026-01-01,Cueros y Productos de Cuero,118.31,0,0,0.2
+2026-02-01,Cueros y Productos de Cuero,118.53,0.2,0.2,0.4
+2026-03-01,Cueros y Productos de Cuero,118.46,-0.1,0.1,0.3
+2026-04-01,Cueros y Productos de Cuero,118.46,0,0.1,0.3
+2014-01-01,Equipos de Transporte,98.45,NA,NA,NA
+2014-02-01,Equipos de Transporte,98.66,0.2,NA,NA
+2014-03-01,Equipos de Transporte,98.86,0.2,NA,NA
+2014-04-01,Equipos de Transporte,98.91,0.1,NA,NA
+2014-05-01,Equipos de Transporte,99.82,0.9,NA,NA
+2014-06-01,Equipos de Transporte,99.86,0,NA,NA
+2014-07-01,Equipos de Transporte,100.26,0.4,NA,NA
+2014-08-01,Equipos de Transporte,99.95,-0.3,NA,NA
+2014-09-01,Equipos de Transporte,100.09,0.1,NA,NA
+2014-10-01,Equipos de Transporte,100.56,0.5,NA,NA
+2014-11-01,Equipos de Transporte,100.95,0.4,NA,NA
+2014-12-01,Equipos de Transporte,101.26,0.3,NA,NA
+2015-01-01,Equipos de Transporte,101.63,0.4,0.4,3.2
+2015-02-01,Equipos de Transporte,103.75,2.1,2.5,5.2
+2015-03-01,Equipos de Transporte,104.71,0.9,3.4,5.9
+2015-04-01,Equipos de Transporte,105,0.3,3.7,6.2
+2015-05-01,Equipos de Transporte,106.61,1.5,5.3,6.8
+2015-06-01,Equipos de Transporte,106.86,0.2,5.5,7
+2015-07-01,Equipos de Transporte,107.32,0.4,6,7
+2015-08-01,Equipos de Transporte,108.13,0.8,6.8,8.2
+2015-09-01,Equipos de Transporte,108.48,0.3,7.1,8.4
+2015-10-01,Equipos de Transporte,108.74,0.2,7.4,8.1
+2015-11-01,Equipos de Transporte,110.24,1.4,8.9,9.2
+2015-12-01,Equipos de Transporte,111.37,1,10,10
+2016-01-01,Equipos de Transporte,112.98,1.4,1.4,11.2
+2016-02-01,Equipos de Transporte,114.19,1.1,2.5,10.1
+2016-03-01,Equipos de Transporte,113.62,-0.5,2,8.5
+2016-04-01,Equipos de Transporte,112.79,-0.7,1.3,7.4
+2016-05-01,Equipos de Transporte,111.96,-0.7,0.5,5
+2016-06-01,Equipos de Transporte,112.11,0.1,0.7,4.9
+2016-07-01,Equipos de Transporte,111.93,-0.2,0.5,4.3
+2016-08-01,Equipos de Transporte,112.32,0.3,0.9,3.9
+2016-09-01,Equipos de Transporte,113.31,0.9,1.7,4.5
+2016-10-01,Equipos de Transporte,112.94,-0.3,1.4,3.9
+2016-11-01,Equipos de Transporte,112.94,0,1.4,2.4
+2016-12-01,Equipos de Transporte,113.12,0.2,1.6,1.6
+2017-01-01,Equipos de Transporte,112.59,-0.5,-0.5,-0.3
+2017-02-01,Equipos de Transporte,111.35,-1.1,-1.6,-2.5
+2017-03-01,Equipos de Transporte,110.93,-0.4,-1.9,-2.4
+2017-04-01,Equipos de Transporte,110.59,-0.3,-2.2,-2
+2017-05-01,Equipos de Transporte,110.86,0.2,-2,-1
+2017-06-01,Equipos de Transporte,110.94,0.1,-1.9,-1
+2017-07-01,Equipos de Transporte,112.89,1.8,-0.2,0.9
+2017-08-01,Equipos de Transporte,112.64,-0.2,-0.4,0.3
+2017-09-01,Equipos de Transporte,112.56,-0.1,-0.5,-0.7
+2017-10-01,Equipos de Transporte,112.86,0.3,-0.2,-0.1
+2017-11-01,Equipos de Transporte,112.66,-0.2,-0.4,-0.2
+2017-12-01,Equipos de Transporte,112.62,-0,-0.4,-0.4
+2018-01-01,Equipos de Transporte,112.3,-0.3,-0.3,-0.3
+2018-02-01,Equipos de Transporte,112.49,0.2,-0.1,1
+2018-03-01,Equipos de Transporte,112.75,0.2,0.1,1.6
+2018-04-01,Equipos de Transporte,112.41,-0.3,-0.2,1.6
+2018-05-01,Equipos de Transporte,112.9,0.4,0.2,1.8
+2018-06-01,Equipos de Transporte,114.16,1.1,1.4,2.9
+2018-07-01,Equipos de Transporte,114.22,0.1,1.4,1.2
+2018-08-01,Equipos de Transporte,114.28,0.1,1.5,1.5
+2018-09-01,Equipos de Transporte,114.82,0.5,2,2
+2018-10-01,Equipos de Transporte,114.87,0,2,1.8
+2018-11-01,Equipos de Transporte,115.85,0.9,2.9,2.8
+2018-12-01,Equipos de Transporte,115.76,-0.1,2.8,2.8
+2019-01-01,Equipos de Transporte,115.52,-0.2,-0.2,2.9
+2019-02-01,Equipos de Transporte,115.14,-0.3,-0.5,2.4
+2019-03-01,Equipos de Transporte,114.62,-0.5,-1,1.7
+2019-04-01,Equipos de Transporte,114.66,0,-1,2
+2019-05-01,Equipos de Transporte,114.9,0.2,-0.7,1.8
+2019-06-01,Equipos de Transporte,116.81,1.7,0.9,2.3
+2019-07-01,Equipos de Transporte,117.45,0.5,1.5,2.8
+2019-08-01,Equipos de Transporte,117.69,0.2,1.7,3
+2019-09-01,Equipos de Transporte,116.7,-0.8,0.8,1.6
+2019-10-01,Equipos de Transporte,115.56,-1,-0.2,0.6
+2019-11-01,Equipos de Transporte,115.46,-0.1,-0.3,-0.3
+2019-12-01,Equipos de Transporte,117.01,1.3,1.1,1.1
+2020-01-01,Equipos de Transporte,117.26,0.2,0.2,1.5
+2020-02-01,Equipos de Transporte,117.76,0.4,0.6,2.3
+2020-03-01,Equipos de Transporte,117.76,0,0.6,2.7
+2020-04-01,Equipos de Transporte,118.04,0.2,0.9,2.9
+2020-05-01,Equipos de Transporte,118.02,-0,0.9,2.7
+2020-06-01,Equipos de Transporte,117.21,-0.7,0.2,0.3
+2020-07-01,Equipos de Transporte,118.17,0.8,1,0.6
+2020-08-01,Equipos de Transporte,118.56,0.3,1.3,0.7
+2020-09-01,Equipos de Transporte,119.5,0.8,2.1,2.4
+2020-10-01,Equipos de Transporte,120.06,0.5,2.6,3.9
+2020-11-01,Equipos de Transporte,120.35,0.2,2.9,4.2
+2020-12-01,Equipos de Transporte,119.34,-0.8,2,2
+2021-01-01,Equipos de Transporte,120.25,0.8,0.8,2.5
+2021-02-01,Equipos de Transporte,122.6,2,2.7,4.1
+2021-03-01,Equipos de Transporte,125.05,2,4.8,6.2
+2021-04-01,Equipos de Transporte,125.49,0.4,5.2,6.3
+2021-05-01,Equipos de Transporte,126.72,1,6.2,7.4
+2021-06-01,Equipos de Transporte,128.66,1.5,7.8,9.8
+2021-07-01,Equipos de Transporte,130.09,1.1,9,10.1
+2021-08-01,Equipos de Transporte,132.17,1.6,10.8,11.5
+2021-09-01,Equipos de Transporte,134.07,1.4,12.3,12.2
+2021-10-01,Equipos de Transporte,134.42,0.3,12.6,12
+2021-11-01,Equipos de Transporte,136.08,1.2,14,13.1
+2021-12-01,Equipos de Transporte,136.52,0.3,14.4,14.4
+2022-01-01,Equipos de Transporte,135.07,-1.1,-1.1,12.3
+2022-02-01,Equipos de Transporte,132.99,-1.5,-2.6,8.5
+2022-03-01,Equipos de Transporte,129.64,-2.5,-5,3.7
+2022-04-01,Equipos de Transporte,130.06,0.3,-4.7,3.6
+2022-05-01,Equipos de Transporte,130.95,0.7,-4.1,3.3
+2022-06-01,Equipos de Transporte,133.86,2.2,-1.9,4
+2022-07-01,Equipos de Transporte,139.71,4.4,2.3,7.4
+2022-08-01,Equipos de Transporte,139.58,-0.1,2.2,5.6
+2022-09-01,Equipos de Transporte,141.72,1.5,3.8,5.7
+2022-10-01,Equipos de Transporte,143.13,1,4.8,6.5
+2022-11-01,Equipos de Transporte,141.67,-1,3.8,4.1
+2022-12-01,Equipos de Transporte,137.46,-3,0.7,0.7
+2023-01-01,Equipos de Transporte,136.67,-0.6,-0.6,1.2
+2023-02-01,Equipos de Transporte,136.99,0.2,-0.3,3
+2023-03-01,Equipos de Transporte,138.65,1.2,0.9,7
+2023-04-01,Equipos de Transporte,138,-0.5,0.4,6.1
+2023-05-01,Equipos de Transporte,137.03,-0.7,-0.3,4.6
+2023-06-01,Equipos de Transporte,136.45,-0.4,-0.7,1.9
+2023-07-01,Equipos de Transporte,135.67,-0.6,-1.3,-2.9
+2023-08-01,Equipos de Transporte,132.94,-2,-3.3,-4.8
+2023-09-01,Equipos de Transporte,133.31,0.3,-3,-5.9
+2023-10-01,Equipos de Transporte,135.05,1.3,-1.8,-5.6
+2023-11-01,Equipos de Transporte,135.67,0.5,-1.3,-4.2
+2023-12-01,Equipos de Transporte,135.15,-0.4,-1.7,-1.7
+2024-01-01,Equipos de Transporte,133.85,-1,-1,-2.1
+2024-02-01,Equipos de Transporte,134.83,0.7,-0.2,-1.6
+2024-03-01,Equipos de Transporte,133.17,-1.2,-1.5,-4
+2024-04-01,Equipos de Transporte,130.28,-2.2,-3.6,-5.6
+2024-05-01,Equipos de Transporte,130.39,0.1,-3.5,-4.8
+2024-06-01,Equipos de Transporte,131.98,1.2,-2.3,-3.3
+2024-07-01,Equipos de Transporte,132.52,0.4,-1.9,-2.3
+2024-08-01,Equipos de Transporte,131.98,-0.4,-2.3,-0.7
+2024-09-01,Equipos de Transporte,132.64,0.5,-1.9,-0.5
+2024-10-01,Equipos de Transporte,131.22,-1.1,-2.9,-2.8
+2024-11-01,Equipos de Transporte,135.33,3.1,0.1,-0.3
+2024-12-01,Equipos de Transporte,134.58,-0.6,-0.4,-0.4
+2025-01-01,Equipos de Transporte,135.33,0.6,0.6,1.1
+2025-02-01,Equipos de Transporte,134.74,-0.4,0.1,-0.1
+2025-03-01,Equipos de Transporte,134.33,-0.3,-0.2,0.9
+2025-04-01,Equipos de Transporte,134.87,0.4,0.2,3.5
+2025-05-01,Equipos de Transporte,135.13,0.2,0.4,3.6
+2025-06-01,Equipos de Transporte,134.43,-0.5,-0.1,1.9
+2025-07-01,Equipos de Transporte,133.11,-1,-1.1,0.4
+2025-08-01,Equipos de Transporte,129.98,-2.4,-3.4,-1.5
+2025-09-01,Equipos de Transporte,129.31,-0.5,-3.9,-2.5
+2025-10-01,Equipos de Transporte,127.88,-1.1,-5,-2.5
+2025-11-01,Equipos de Transporte,126.99,-0.7,-5.6,-6.2
+2025-12-01,Equipos de Transporte,126.84,-0.1,-5.8,-5.8
+2026-01-01,Equipos de Transporte,125.05,-1.4,-1.4,-7.6
+2026-02-01,Equipos de Transporte,124.92,-0.1,-1.5,-7.3
+2026-03-01,Equipos de Transporte,126.21,1,-0.5,-6
+2026-04-01,Equipos de Transporte,126.94,0.6,0.1,-5.9
+2014-01-01,Equipos y Aparatos Eléctricos,100.21,NA,NA,NA
+2014-02-01,Equipos y Aparatos Eléctricos,100.48,0.3,NA,NA
+2014-03-01,Equipos y Aparatos Eléctricos,100.53,0,NA,NA
+2014-04-01,Equipos y Aparatos Eléctricos,99.07,-1.5,NA,NA
+2014-05-01,Equipos y Aparatos Eléctricos,99.09,0,NA,NA
+2014-06-01,Equipos y Aparatos Eléctricos,99.38,0.3,NA,NA
+2014-07-01,Equipos y Aparatos Eléctricos,99.16,-0.2,NA,NA
+2014-08-01,Equipos y Aparatos Eléctricos,99.98,0.8,NA,NA
+2014-09-01,Equipos y Aparatos Eléctricos,101.21,1.2,NA,NA
+2014-10-01,Equipos y Aparatos Eléctricos,102.03,0.8,NA,NA
+2014-11-01,Equipos y Aparatos Eléctricos,102.5,0.5,NA,NA
+2014-12-01,Equipos y Aparatos Eléctricos,103.04,0.5,NA,NA
+2015-01-01,Equipos y Aparatos Eléctricos,103.62,0.6,0.6,3.4
+2015-02-01,Equipos y Aparatos Eléctricos,104.37,0.7,1.3,3.9
+2015-03-01,Equipos y Aparatos Eléctricos,103.68,-0.7,0.6,3.1
+2015-04-01,Equipos y Aparatos Eléctricos,105.07,1.3,2,6.1
+2015-05-01,Equipos y Aparatos Eléctricos,106.04,0.9,2.9,7
+2015-06-01,Equipos y Aparatos Eléctricos,107.32,1.2,4.2,8
+2015-07-01,Equipos y Aparatos Eléctricos,106.55,-0.7,3.4,7.5
+2015-08-01,Equipos y Aparatos Eléctricos,107.17,0.6,4,7.2
+2015-09-01,Equipos y Aparatos Eléctricos,105.67,-1.4,2.6,4.4
+2015-10-01,Equipos y Aparatos Eléctricos,106,0.3,2.9,3.9
+2015-11-01,Equipos y Aparatos Eléctricos,107.47,1.4,4.3,4.8
+2015-12-01,Equipos y Aparatos Eléctricos,107.28,-0.2,4.1,4.1
+2016-01-01,Equipos y Aparatos Eléctricos,108.33,1,1,4.5
+2016-02-01,Equipos y Aparatos Eléctricos,108.77,0.4,1.4,4.2
+2016-03-01,Equipos y Aparatos Eléctricos,107.33,-1.3,0,3.5
+2016-04-01,Equipos y Aparatos Eléctricos,105.51,-1.7,-1.6,0.4
+2016-05-01,Equipos y Aparatos Eléctricos,104.98,-0.5,-2.1,-1
+2016-06-01,Equipos y Aparatos Eléctricos,105.51,0.5,-1.6,-1.7
+2016-07-01,Equipos y Aparatos Eléctricos,104.42,-1,-2.7,-2
+2016-08-01,Equipos y Aparatos Eléctricos,105.78,1.3,-1.4,-1.3
+2016-09-01,Equipos y Aparatos Eléctricos,107.58,1.7,0.3,1.8
+2016-10-01,Equipos y Aparatos Eléctricos,107.54,-0,0.2,1.5
+2016-11-01,Equipos y Aparatos Eléctricos,107.71,0.2,0.4,0.2
+2016-12-01,Equipos y Aparatos Eléctricos,111.28,3.3,3.7,3.7
+2017-01-01,Equipos y Aparatos Eléctricos,111.24,-0,-0,2.7
+2017-02-01,Equipos y Aparatos Eléctricos,109.54,-1.5,-1.6,0.7
+2017-03-01,Equipos y Aparatos Eléctricos,110.16,0.6,-1,2.6
+2017-04-01,Equipos y Aparatos Eléctricos,108.82,-1.2,-2.2,3.1
+2017-05-01,Equipos y Aparatos Eléctricos,109,0.2,-2,3.8
+2017-06-01,Equipos y Aparatos Eléctricos,108.89,-0.1,-2.1,3.2
+2017-07-01,Equipos y Aparatos Eléctricos,107.8,-1,-3.1,3.2
+2017-08-01,Equipos y Aparatos Eléctricos,108.55,0.7,-2.5,2.6
+2017-09-01,Equipos y Aparatos Eléctricos,110.78,2.1,-0.4,3
+2017-10-01,Equipos y Aparatos Eléctricos,112.46,1.5,1.1,4.6
+2017-11-01,Equipos y Aparatos Eléctricos,113.19,0.6,1.7,5.1
+2017-12-01,Equipos y Aparatos Eléctricos,113.18,-0,1.7,1.7
+2018-01-01,Equipos y Aparatos Eléctricos,113.14,-0,-0,1.7
+2018-02-01,Equipos y Aparatos Eléctricos,114.47,1.2,1.1,4.5
+2018-03-01,Equipos y Aparatos Eléctricos,115.34,0.8,1.9,4.7
+2018-04-01,Equipos y Aparatos Eléctricos,114.7,-0.6,1.3,5.4
+2018-05-01,Equipos y Aparatos Eléctricos,115.7,0.9,2.2,6.1
+2018-06-01,Equipos y Aparatos Eléctricos,116.62,0.8,3,7.1
+2018-07-01,Equipos y Aparatos Eléctricos,116.42,-0.2,2.9,8
+2018-08-01,Equipos y Aparatos Eléctricos,115.47,-0.8,2,6.4
+2018-09-01,Equipos y Aparatos Eléctricos,115.7,0.2,2.2,4.4
+2018-10-01,Equipos y Aparatos Eléctricos,115.9,0.2,2.4,3.1
+2018-11-01,Equipos y Aparatos Eléctricos,117.56,1.4,3.9,3.9
+2018-12-01,Equipos y Aparatos Eléctricos,117.49,-0.1,3.8,3.8
+2019-01-01,Equipos y Aparatos Eléctricos,116.66,-0.7,-0.7,3.1
+2019-02-01,Equipos y Aparatos Eléctricos,116.14,-0.4,-1.1,1.5
+2019-03-01,Equipos y Aparatos Eléctricos,116.31,0.1,-1,0.8
+2019-04-01,Equipos y Aparatos Eléctricos,116.54,0.2,-0.8,1.6
+2019-05-01,Equipos y Aparatos Eléctricos,117.08,0.5,-0.3,1.2
+2019-06-01,Equipos y Aparatos Eléctricos,117.13,0,-0.3,0.4
+2019-07-01,Equipos y Aparatos Eléctricos,115.17,-1.7,-2,-1.1
+2019-08-01,Equipos y Aparatos Eléctricos,116.7,1.3,-0.7,1.1
+2019-09-01,Equipos y Aparatos Eléctricos,115.9,-0.7,-1.4,0.2
+2019-10-01,Equipos y Aparatos Eléctricos,115.68,-0.2,-1.5,-0.2
+2019-11-01,Equipos y Aparatos Eléctricos,115.5,-0.2,-1.7,-1.8
+2019-12-01,Equipos y Aparatos Eléctricos,116.18,0.6,-1.1,-1.1
+2020-01-01,Equipos y Aparatos Eléctricos,115.43,-0.6,-0.6,-1.1
+2020-02-01,Equipos y Aparatos Eléctricos,117.13,1.5,0.8,0.9
+2020-03-01,Equipos y Aparatos Eléctricos,117.13,0,0.8,0.7
+2020-04-01,Equipos y Aparatos Eléctricos,116.4,-0.6,0.2,-0.1
+2020-05-01,Equipos y Aparatos Eléctricos,116.2,-0.2,0,-0.8
+2020-06-01,Equipos y Aparatos Eléctricos,118.13,1.7,1.7,0.9
+2020-07-01,Equipos y Aparatos Eléctricos,120.57,2.1,3.8,4.7
+2020-08-01,Equipos y Aparatos Eléctricos,122.36,1.5,5.3,4.9
+2020-09-01,Equipos y Aparatos Eléctricos,122.23,-0.1,5.2,5.5
+2020-10-01,Equipos y Aparatos Eléctricos,124,1.4,6.7,7.2
+2020-11-01,Equipos y Aparatos Eléctricos,124.76,0.6,7.4,8
+2020-12-01,Equipos y Aparatos Eléctricos,126.4,1.3,8.8,8.8
+2021-01-01,Equipos y Aparatos Eléctricos,129.2,2.2,2.2,11.9
+2021-02-01,Equipos y Aparatos Eléctricos,130.65,1.1,3.4,11.5
+2021-03-01,Equipos y Aparatos Eléctricos,134.6,3,6.5,14.9
+2021-04-01,Equipos y Aparatos Eléctricos,136,1,7.6,16.8
+2021-05-01,Equipos y Aparatos Eléctricos,140.45,3.3,11.1,20.9
+2021-06-01,Equipos y Aparatos Eléctricos,146.9,4.6,16.2,24.4
+2021-07-01,Equipos y Aparatos Eléctricos,148.82,1.3,17.7,23.4
+2021-08-01,Equipos y Aparatos Eléctricos,152.4,2.4,20.6,24.6
+2021-09-01,Equipos y Aparatos Eléctricos,153.55,0.8,21.5,25.6
+2021-10-01,Equipos y Aparatos Eléctricos,152.49,-0.7,20.6,23
+2021-11-01,Equipos y Aparatos Eléctricos,152.41,-0.1,20.6,22.2
+2021-12-01,Equipos y Aparatos Eléctricos,153.82,0.9,21.7,21.7
+2022-01-01,Equipos y Aparatos Eléctricos,149.24,-3,-3,15.5
+2022-02-01,Equipos y Aparatos Eléctricos,146.91,-1.6,-4.5,12.4
+2022-03-01,Equipos y Aparatos Eléctricos,145.51,-1,-5.4,8.1
+2022-04-01,Equipos y Aparatos Eléctricos,145.93,0.3,-5.1,7.3
+2022-05-01,Equipos y Aparatos Eléctricos,147.36,1,-4.2,4.9
+2022-06-01,Equipos y Aparatos Eléctricos,143.41,-2.7,-6.8,-2.4
+2022-07-01,Equipos y Aparatos Eléctricos,147.83,3.1,-3.9,-0.7
+2022-08-01,Equipos y Aparatos Eléctricos,144.67,-2.1,-5.9,-5.1
+2022-09-01,Equipos y Aparatos Eléctricos,142.88,-1.2,-7.1,-6.9
+2022-10-01,Equipos y Aparatos Eléctricos,145.19,1.6,-5.6,-4.8
+2022-11-01,Equipos y Aparatos Eléctricos,142.37,-1.9,-7.4,-6.6
+2022-12-01,Equipos y Aparatos Eléctricos,141.82,-0.4,-7.8,-7.8
+2023-01-01,Equipos y Aparatos Eléctricos,142.49,0.5,0.5,-4.5
+2023-02-01,Equipos y Aparatos Eléctricos,144.49,1.4,1.9,-1.6
+2023-03-01,Equipos y Aparatos Eléctricos,144.47,-0,1.9,-0.7
+2023-04-01,Equipos y Aparatos Eléctricos,145.57,0.8,2.6,-0.2
+2023-05-01,Equipos y Aparatos Eléctricos,141.12,-3.1,-0.5,-4.2
+2023-06-01,Equipos y Aparatos Eléctricos,138.31,-2,-2.5,-3.6
+2023-07-01,Equipos y Aparatos Eléctricos,137.01,-0.9,-3.4,-7.3
+2023-08-01,Equipos y Aparatos Eléctricos,139.25,1.6,-1.8,-3.7
+2023-09-01,Equipos y Aparatos Eléctricos,140.07,0.6,-1.2,-2
+2023-10-01,Equipos y Aparatos Eléctricos,143.78,2.6,1.4,-1
+2023-11-01,Equipos y Aparatos Eléctricos,140.69,-2.1,-0.8,-1.2
+2023-12-01,Equipos y Aparatos Eléctricos,139.71,-0.7,-1.5,-1.5
+2024-01-01,Equipos y Aparatos Eléctricos,139.7,-0,-0,-2
+2024-02-01,Equipos y Aparatos Eléctricos,142.91,2.3,2.3,-1.1
+2024-03-01,Equipos y Aparatos Eléctricos,139.89,-2.1,0.1,-3.2
+2024-04-01,Equipos y Aparatos Eléctricos,140.4,0.4,0.5,-3.6
+2024-05-01,Equipos y Aparatos Eléctricos,144.22,2.7,3.2,2.2
+2024-06-01,Equipos y Aparatos Eléctricos,147.63,2.4,5.7,6.7
+2024-07-01,Equipos y Aparatos Eléctricos,146.07,-1.1,4.6,6.6
+2024-08-01,Equipos y Aparatos Eléctricos,144.82,-0.9,3.7,4
+2024-09-01,Equipos y Aparatos Eléctricos,144.13,-0.5,3.2,2.9
+2024-10-01,Equipos y Aparatos Eléctricos,144.17,0,3.2,0.3
+2024-11-01,Equipos y Aparatos Eléctricos,145.93,1.2,4.5,3.7
+2024-12-01,Equipos y Aparatos Eléctricos,143.89,-1.4,3,3
+2025-01-01,Equipos y Aparatos Eléctricos,144.41,0.4,0.4,3.4
+2025-02-01,Equipos y Aparatos Eléctricos,142.3,-1.5,-1.1,-0.4
+2025-03-01,Equipos y Aparatos Eléctricos,141.52,-0.5,-1.6,1.2
+2025-04-01,Equipos y Aparatos Eléctricos,143.66,1.5,-0.2,2.3
+2025-05-01,Equipos y Aparatos Eléctricos,142.97,-0.5,-0.6,-0.9
+2025-06-01,Equipos y Aparatos Eléctricos,141.87,-0.8,-1.4,-3.9
+2025-07-01,Equipos y Aparatos Eléctricos,140.32,-1.1,-2.5,-3.9
+2025-08-01,Equipos y Aparatos Eléctricos,139.76,-0.4,-2.9,-3.5
+2025-09-01,Equipos y Aparatos Eléctricos,138.17,-1.1,-4,-4.1
+2025-10-01,Equipos y Aparatos Eléctricos,136.91,-0.9,-4.9,-5
+2025-11-01,Equipos y Aparatos Eléctricos,136.94,0,-4.8,-6.2
+2025-12-01,Equipos y Aparatos Eléctricos,136.22,-0.5,-5.3,-5.3
+2026-01-01,Equipos y Aparatos Eléctricos,137.32,0.8,0.8,-4.9
+2026-02-01,Equipos y Aparatos Eléctricos,137.72,0.3,1.1,-3.2
+2026-03-01,Equipos y Aparatos Eléctricos,138.42,0.5,1.6,-2.2
+2026-04-01,Equipos y Aparatos Eléctricos,138.34,-0.1,1.6,-3.7
+2014-01-01,Impresión y Reproducción de Grabaciones,100,NA,NA,NA
+2014-02-01,Impresión y Reproducción de Grabaciones,100,0,NA,NA
+2014-03-01,Impresión y Reproducción de Grabaciones,100.1,0.1,NA,NA
+2014-04-01,Impresión y Reproducción de Grabaciones,100.09,-0,NA,NA
+2014-05-01,Impresión y Reproducción de Grabaciones,101.03,0.9,NA,NA
+2014-06-01,Impresión y Reproducción de Grabaciones,100.98,-0,NA,NA
+2014-07-01,Impresión y Reproducción de Grabaciones,100.99,0,NA,NA
+2014-08-01,Impresión y Reproducción de Grabaciones,100.99,0,NA,NA
+2014-09-01,Impresión y Reproducción de Grabaciones,101.04,0,NA,NA
+2014-10-01,Impresión y Reproducción de Grabaciones,101.04,0,NA,NA
+2014-11-01,Impresión y Reproducción de Grabaciones,101.03,-0,NA,NA
+2014-12-01,Impresión y Reproducción de Grabaciones,101.03,0,NA,NA
+2015-01-01,Impresión y Reproducción de Grabaciones,101.26,0.2,0.2,1.3
+2015-02-01,Impresión y Reproducción de Grabaciones,101.26,0,0.2,1.3
+2015-03-01,Impresión y Reproducción de Grabaciones,101.26,0,0.2,1.2
+2015-04-01,Impresión y Reproducción de Grabaciones,101.26,0,0.2,1.2
+2015-05-01,Impresión y Reproducción de Grabaciones,101.26,0,0.2,0.2
+2015-06-01,Impresión y Reproducción de Grabaciones,101.26,0,0.2,0.3
+2015-07-01,Impresión y Reproducción de Grabaciones,101.26,0,0.2,0.3
+2015-08-01,Impresión y Reproducción de Grabaciones,101.32,0.1,0.3,0.3
+2015-09-01,Impresión y Reproducción de Grabaciones,101.32,0,0.3,0.3
+2015-10-01,Impresión y Reproducción de Grabaciones,101.22,-0.1,0.2,0.2
+2015-11-01,Impresión y Reproducción de Grabaciones,101.22,0,0.2,0.2
+2015-12-01,Impresión y Reproducción de Grabaciones,101.22,0,0.2,0.2
+2016-01-01,Impresión y Reproducción de Grabaciones,101.22,0,0,-0
+2016-02-01,Impresión y Reproducción de Grabaciones,104.58,3.3,3.3,3.3
+2016-03-01,Impresión y Reproducción de Grabaciones,107.22,2.5,5.9,5.9
+2016-04-01,Impresión y Reproducción de Grabaciones,108.64,1.3,7.3,7.3
+2016-05-01,Impresión y Reproducción de Grabaciones,108.72,0.1,7.4,7.4
+2016-06-01,Impresión y Reproducción de Grabaciones,108.77,0,7.5,7.4
+2016-07-01,Impresión y Reproducción de Grabaciones,108.57,-0.2,7.3,7.2
+2016-08-01,Impresión y Reproducción de Grabaciones,108.52,-0,7.2,7.1
+2016-09-01,Impresión y Reproducción de Grabaciones,109.4,0.8,8.1,8
+2016-10-01,Impresión y Reproducción de Grabaciones,109.44,0,8.1,8.1
+2016-11-01,Impresión y Reproducción de Grabaciones,109.09,-0.3,7.8,7.8
+2016-12-01,Impresión y Reproducción de Grabaciones,109.09,0,7.8,7.8
+2017-01-01,Impresión y Reproducción de Grabaciones,109.09,0,0,7.8
+2017-02-01,Impresión y Reproducción de Grabaciones,109.57,0.4,0.4,4.8
+2017-03-01,Impresión y Reproducción de Grabaciones,109.57,0,0.4,2.2
+2017-04-01,Impresión y Reproducción de Grabaciones,109.8,0.2,0.7,1.1
+2017-05-01,Impresión y Reproducción de Grabaciones,110.03,0.2,0.9,1.2
+2017-06-01,Impresión y Reproducción de Grabaciones,110.03,0,0.9,1.2
+2017-07-01,Impresión y Reproducción de Grabaciones,110.03,0,0.9,1.3
+2017-08-01,Impresión y Reproducción de Grabaciones,110.03,0,0.9,1.4
+2017-09-01,Impresión y Reproducción de Grabaciones,110.03,0,0.9,0.6
+2017-10-01,Impresión y Reproducción de Grabaciones,110.03,0,0.9,0.5
+2017-11-01,Impresión y Reproducción de Grabaciones,110.03,0,0.9,0.9
+2017-12-01,Impresión y Reproducción de Grabaciones,110.03,0,0.9,0.9
+2018-01-01,Impresión y Reproducción de Grabaciones,110.26,0.2,0.2,1.1
+2018-02-01,Impresión y Reproducción de Grabaciones,110.26,0,0.2,0.6
+2018-03-01,Impresión y Reproducción de Grabaciones,110.26,0,0.2,0.6
+2018-04-01,Impresión y Reproducción de Grabaciones,110.26,0,0.2,0.4
+2018-05-01,Impresión y Reproducción de Grabaciones,110.26,0,0.2,0.2
+2018-06-01,Impresión y Reproducción de Grabaciones,110.26,0,0.2,0.2
+2018-07-01,Impresión y Reproducción de Grabaciones,110.26,0,0.2,0.2
+2018-08-01,Impresión y Reproducción de Grabaciones,110.33,0.1,0.3,0.3
+2018-09-01,Impresión y Reproducción de Grabaciones,110.33,0,0.3,0.3
+2018-10-01,Impresión y Reproducción de Grabaciones,110.33,0,0.3,0.3
+2018-11-01,Impresión y Reproducción de Grabaciones,110.45,0.1,0.4,0.4
+2018-12-01,Impresión y Reproducción de Grabaciones,110.45,0,0.4,0.4
+2019-01-01,Impresión y Reproducción de Grabaciones,110.45,0,0,0.2
+2019-02-01,Impresión y Reproducción de Grabaciones,110.45,0,0,0.2
+2019-03-01,Impresión y Reproducción de Grabaciones,110.45,0,0,0.2
+2019-04-01,Impresión y Reproducción de Grabaciones,110.45,0,0,0.2
+2019-05-01,Impresión y Reproducción de Grabaciones,110.45,0,0,0.2
+2019-06-01,Impresión y Reproducción de Grabaciones,110.45,0,0,0.2
+2019-07-01,Impresión y Reproducción de Grabaciones,112.16,1.5,1.5,1.7
+2019-08-01,Impresión y Reproducción de Grabaciones,112.49,0.3,1.8,2
+2019-09-01,Impresión y Reproducción de Grabaciones,113.35,0.8,2.6,2.7
+2019-10-01,Impresión y Reproducción de Grabaciones,113.35,0,2.6,2.7
+2019-11-01,Impresión y Reproducción de Grabaciones,113.45,0.1,2.7,2.7
+2019-12-01,Impresión y Reproducción de Grabaciones,113.45,0,2.7,2.7
+2020-01-01,Impresión y Reproducción de Grabaciones,114.64,1,1,3.8
+2020-02-01,Impresión y Reproducción de Grabaciones,114.64,0,1,3.8
+2020-03-01,Impresión y Reproducción de Grabaciones,114.45,-0.2,0.9,3.6
+2020-04-01,Impresión y Reproducción de Grabaciones,114.45,0,0.9,3.6
+2020-05-01,Impresión y Reproducción de Grabaciones,114.45,0,0.9,3.6
+2020-06-01,Impresión y Reproducción de Grabaciones,114.45,0,0.9,3.6
+2020-07-01,Impresión y Reproducción de Grabaciones,114.45,0,0.9,2
+2020-08-01,Impresión y Reproducción de Grabaciones,114.45,0,0.9,1.7
+2020-09-01,Impresión y Reproducción de Grabaciones,114.45,0,0.9,1
+2020-10-01,Impresión y Reproducción de Grabaciones,114.45,0,0.9,1
+2020-11-01,Impresión y Reproducción de Grabaciones,114.51,0.1,0.9,0.9
+2020-12-01,Impresión y Reproducción de Grabaciones,114.51,0,0.9,0.9
+2021-01-01,Impresión y Reproducción de Grabaciones,114.51,0,0,-0.1
+2021-02-01,Impresión y Reproducción de Grabaciones,114.51,0,0,-0.1
+2021-03-01,Impresión y Reproducción de Grabaciones,114.51,0,0,0.1
+2021-04-01,Impresión y Reproducción de Grabaciones,114.51,0,0,0.1
+2021-05-01,Impresión y Reproducción de Grabaciones,114.51,0,0,0.1
+2021-06-01,Impresión y Reproducción de Grabaciones,114.51,0,0,0.1
+2021-07-01,Impresión y Reproducción de Grabaciones,114.51,0,0,0.1
+2021-08-01,Impresión y Reproducción de Grabaciones,114.51,0,0,0.1
+2021-09-01,Impresión y Reproducción de Grabaciones,114.51,0,0,0.1
+2021-10-01,Impresión y Reproducción de Grabaciones,114.51,0,0,0.1
+2021-11-01,Impresión y Reproducción de Grabaciones,114.51,0,0,0
+2021-12-01,Impresión y Reproducción de Grabaciones,115.37,0.8,0.8,0.8
+2022-01-01,Impresión y Reproducción de Grabaciones,115.37,0,0,0.8
+2022-02-01,Impresión y Reproducción de Grabaciones,118.43,2.7,2.7,3.4
+2022-03-01,Impresión y Reproducción de Grabaciones,118.96,0.4,3.1,3.9
+2022-04-01,Impresión y Reproducción de Grabaciones,118.96,0,3.1,3.9
+2022-05-01,Impresión y Reproducción de Grabaciones,119.84,0.7,3.9,4.7
+2022-06-01,Impresión y Reproducción de Grabaciones,120.09,0.2,4.1,4.9
+2022-07-01,Impresión y Reproducción de Grabaciones,120.09,0,4.1,4.9
+2022-08-01,Impresión y Reproducción de Grabaciones,120.09,0,4.1,4.9
+2022-09-01,Impresión y Reproducción de Grabaciones,120.43,0.3,4.4,5.2
+2022-10-01,Impresión y Reproducción de Grabaciones,120.43,0,4.4,5.2
+2022-11-01,Impresión y Reproducción de Grabaciones,122.14,1.4,5.9,6.7
+2022-12-01,Impresión y Reproducción de Grabaciones,122.14,0,5.9,5.9
+2023-01-01,Impresión y Reproducción de Grabaciones,122.17,0,0,5.9
+2023-02-01,Impresión y Reproducción de Grabaciones,122.65,0.4,0.4,3.6
+2023-03-01,Impresión y Reproducción de Grabaciones,122.86,0.2,0.6,3.3
+2023-04-01,Impresión y Reproducción de Grabaciones,122.86,0,0.6,3.3
+2023-05-01,Impresión y Reproducción de Grabaciones,122.86,0,0.6,2.5
+2023-06-01,Impresión y Reproducción de Grabaciones,124.67,1.5,2.1,3.8
+2023-07-01,Impresión y Reproducción de Grabaciones,125.53,0.7,2.8,4.5
+2023-08-01,Impresión y Reproducción de Grabaciones,129.56,3.2,6.1,7.9
+2023-09-01,Impresión y Reproducción de Grabaciones,130.03,0.4,6.5,8
+2023-10-01,Impresión y Reproducción de Grabaciones,130.03,0,6.5,8
+2023-11-01,Impresión y Reproducción de Grabaciones,130.03,0,6.5,6.5
+2023-12-01,Impresión y Reproducción de Grabaciones,130,-0,6.4,6.4
+2024-01-01,Impresión y Reproducción de Grabaciones,129.92,-0.1,-0.1,6.3
+2024-02-01,Impresión y Reproducción de Grabaciones,129.92,0,-0.1,5.9
+2024-03-01,Impresión y Reproducción de Grabaciones,129.93,0,-0.1,5.8
+2024-04-01,Impresión y Reproducción de Grabaciones,129.99,0,-0,5.8
+2024-05-01,Impresión y Reproducción de Grabaciones,130.02,0,0,5.8
+2024-06-01,Impresión y Reproducción de Grabaciones,130,-0,0,4.3
+2024-07-01,Impresión y Reproducción de Grabaciones,129.99,-0,-0,3.6
+2024-08-01,Impresión y Reproducción de Grabaciones,130.03,0,0,0.4
+2024-09-01,Impresión y Reproducción de Grabaciones,130.03,0,0,0
+2024-10-01,Impresión y Reproducción de Grabaciones,130.03,0,0,0
+2024-11-01,Impresión y Reproducción de Grabaciones,130,-0,0,-0
+2024-12-01,Impresión y Reproducción de Grabaciones,130,0,0,0
+2025-01-01,Impresión y Reproducción de Grabaciones,129.96,-0,-0,0
+2025-02-01,Impresión y Reproducción de Grabaciones,130.29,0.3,0.2,0.3
+2025-03-01,Impresión y Reproducción de Grabaciones,130.3,0,0.2,0.3
+2025-04-01,Impresión y Reproducción de Grabaciones,130.29,-0,0.2,0.2
+2025-05-01,Impresión y Reproducción de Grabaciones,130.28,-0,0.2,0.2
+2025-06-01,Impresión y Reproducción de Grabaciones,130.37,0.1,0.3,0.3
+2025-07-01,Impresión y Reproducción de Grabaciones,130.3,-0.1,0.2,0.2
+2025-08-01,Impresión y Reproducción de Grabaciones,130.31,0,0.2,0.2
+2025-09-01,Impresión y Reproducción de Grabaciones,130.31,0,0.2,0.2
+2025-10-01,Impresión y Reproducción de Grabaciones,130.32,0,0.2,0.2
+2025-11-01,Impresión y Reproducción de Grabaciones,130.74,0.3,0.6,0.6
+2025-12-01,Impresión y Reproducción de Grabaciones,130.72,-0,0.6,0.6
+2026-01-01,Impresión y Reproducción de Grabaciones,130.57,-0.1,-0.1,0.5
+2026-02-01,Impresión y Reproducción de Grabaciones,130.58,0,-0.1,0.2
+2026-03-01,Impresión y Reproducción de Grabaciones,131.01,0.3,0.2,0.5
+2026-04-01,Impresión y Reproducción de Grabaciones,131.35,0.3,0.5,0.8
+2014-01-01,Metales Comunes y Productos Elaborados de Metal,99.5,NA,NA,NA
+2014-02-01,Metales Comunes y Productos Elaborados de Metal,99.31,-0.2,NA,NA
+2014-03-01,Metales Comunes y Productos Elaborados de Metal,99.48,0.2,NA,NA
+2014-04-01,Metales Comunes y Productos Elaborados de Metal,99.57,0.1,NA,NA
+2014-05-01,Metales Comunes y Productos Elaborados de Metal,99.13,-0.4,NA,NA
+2014-06-01,Metales Comunes y Productos Elaborados de Metal,96.51,-2.6,NA,NA
+2014-07-01,Metales Comunes y Productos Elaborados de Metal,97.23,0.7,NA,NA
+2014-08-01,Metales Comunes y Productos Elaborados de Metal,97.64,0.4,NA,NA
+2014-09-01,Metales Comunes y Productos Elaborados de Metal,98.97,1.4,NA,NA
+2014-10-01,Metales Comunes y Productos Elaborados de Metal,99.97,1,NA,NA
+2014-11-01,Metales Comunes y Productos Elaborados de Metal,100.71,0.7,NA,NA
+2014-12-01,Metales Comunes y Productos Elaborados de Metal,101.33,0.6,NA,NA
+2015-01-01,Metales Comunes y Productos Elaborados de Metal,102.77,1.4,1.4,3.3
+2015-02-01,Metales Comunes y Productos Elaborados de Metal,104.22,1.4,2.9,4.9
+2015-03-01,Metales Comunes y Productos Elaborados de Metal,104.59,0.4,3.2,5.1
+2015-04-01,Metales Comunes y Productos Elaborados de Metal,103.19,-1.3,1.8,3.6
+2015-05-01,Metales Comunes y Productos Elaborados de Metal,102.21,-0.9,0.9,3.1
+2015-06-01,Metales Comunes y Productos Elaborados de Metal,101.98,-0.2,0.6,5.7
+2015-07-01,Metales Comunes y Productos Elaborados de Metal,99.16,-2.8,-2.1,2
+2015-08-01,Metales Comunes y Productos Elaborados de Metal,99.02,-0.1,-2.3,1.4
+2015-09-01,Metales Comunes y Productos Elaborados de Metal,98.13,-0.9,-3.2,-0.8
+2015-10-01,Metales Comunes y Productos Elaborados de Metal,98.3,0.2,-3,-1.7
+2015-11-01,Metales Comunes y Productos Elaborados de Metal,100.13,1.9,-1.2,-0.6
+2015-12-01,Metales Comunes y Productos Elaborados de Metal,100.17,0,-1.1,-1.1
+2016-01-01,Metales Comunes y Productos Elaborados de Metal,101.8,1.6,1.6,-0.9
+2016-02-01,Metales Comunes y Productos Elaborados de Metal,101.79,-0,1.6,-2.3
+2016-03-01,Metales Comunes y Productos Elaborados de Metal,100.03,-1.7,-0.1,-4.4
+2016-04-01,Metales Comunes y Productos Elaborados de Metal,98.17,-1.9,-2,-4.9
+2016-05-01,Metales Comunes y Productos Elaborados de Metal,99.55,1.4,-0.6,-2.6
+2016-06-01,Metales Comunes y Productos Elaborados de Metal,100.62,1.1,0.4,-1.3
+2016-07-01,Metales Comunes y Productos Elaborados de Metal,99.67,-0.9,-0.5,0.5
+2016-08-01,Metales Comunes y Productos Elaborados de Metal,99.52,-0.2,-0.6,0.5
+2016-09-01,Metales Comunes y Productos Elaborados de Metal,100.76,1.2,0.6,2.7
+2016-10-01,Metales Comunes y Productos Elaborados de Metal,101.23,0.5,1.1,3
+2016-11-01,Metales Comunes y Productos Elaborados de Metal,101.88,0.6,1.7,1.7
+2016-12-01,Metales Comunes y Productos Elaborados de Metal,102.38,0.5,2.2,2.2
+2017-01-01,Metales Comunes y Productos Elaborados de Metal,102.13,-0.2,-0.2,0.3
+2017-02-01,Metales Comunes y Productos Elaborados de Metal,100.08,-2,-2.2,-1.7
+2017-03-01,Metales Comunes y Productos Elaborados de Metal,99.62,-0.5,-2.7,-0.4
+2017-04-01,Metales Comunes y Productos Elaborados de Metal,97.17,-2.5,-5.1,-1
+2017-05-01,Metales Comunes y Productos Elaborados de Metal,98.5,1.4,-3.8,-1.1
+2017-06-01,Metales Comunes y Productos Elaborados de Metal,99.76,1.3,-2.6,-0.9
+2017-07-01,Metales Comunes y Productos Elaborados de Metal,99.36,-0.4,-2.9,-0.3
+2017-08-01,Metales Comunes y Productos Elaborados de Metal,99.5,0.1,-2.8,-0
+2017-09-01,Metales Comunes y Productos Elaborados de Metal,101.34,1.8,-1,0.6
+2017-10-01,Metales Comunes y Productos Elaborados de Metal,101.75,0.4,-0.6,0.5
+2017-11-01,Metales Comunes y Productos Elaborados de Metal,101.83,0.1,-0.5,-0
+2017-12-01,Metales Comunes y Productos Elaborados de Metal,102.99,1.1,0.6,0.6
+2018-01-01,Metales Comunes y Productos Elaborados de Metal,104.11,1.1,1.1,1.9
+2018-02-01,Metales Comunes y Productos Elaborados de Metal,106.5,2.3,3.4,6.4
+2018-03-01,Metales Comunes y Productos Elaborados de Metal,106.71,0.2,3.6,7.1
+2018-04-01,Metales Comunes y Productos Elaborados de Metal,105.39,-1.2,2.3,8.5
+2018-05-01,Metales Comunes y Productos Elaborados de Metal,106.48,1,3.4,8.1
+2018-06-01,Metales Comunes y Productos Elaborados de Metal,106.09,-0.4,3,6.3
+2018-07-01,Metales Comunes y Productos Elaborados de Metal,105.9,-0.2,2.8,6.6
+2018-08-01,Metales Comunes y Productos Elaborados de Metal,107.39,1.4,4.3,7.9
+2018-09-01,Metales Comunes y Productos Elaborados de Metal,109.61,2.1,6.4,8.2
+2018-10-01,Metales Comunes y Productos Elaborados de Metal,110.17,0.5,7,8.3
+2018-11-01,Metales Comunes y Productos Elaborados de Metal,112.03,1.7,8.8,10
+2018-12-01,Metales Comunes y Productos Elaborados de Metal,111.82,-0.2,8.6,8.6
+2019-01-01,Metales Comunes y Productos Elaborados de Metal,111.06,-0.7,-0.7,6.7
+2019-02-01,Metales Comunes y Productos Elaborados de Metal,109.77,-1.2,-1.8,3.1
+2019-03-01,Metales Comunes y Productos Elaborados de Metal,108.77,-0.9,-2.7,1.9
+2019-04-01,Metales Comunes y Productos Elaborados de Metal,108.57,-0.2,-2.9,3
+2019-05-01,Metales Comunes y Productos Elaborados de Metal,108.37,-0.2,-3.1,1.8
+2019-06-01,Metales Comunes y Productos Elaborados de Metal,108.81,0.4,-2.7,2.6
+2019-07-01,Metales Comunes y Productos Elaborados de Metal,107.04,-1.6,-4.3,1.1
+2019-08-01,Metales Comunes y Productos Elaborados de Metal,109.92,2.7,-1.7,2.4
+2019-09-01,Metales Comunes y Productos Elaborados de Metal,109.46,-0.4,-2.1,-0.1
+2019-10-01,Metales Comunes y Productos Elaborados de Metal,109.9,0.4,-1.7,-0.2
+2019-11-01,Metales Comunes y Productos Elaborados de Metal,109.64,-0.2,-1.9,-2.1
+2019-12-01,Metales Comunes y Productos Elaborados de Metal,109.56,-0.1,-2,-2
+2020-01-01,Metales Comunes y Productos Elaborados de Metal,107.87,-1.5,-1.5,-2.9
+2020-02-01,Metales Comunes y Productos Elaborados de Metal,109.83,1.8,0.2,0.1
+2020-03-01,Metales Comunes y Productos Elaborados de Metal,111.53,1.5,1.8,2.5
+2020-04-01,Metales Comunes y Productos Elaborados de Metal,109.69,-1.6,0.1,1
+2020-05-01,Metales Comunes y Productos Elaborados de Metal,109.93,0.2,0.3,1.4
+2020-06-01,Metales Comunes y Productos Elaborados de Metal,110.81,0.8,1.1,1.8
+2020-07-01,Metales Comunes y Productos Elaborados de Metal,113.56,2.5,3.7,6.1
+2020-08-01,Metales Comunes y Productos Elaborados de Metal,113.3,-0.2,3.4,3.1
+2020-09-01,Metales Comunes y Productos Elaborados de Metal,113.21,-0.1,3.3,3.4
+2020-10-01,Metales Comunes y Productos Elaborados de Metal,114.3,1,4.3,4
+2020-11-01,Metales Comunes y Productos Elaborados de Metal,113.69,-0.5,3.8,3.7
+2020-12-01,Metales Comunes y Productos Elaborados de Metal,116.96,2.9,6.8,6.8
+2021-01-01,Metales Comunes y Productos Elaborados de Metal,121.81,4.1,4.1,12.9
+2021-02-01,Metales Comunes y Productos Elaborados de Metal,127.61,4.8,9.1,16.2
+2021-03-01,Metales Comunes y Productos Elaborados de Metal,133.79,4.8,14.4,20
+2021-04-01,Metales Comunes y Productos Elaborados de Metal,132.7,-0.8,13.5,21
+2021-05-01,Metales Comunes y Productos Elaborados de Metal,134.03,1,14.6,21.9
+2021-06-01,Metales Comunes y Productos Elaborados de Metal,139.97,4.4,19.7,26.3
+2021-07-01,Metales Comunes y Productos Elaborados de Metal,141.19,0.9,20.7,24.3
+2021-08-01,Metales Comunes y Productos Elaborados de Metal,145.15,2.8,24.1,28.1
+2021-09-01,Metales Comunes y Productos Elaborados de Metal,145.35,0.1,24.3,28.4
+2021-10-01,Metales Comunes y Productos Elaborados de Metal,143.29,-1.4,22.5,25.4
+2021-11-01,Metales Comunes y Productos Elaborados de Metal,143.05,-0.2,22.3,25.8
+2021-12-01,Metales Comunes y Productos Elaborados de Metal,144.49,1,23.5,23.5
+2022-01-01,Metales Comunes y Productos Elaborados de Metal,146.91,1.7,1.7,20.6
+2022-02-01,Metales Comunes y Productos Elaborados de Metal,144.83,-1.4,0.2,13.5
+2022-03-01,Metales Comunes y Productos Elaborados de Metal,148.52,2.5,2.8,11
+2022-04-01,Metales Comunes y Productos Elaborados de Metal,149.06,0.4,3.2,12.3
+2022-05-01,Metales Comunes y Productos Elaborados de Metal,159.96,7.3,10.7,19.3
+2022-06-01,Metales Comunes y Productos Elaborados de Metal,154.37,-3.5,6.8,10.3
+2022-07-01,Metales Comunes y Productos Elaborados de Metal,158.73,2.8,9.9,12.4
+2022-08-01,Metales Comunes y Productos Elaborados de Metal,158.41,-0.2,9.6,9.1
+2022-09-01,Metales Comunes y Productos Elaborados de Metal,151.46,-4.4,4.8,4.2
+2022-10-01,Metales Comunes y Productos Elaborados de Metal,154.62,2.1,7,7.9
+2022-11-01,Metales Comunes y Productos Elaborados de Metal,149.15,-3.5,3.2,4.3
+2022-12-01,Metales Comunes y Productos Elaborados de Metal,147.5,-1.1,2.1,2.1
+2023-01-01,Metales Comunes y Productos Elaborados de Metal,148.92,1,1,1.4
+2023-02-01,Metales Comunes y Productos Elaborados de Metal,151.24,1.6,2.5,4.4
+2023-03-01,Metales Comunes y Productos Elaborados de Metal,147.03,-2.8,-0.3,-1
+2023-04-01,Metales Comunes y Productos Elaborados de Metal,144.99,-1.4,-1.7,-2.7
+2023-05-01,Metales Comunes y Productos Elaborados de Metal,141.36,-2.5,-4.2,-11.6
+2023-06-01,Metales Comunes y Productos Elaborados de Metal,141.31,-0,-4.2,-8.5
+2023-07-01,Metales Comunes y Productos Elaborados de Metal,136.93,-3.1,-7.2,-13.7
+2023-08-01,Metales Comunes y Productos Elaborados de Metal,138.41,1.1,-6.2,-12.6
+2023-09-01,Metales Comunes y Productos Elaborados de Metal,139.23,0.6,-5.6,-8.1
+2023-10-01,Metales Comunes y Productos Elaborados de Metal,142.78,2.5,-3.2,-7.7
+2023-11-01,Metales Comunes y Productos Elaborados de Metal,139.57,-2.2,-5.4,-6.4
+2023-12-01,Metales Comunes y Productos Elaborados de Metal,138.13,-1,-6.4,-6.4
+2024-01-01,Metales Comunes y Productos Elaborados de Metal,138.37,0.2,0.2,-7.1
+2024-02-01,Metales Comunes y Productos Elaborados de Metal,144.76,4.6,4.8,-4.3
+2024-03-01,Metales Comunes y Productos Elaborados de Metal,140.52,-2.9,1.7,-4.4
+2024-04-01,Metales Comunes y Productos Elaborados de Metal,139.87,-0.5,1.3,-3.5
+2024-05-01,Metales Comunes y Productos Elaborados de Metal,140.39,0.4,1.6,-0.7
+2024-06-01,Metales Comunes y Productos Elaborados de Metal,139.19,-0.9,0.8,-1.5
+2024-07-01,Metales Comunes y Productos Elaborados de Metal,141.76,1.8,2.6,3.5
+2024-08-01,Metales Comunes y Productos Elaborados de Metal,143.33,1.1,3.8,3.6
+2024-09-01,Metales Comunes y Productos Elaborados de Metal,143.57,0.2,3.9,3.1
+2024-10-01,Metales Comunes y Productos Elaborados de Metal,142.94,-0.4,3.5,0.1
+2024-11-01,Metales Comunes y Productos Elaborados de Metal,144.06,0.8,4.3,3.2
+2024-12-01,Metales Comunes y Productos Elaborados de Metal,141.6,-1.7,2.5,2.5
+2025-01-01,Metales Comunes y Productos Elaborados de Metal,142.29,0.5,0.5,2.8
+2025-02-01,Metales Comunes y Productos Elaborados de Metal,141.1,-0.8,-0.4,-2.5
+2025-03-01,Metales Comunes y Productos Elaborados de Metal,138.6,-1.8,-2.1,-1.4
+2025-04-01,Metales Comunes y Productos Elaborados de Metal,138.28,-0.2,-2.3,-1.1
+2025-05-01,Metales Comunes y Productos Elaborados de Metal,140.95,1.9,-0.5,0.4
+2025-06-01,Metales Comunes y Productos Elaborados de Metal,140.39,-0.4,-0.9,0.9
+2025-07-01,Metales Comunes y Productos Elaborados de Metal,137.41,-2.1,-3,-3.1
+2025-08-01,Metales Comunes y Productos Elaborados de Metal,135.6,-1.3,-4.2,-5.4
+2025-09-01,Metales Comunes y Productos Elaborados de Metal,133.24,-1.7,-5.9,-7.2
+2025-10-01,Metales Comunes y Productos Elaborados de Metal,131.03,-1.7,-7.5,-8.3
+2025-11-01,Metales Comunes y Productos Elaborados de Metal,129.3,-1.3,-8.7,-10.2
+2025-12-01,Metales Comunes y Productos Elaborados de Metal,129.27,-0,-8.7,-8.7
+2026-01-01,Metales Comunes y Productos Elaborados de Metal,128.11,-0.9,-0.9,-10
+2026-02-01,Metales Comunes y Productos Elaborados de Metal,127.99,-0.1,-1,-9.3
+2026-03-01,Metales Comunes y Productos Elaborados de Metal,130.01,1.6,0.6,-6.2
+2026-04-01,Metales Comunes y Productos Elaborados de Metal,129.02,-0.8,-0.2,-6.7
+2014-01-01,Muebles,99.85,NA,NA,NA
+2014-02-01,Muebles,99.41,-0.4,NA,NA
+2014-03-01,Muebles,99.34,-0.1,NA,NA
+2014-04-01,Muebles,99.05,-0.3,NA,NA
+2014-05-01,Muebles,99.04,-0,NA,NA
+2014-06-01,Muebles,99.75,0.7,NA,NA
+2014-07-01,Muebles,99.49,-0.3,NA,NA
+2014-08-01,Muebles,99.4,-0.1,NA,NA
+2014-09-01,Muebles,99.67,0.3,NA,NA
+2014-10-01,Muebles,99.97,0.3,NA,NA
+2014-11-01,Muebles,101.53,1.6,NA,NA
+2014-12-01,Muebles,101.7,0.2,NA,NA
+2015-01-01,Muebles,101.8,0.1,0.1,2
+2015-02-01,Muebles,102.32,0.5,0.6,2.9
+2015-03-01,Muebles,102.54,0.2,0.8,3.2
+2015-04-01,Muebles,102.99,0.4,1.3,4
+2015-05-01,Muebles,102.94,-0,1.2,3.9
+2015-06-01,Muebles,103.06,0.1,1.3,3.3
+2015-07-01,Muebles,103.2,0.1,1.5,3.7
+2015-08-01,Muebles,103.31,0.1,1.6,3.9
+2015-09-01,Muebles,103.32,0,1.6,3.7
+2015-10-01,Muebles,103.33,0,1.6,3.4
+2015-11-01,Muebles,102.96,-0.4,1.2,1.4
+2015-12-01,Muebles,101.31,-1.6,-0.4,-0.4
+2016-01-01,Muebles,102.51,1.2,1.2,0.7
+2016-02-01,Muebles,103.17,0.6,1.8,0.8
+2016-03-01,Muebles,102.88,-0.3,1.5,0.3
+2016-04-01,Muebles,102.66,-0.2,1.3,-0.3
+2016-05-01,Muebles,102.2,-0.4,0.9,-0.7
+2016-06-01,Muebles,102.26,0.1,0.9,-0.8
+2016-07-01,Muebles,101.17,-1.1,-0.1,-2
+2016-08-01,Muebles,101.15,-0,-0.2,-2.1
+2016-09-01,Muebles,101.16,0,-0.1,-2.1
+2016-10-01,Muebles,101.39,0.2,0.1,-1.9
+2016-11-01,Muebles,101.5,0.1,0.2,-1.4
+2016-12-01,Muebles,101.5,0,0.2,0.2
+2017-01-01,Muebles,101.29,-0.2,-0.2,-1.2
+2017-02-01,Muebles,100.77,-0.5,-0.7,-2.3
+2017-03-01,Muebles,100.9,0.1,-0.6,-1.9
+2017-04-01,Muebles,101,0.1,-0.5,-1.6
+2017-05-01,Muebles,101.28,0.3,-0.2,-0.9
+2017-06-01,Muebles,101.39,0.1,-0.1,-0.9
+2017-07-01,Muebles,101.43,0,-0.1,0.3
+2017-08-01,Muebles,101.39,-0,-0.1,0.2
+2017-09-01,Muebles,101.29,-0.1,-0.2,0.1
+2017-10-01,Muebles,101.77,0.5,0.3,0.4
+2017-11-01,Muebles,101.81,0,0.3,0.3
+2017-12-01,Muebles,101.66,-0.1,0.2,0.2
+2018-01-01,Muebles,101.14,-0.5,-0.5,-0.1
+2018-02-01,Muebles,101.28,0.1,-0.4,0.5
+2018-03-01,Muebles,101.35,0.1,-0.3,0.4
+2018-04-01,Muebles,102.07,0.7,0.4,1.1
+2018-05-01,Muebles,102.16,0.1,0.5,0.9
+2018-06-01,Muebles,102.34,0.2,0.7,0.9
+2018-07-01,Muebles,102.64,0.3,1,1.2
+2018-08-01,Muebles,102.69,0,1,1.3
+2018-09-01,Muebles,103.09,0.4,1.4,1.8
+2018-10-01,Muebles,103.47,0.4,1.8,1.7
+2018-11-01,Muebles,103.51,0,1.8,1.7
+2018-12-01,Muebles,103.73,0.2,2,2
+2019-01-01,Muebles,102.46,-1.2,-1.2,1.3
+2019-02-01,Muebles,103.05,0.6,-0.7,1.7
+2019-03-01,Muebles,102.59,-0.4,-1.1,1.2
+2019-04-01,Muebles,102.1,-0.5,-1.6,0
+2019-05-01,Muebles,102.13,0,-1.5,-0
+2019-06-01,Muebles,101.76,-0.4,-1.9,-0.6
+2019-07-01,Muebles,101.51,-0.2,-2.1,-1.1
+2019-08-01,Muebles,101.29,-0.2,-2.4,-1.4
+2019-09-01,Muebles,101.22,-0.1,-2.4,-1.8
+2019-10-01,Muebles,101.6,0.4,-2.1,-1.8
+2019-11-01,Muebles,102.18,0.6,-1.5,-1.3
+2019-12-01,Muebles,102.19,0,-1.5,-1.5
+2020-01-01,Muebles,102.1,-0.1,-0.1,-0.4
+2020-02-01,Muebles,101.91,-0.2,-0.3,-1.1
+2020-03-01,Muebles,101.91,0,-0.3,-0.7
+2020-04-01,Muebles,101.72,-0.2,-0.5,-0.4
+2020-05-01,Muebles,101.25,-0.5,-0.9,-0.9
+2020-06-01,Muebles,101.25,0,-0.9,-0.5
+2020-07-01,Muebles,101.32,0.1,-0.9,-0.2
+2020-08-01,Muebles,101.79,0.5,-0.4,0.5
+2020-09-01,Muebles,101.94,0.1,-0.2,0.7
+2020-10-01,Muebles,101.9,-0,-0.3,0.3
+2020-11-01,Muebles,102.22,0.3,0,0
+2020-12-01,Muebles,102.2,-0,0,0
+2021-01-01,Muebles,103.16,0.9,0.9,1
+2021-02-01,Muebles,104.52,1.3,2.3,2.6
+2021-03-01,Muebles,104.52,0,2.3,2.6
+2021-04-01,Muebles,104.83,0.3,2.6,3.1
+2021-05-01,Muebles,105.91,1,3.6,4.6
+2021-06-01,Muebles,107.8,1.8,5.5,6.5
+2021-07-01,Muebles,107.54,-0.2,5.2,6.1
+2021-08-01,Muebles,107.95,0.4,5.6,6.1
+2021-09-01,Muebles,110.17,2.1,7.8,8.1
+2021-10-01,Muebles,110.79,0.6,8.4,8.7
+2021-11-01,Muebles,111.15,0.3,8.8,8.7
+2021-12-01,Muebles,111.29,0.1,8.9,8.9
+2022-01-01,Muebles,111.01,-0.3,-0.3,7.6
+2022-02-01,Muebles,110,-0.9,-1.2,5.2
+2022-03-01,Muebles,109.91,-0.1,-1.2,5.2
+2022-04-01,Muebles,109.35,-0.5,-1.7,4.3
+2022-05-01,Muebles,109.27,-0.1,-1.8,3.2
+2022-06-01,Muebles,110.72,1.3,-0.5,2.7
+2022-07-01,Muebles,113.06,2.1,1.6,5.1
+2022-08-01,Muebles,115.31,2,3.6,6.8
+2022-09-01,Muebles,116.7,1.2,4.9,5.9
+2022-10-01,Muebles,116.64,-0.1,4.8,5.3
+2022-11-01,Muebles,116.39,-0.2,4.6,4.7
+2022-12-01,Muebles,115.88,-0.4,4.1,4.1
+2023-01-01,Muebles,116.34,0.4,0.4,4.8
+2023-02-01,Muebles,116.7,0.3,0.7,6.1
+2023-03-01,Muebles,116.9,0.2,0.9,6.4
+2023-04-01,Muebles,116.88,-0,0.9,6.9
+2023-05-01,Muebles,116.43,-0.4,0.5,6.6
+2023-06-01,Muebles,115.8,-0.5,-0.1,4.6
+2023-07-01,Muebles,114.37,-1.2,-1.3,1.2
+2023-08-01,Muebles,115.07,0.6,-0.7,-0.2
+2023-09-01,Muebles,114.71,-0.3,-1,-1.7
+2023-10-01,Muebles,114.8,0.1,-0.9,-1.6
+2023-11-01,Muebles,113.99,-0.7,-1.6,-2.1
+2023-12-01,Muebles,112.9,-1,-2.6,-2.6
+2024-01-01,Muebles,112.88,-0,-0,-3
+2024-02-01,Muebles,113.3,0.4,0.4,-2.9
+2024-03-01,Muebles,112.29,-0.9,-0.5,-3.9
+2024-04-01,Muebles,111.89,-0.4,-0.9,-4.3
+2024-05-01,Muebles,111.29,-0.5,-1.4,-4.4
+2024-06-01,Muebles,111.87,0.5,-0.9,-3.4
+2024-07-01,Muebles,112.32,0.4,-0.5,-1.8
+2024-08-01,Muebles,112.14,-0.2,-0.7,-2.5
+2024-09-01,Muebles,112.29,0.1,-0.5,-2.1
+2024-10-01,Muebles,112.19,-0.1,-0.6,-2.3
+2024-11-01,Muebles,112.46,0.2,-0.4,-1.3
+2024-12-01,Muebles,112.11,-0.3,-0.7,-0.7
+2025-01-01,Muebles,112.52,0.4,0.4,-0.3
+2025-02-01,Muebles,112.26,-0.2,0.1,-0.9
+2025-03-01,Muebles,112.05,-0.2,-0.1,-0.2
+2025-04-01,Muebles,112.34,0.3,0.2,0.4
+2025-05-01,Muebles,112.13,-0.2,0,0.8
+2025-06-01,Muebles,111.97,-0.1,-0.1,0.1
+2025-07-01,Muebles,112,0,-0.1,-0.3
+2025-08-01,Muebles,111.57,-0.4,-0.5,-0.5
+2025-09-01,Muebles,111.36,-0.2,-0.7,-0.8
+2025-10-01,Muebles,111.32,-0,-0.7,-0.8
+2025-11-01,Muebles,111.15,-0.2,-0.9,-1.2
+2025-12-01,Muebles,110.75,-0.4,-1.2,-1.2
+2026-01-01,Muebles,110.73,-0,-0,-1.6
+2026-02-01,Muebles,110.54,-0.2,-0.2,-1.5
+2026-03-01,Muebles,111.43,0.8,0.6,-0.6
+2026-04-01,Muebles,111.95,0.5,1.1,-0.3
+2014-01-01,Otros Productos de Manufactura,100.39,NA,NA,NA
+2014-02-01,Otros Productos de Manufactura,100.63,0.2,NA,NA
+2014-03-01,Otros Productos de Manufactura,100.63,0,NA,NA
+2014-04-01,Otros Productos de Manufactura,103.39,2.7,NA,NA
+2014-05-01,Otros Productos de Manufactura,103.39,0,NA,NA
+2014-06-01,Otros Productos de Manufactura,103.39,0,NA,NA
+2014-07-01,Otros Productos de Manufactura,103.39,0,NA,NA
+2014-08-01,Otros Productos de Manufactura,103.39,0,NA,NA
+2014-09-01,Otros Productos de Manufactura,103.39,0,NA,NA
+2014-10-01,Otros Productos de Manufactura,103.39,0,NA,NA
+2014-11-01,Otros Productos de Manufactura,103.46,0.1,NA,NA
+2014-12-01,Otros Productos de Manufactura,103.46,0,NA,NA
+2015-01-01,Otros Productos de Manufactura,103.46,0,0,3.1
+2015-02-01,Otros Productos de Manufactura,103.46,0,0,2.8
+2015-03-01,Otros Productos de Manufactura,103.46,0,0,2.8
+2015-04-01,Otros Productos de Manufactura,107.12,3.5,3.5,3.6
+2015-05-01,Otros Productos de Manufactura,106.91,-0.2,3.3,3.4
+2015-06-01,Otros Productos de Manufactura,106.91,0,3.3,3.4
+2015-07-01,Otros Productos de Manufactura,106.91,0,3.3,3.4
+2015-08-01,Otros Productos de Manufactura,106.96,0,3.4,3.5
+2015-09-01,Otros Productos de Manufactura,107.46,0.5,3.9,3.9
+2015-10-01,Otros Productos de Manufactura,107.98,0.5,4.4,4.4
+2015-11-01,Otros Productos de Manufactura,107.98,0,4.4,4.4
+2015-12-01,Otros Productos de Manufactura,108.35,0.3,4.7,4.7
+2016-01-01,Otros Productos de Manufactura,108.73,0.4,0.4,5.1
+2016-02-01,Otros Productos de Manufactura,108.73,0,0.4,5.1
+2016-03-01,Otros Productos de Manufactura,108.73,0,0.4,5.1
+2016-04-01,Otros Productos de Manufactura,112.88,3.8,4.2,5.4
+2016-05-01,Otros Productos de Manufactura,112.43,-0.4,3.8,5.2
+2016-06-01,Otros Productos de Manufactura,112,-0.4,3.4,4.8
+2016-07-01,Otros Productos de Manufactura,112,0,3.4,4.8
+2016-08-01,Otros Productos de Manufactura,112,0,3.4,4.7
+2016-09-01,Otros Productos de Manufactura,112,0,3.4,4.2
+2016-10-01,Otros Productos de Manufactura,111.93,-0.1,3.3,3.7
+2016-11-01,Otros Productos de Manufactura,111.93,0,3.3,3.7
+2016-12-01,Otros Productos de Manufactura,111.93,0,3.3,3.3
+2017-01-01,Otros Productos de Manufactura,111.92,-0,-0,2.9
+2017-02-01,Otros Productos de Manufactura,111.92,0,-0,2.9
+2017-03-01,Otros Productos de Manufactura,111.92,0,-0,2.9
+2017-04-01,Otros Productos de Manufactura,111.92,0,-0,-0.9
+2017-05-01,Otros Productos de Manufactura,111.92,0,-0,-0.5
+2017-06-01,Otros Productos de Manufactura,112.3,0.3,0.3,0.3
+2017-07-01,Otros Productos de Manufactura,112.3,0,0.3,0.3
+2017-08-01,Otros Productos de Manufactura,112.3,0,0.3,0.3
+2017-09-01,Otros Productos de Manufactura,111.89,-0.4,-0,-0.1
+2017-10-01,Otros Productos de Manufactura,111.89,0,-0,-0
+2017-11-01,Otros Productos de Manufactura,111.89,0,-0,-0
+2017-12-01,Otros Productos de Manufactura,112.1,0.2,0.2,0.2
+2018-01-01,Otros Productos de Manufactura,111.89,-0.2,-0.2,-0
+2018-02-01,Otros Productos de Manufactura,111.89,0,-0.2,-0
+2018-03-01,Otros Productos de Manufactura,111.89,0,-0.2,-0
+2018-04-01,Otros Productos de Manufactura,111.89,0,-0.2,-0
+2018-05-01,Otros Productos de Manufactura,110.73,-1,-1.2,-1.1
+2018-06-01,Otros Productos de Manufactura,110.36,-0.3,-1.6,-1.7
+2018-07-01,Otros Productos de Manufactura,110.36,0,-1.6,-1.7
+2018-08-01,Otros Productos de Manufactura,110.37,0,-1.5,-1.7
+2018-09-01,Otros Productos de Manufactura,109.77,-0.5,-2.1,-1.9
+2018-10-01,Otros Productos de Manufactura,108.47,-1.2,-3.2,-3.1
+2018-11-01,Otros Productos de Manufactura,108.47,0,-3.2,-3.1
+2018-12-01,Otros Productos de Manufactura,108.47,0,-3.2,-3.2
+2019-01-01,Otros Productos de Manufactura,108.42,-0,-0,-3.1
+2019-02-01,Otros Productos de Manufactura,108.42,0,-0,-3.1
+2019-03-01,Otros Productos de Manufactura,107.62,-0.7,-0.8,-3.8
+2019-04-01,Otros Productos de Manufactura,105.6,-1.9,-2.6,-5.6
+2019-05-01,Otros Productos de Manufactura,105.6,0,-2.6,-4.6
+2019-06-01,Otros Productos de Manufactura,105.6,0,-2.6,-4.3
+2019-07-01,Otros Productos de Manufactura,105.6,0,-2.6,-4.3
+2019-08-01,Otros Productos de Manufactura,105.6,0,-2.6,-4.3
+2019-09-01,Otros Productos de Manufactura,105.6,0,-2.6,-3.8
+2019-10-01,Otros Productos de Manufactura,105.6,0,-2.6,-2.6
+2019-11-01,Otros Productos de Manufactura,105.6,0,-2.6,-2.6
+2019-12-01,Otros Productos de Manufactura,105.6,0,-2.6,-2.6
+2020-01-01,Otros Productos de Manufactura,105.6,0,0,-2.6
+2020-02-01,Otros Productos de Manufactura,105.62,0,0,-2.6
+2020-03-01,Otros Productos de Manufactura,105.62,0,0,-1.9
+2020-04-01,Otros Productos de Manufactura,103.79,-1.7,-1.7,-1.7
+2020-05-01,Otros Productos de Manufactura,103.79,0,-1.7,-1.7
+2020-06-01,Otros Productos de Manufactura,103.54,-0.2,-2,-2
+2020-07-01,Otros Productos de Manufactura,103.54,0,-2,-2
+2020-08-01,Otros Productos de Manufactura,103.54,0,-2,-2
+2020-09-01,Otros Productos de Manufactura,103.54,0,-2,-2
+2020-10-01,Otros Productos de Manufactura,103.54,0,-2,-2
+2020-11-01,Otros Productos de Manufactura,103.54,0,-2,-2
+2020-12-01,Otros Productos de Manufactura,103.54,0,-2,-2
+2021-01-01,Otros Productos de Manufactura,103.54,0,0,-2
+2021-02-01,Otros Productos de Manufactura,108.06,4.4,4.4,2.3
+2021-03-01,Otros Productos de Manufactura,108.06,0,4.4,2.3
+2021-04-01,Otros Productos de Manufactura,107.24,-0.8,3.6,3.3
+2021-05-01,Otros Productos de Manufactura,107.24,0,3.6,3.3
+2021-06-01,Otros Productos de Manufactura,107.24,0,3.6,3.6
+2021-07-01,Otros Productos de Manufactura,107.24,0,3.6,3.6
+2021-08-01,Otros Productos de Manufactura,107.92,0.6,4.2,4.2
+2021-09-01,Otros Productos de Manufactura,107.92,0,4.2,4.2
+2021-10-01,Otros Productos de Manufactura,107.92,0,4.2,4.2
+2021-11-01,Otros Productos de Manufactura,107.92,0,4.2,4.2
+2021-12-01,Otros Productos de Manufactura,107.92,0,4.2,4.2
+2022-01-01,Otros Productos de Manufactura,107.92,0,0,4.2
+2022-02-01,Otros Productos de Manufactura,107.92,0,0,-0.1
+2022-03-01,Otros Productos de Manufactura,107.92,0,0,-0.1
+2022-04-01,Otros Productos de Manufactura,115.36,6.9,6.9,7.6
+2022-05-01,Otros Productos de Manufactura,115.36,0,6.9,7.6
+2022-06-01,Otros Productos de Manufactura,115.36,0,6.9,7.6
+2022-07-01,Otros Productos de Manufactura,115.34,-0,6.9,7.6
+2022-08-01,Otros Productos de Manufactura,115.34,0,6.9,6.9
+2022-09-01,Otros Productos de Manufactura,116.09,0.7,7.6,7.6
+2022-10-01,Otros Productos de Manufactura,116.09,0,7.6,7.6
+2022-11-01,Otros Productos de Manufactura,116.09,0,7.6,7.6
+2022-12-01,Otros Productos de Manufactura,116.12,0,7.6,7.6
+2023-01-01,Otros Productos de Manufactura,116.12,0,0,7.6
+2023-02-01,Otros Productos de Manufactura,116.12,0,0,7.6
+2023-03-01,Otros Productos de Manufactura,116.12,0,0,7.6
+2023-04-01,Otros Productos de Manufactura,116.12,0,0,0.7
+2023-05-01,Otros Productos de Manufactura,116.12,0,0,0.7
+2023-06-01,Otros Productos de Manufactura,121.28,4.4,4.4,5.1
+2023-07-01,Otros Productos de Manufactura,125.65,3.6,8.2,8.9
+2023-08-01,Otros Productos de Manufactura,125.65,0,8.2,8.9
+2023-09-01,Otros Productos de Manufactura,125.65,0,8.2,8.2
+2023-10-01,Otros Productos de Manufactura,125.65,0,8.2,8.2
+2023-11-01,Otros Productos de Manufactura,125.65,0,8.2,8.2
+2023-12-01,Otros Productos de Manufactura,125.65,0,8.2,8.2
+2024-01-01,Otros Productos de Manufactura,125.65,0,0,8.2
+2024-02-01,Otros Productos de Manufactura,125.65,0,0,8.2
+2024-03-01,Otros Productos de Manufactura,125.65,0,0,8.2
+2024-04-01,Otros Productos de Manufactura,125.65,0,0,8.2
+2024-05-01,Otros Productos de Manufactura,125.65,0,0,8.2
+2024-06-01,Otros Productos de Manufactura,127.6,1.6,1.6,5.2
+2024-07-01,Otros Productos de Manufactura,127.6,0,1.6,1.6
+2024-08-01,Otros Productos de Manufactura,127.6,0,1.6,1.6
+2024-09-01,Otros Productos de Manufactura,129.68,1.6,3.2,3.2
+2024-10-01,Otros Productos de Manufactura,129.68,0,3.2,3.2
+2024-11-01,Otros Productos de Manufactura,131.53,1.4,4.7,4.7
+2024-12-01,Otros Productos de Manufactura,131.53,0,4.7,4.7
+2025-01-01,Otros Productos de Manufactura,131.53,0,0,4.7
+2025-02-01,Otros Productos de Manufactura,131.53,0,0,4.7
+2025-03-01,Otros Productos de Manufactura,131.53,0,0,4.7
+2025-04-01,Otros Productos de Manufactura,131.53,0,0,4.7
+2025-05-01,Otros Productos de Manufactura,131.53,0,0,4.7
+2025-06-01,Otros Productos de Manufactura,131.53,0,0,3.1
+2025-07-01,Otros Productos de Manufactura,131.53,0,0,3.1
+2025-08-01,Otros Productos de Manufactura,131.47,-0,-0,3
+2025-09-01,Otros Productos de Manufactura,131.47,0,-0,1.4
+2025-10-01,Otros Productos de Manufactura,131.47,0,-0,1.4
+2025-11-01,Otros Productos de Manufactura,131.47,0,-0,-0
+2025-12-01,Otros Productos de Manufactura,131.47,0,-0,-0
+2026-01-01,Otros Productos de Manufactura,131.48,0,0,-0
+2026-02-01,Otros Productos de Manufactura,131.48,0,0,-0
+2026-03-01,Otros Productos de Manufactura,131.56,0.1,0.1,0
+2026-04-01,Otros Productos de Manufactura,131.56,0,0.1,0
+2014-01-01,Pecuario,100.33,NA,NA,NA
+2014-02-01,Pecuario,101.27,0.9,NA,NA
+2014-03-01,Pecuario,101.23,-0,NA,NA
+2014-04-01,Pecuario,100.69,-0.5,NA,NA
+2014-05-01,Pecuario,101.34,0.6,NA,NA
+2014-06-01,Pecuario,102.29,0.9,NA,NA
+2014-07-01,Pecuario,103.01,0.7,NA,NA
+2014-08-01,Pecuario,104.51,1.5,NA,NA
+2014-09-01,Pecuario,106.92,2.3,NA,NA
+2014-10-01,Pecuario,109.13,2.1,NA,NA
+2014-11-01,Pecuario,107.84,-1.2,NA,NA
+2014-12-01,Pecuario,107.06,-0.7,NA,NA
+2015-01-01,Pecuario,107.79,0.7,0.7,7.4
+2015-02-01,Pecuario,107.62,-0.2,0.5,6.3
+2015-03-01,Pecuario,106.66,-0.9,-0.4,5.4
+2015-04-01,Pecuario,107.63,0.9,0.5,6.9
+2015-05-01,Pecuario,108.49,0.8,1.3,7.1
+2015-06-01,Pecuario,108.04,-0.4,0.9,5.6
+2015-07-01,Pecuario,106.55,-1.4,-0.5,3.4
+2015-08-01,Pecuario,107.01,0.4,-0,2.4
+2015-09-01,Pecuario,107.71,0.7,0.6,0.7
+2015-10-01,Pecuario,106.86,-0.8,-0.2,-2.1
+2015-11-01,Pecuario,108.91,1.9,1.7,1
+2015-12-01,Pecuario,109.09,0.2,1.9,1.9
+2016-01-01,Pecuario,110.76,1.5,1.5,2.8
+2016-02-01,Pecuario,111.43,0.6,2.1,3.5
+2016-03-01,Pecuario,114.09,2.4,4.6,7
+2016-04-01,Pecuario,113.98,-0.1,4.5,5.9
+2016-05-01,Pecuario,110.38,-3.2,1.2,1.7
+2016-06-01,Pecuario,110.21,-0.2,1,2
+2016-07-01,Pecuario,109.13,-1,0,2.4
+2016-08-01,Pecuario,110.28,1.1,1.1,3.1
+2016-09-01,Pecuario,110.18,-0.1,1,2.3
+2016-10-01,Pecuario,111.15,0.9,1.9,4
+2016-11-01,Pecuario,113.64,2.2,4.2,4.3
+2016-12-01,Pecuario,113.18,-0.4,3.7,3.7
+2017-01-01,Pecuario,111.51,-1.5,-1.5,0.7
+2017-02-01,Pecuario,111.37,-0.1,-1.6,-0.1
+2017-03-01,Pecuario,114.5,2.8,1.2,0.4
+2017-04-01,Pecuario,114.28,-0.2,1,0.3
+2017-05-01,Pecuario,111.7,-2.3,-1.3,1.2
+2017-06-01,Pecuario,113.25,1.4,0.1,2.8
+2017-07-01,Pecuario,113.11,-0.1,-0.1,3.6
+2017-08-01,Pecuario,112.29,-0.7,-0.8,1.8
+2017-09-01,Pecuario,111.2,-1,-1.7,0.9
+2017-10-01,Pecuario,110.99,-0.2,-1.9,-0.1
+2017-11-01,Pecuario,110.71,-0.3,-2.2,-2.6
+2017-12-01,Pecuario,112.76,1.9,-0.4,-0.4
+2018-01-01,Pecuario,115.39,2.3,2.3,3.5
+2018-02-01,Pecuario,117.67,2,4.4,5.7
+2018-03-01,Pecuario,119.05,1.2,5.6,4
+2018-04-01,Pecuario,116.3,-2.3,3.1,1.8
+2018-05-01,Pecuario,114.42,-1.6,1.5,2.4
+2018-06-01,Pecuario,115.41,0.9,2.4,1.9
+2018-07-01,Pecuario,115.78,0.3,2.7,2.4
+2018-08-01,Pecuario,114.72,-0.9,1.7,2.2
+2018-09-01,Pecuario,116.06,1.2,2.9,4.4
+2018-10-01,Pecuario,116.6,0.5,3.4,5.1
+2018-11-01,Pecuario,116.28,-0.3,3.1,5
+2018-12-01,Pecuario,116.3,0,3.1,3.1
+2019-01-01,Pecuario,113.86,-2.1,-2.1,-1.3
+2019-02-01,Pecuario,111.37,-2.2,-4.2,-5.4
+2019-03-01,Pecuario,113.4,1.8,-2.5,-4.7
+2019-04-01,Pecuario,113.07,-0.3,-2.8,-2.8
+2019-05-01,Pecuario,115.36,2,-0.8,0.8
+2019-06-01,Pecuario,116.66,1.1,0.3,1.1
+2019-07-01,Pecuario,116.24,-0.4,-0.1,0.4
+2019-08-01,Pecuario,115.64,-0.5,-0.6,0.8
+2019-09-01,Pecuario,114.5,-1,-1.5,-1.3
+2019-10-01,Pecuario,114.83,0.3,-1.3,-1.5
+2019-11-01,Pecuario,114.67,-0.1,-1.4,-1.4
+2019-12-01,Pecuario,114.84,0.1,-1.3,-1.3
+2020-01-01,Pecuario,115.46,0.5,0.5,1.4
+2020-02-01,Pecuario,117.18,1.5,2,5.2
+2020-03-01,Pecuario,117.7,0.4,2.5,3.8
+2020-04-01,Pecuario,117.22,-0.4,2.1,3.7
+2020-05-01,Pecuario,117.12,-0.1,2,1.5
+2020-06-01,Pecuario,117.44,0.3,2.3,0.7
+2020-07-01,Pecuario,121.55,3.5,5.8,4.6
+2020-08-01,Pecuario,122.67,0.9,6.8,6.1
+2020-09-01,Pecuario,122.85,0.1,7,7.3
+2020-10-01,Pecuario,122.62,-0.2,6.8,6.8
+2020-11-01,Pecuario,126.02,2.8,9.7,9.9
+2020-12-01,Pecuario,125.14,-0.7,9,9
+2021-01-01,Pecuario,127.18,1.6,1.6,10.2
+2021-02-01,Pecuario,126.97,-0.2,1.5,8.4
+2021-03-01,Pecuario,129.67,2.1,3.6,10.2
+2021-04-01,Pecuario,128.24,-1.1,2.5,9.4
+2021-05-01,Pecuario,129.62,1.1,3.6,10.7
+2021-06-01,Pecuario,131.19,1.2,4.8,11.7
+2021-07-01,Pecuario,133.79,2,6.9,10.1
+2021-08-01,Pecuario,135.9,1.6,8.6,10.8
+2021-09-01,Pecuario,136.68,0.6,9.2,11.3
+2021-10-01,Pecuario,136.39,-0.2,9,11.2
+2021-11-01,Pecuario,137.25,0.6,9.7,8.9
+2021-12-01,Pecuario,140.19,2.1,12,12
+2022-01-01,Pecuario,138.95,-0.9,-0.9,9.3
+2022-02-01,Pecuario,137.43,-1.1,-2,8.2
+2022-03-01,Pecuario,141.3,2.8,0.8,9
+2022-04-01,Pecuario,141.73,0.3,1.1,10.5
+2022-05-01,Pecuario,140.03,-1.2,-0.1,8
+2022-06-01,Pecuario,142.87,2,1.9,8.9
+2022-07-01,Pecuario,145.1,1.6,3.5,8.5
+2022-08-01,Pecuario,146.09,0.7,4.2,7.5
+2022-09-01,Pecuario,145.79,-0.2,4,6.7
+2022-10-01,Pecuario,144.08,-1.2,2.8,5.6
+2022-11-01,Pecuario,145.64,1.1,3.9,6.1
+2022-12-01,Pecuario,145.76,0.1,4,4
+2023-01-01,Pecuario,144.75,-0.7,-0.7,4.2
+2023-02-01,Pecuario,150.47,4,3.2,9.5
+2023-03-01,Pecuario,159.01,5.7,9.1,12.5
+2023-04-01,Pecuario,160.9,1.2,10.4,13.5
+2023-05-01,Pecuario,160.95,0,10.4,14.9
+2023-06-01,Pecuario,154.72,-3.9,6.1,8.3
+2023-07-01,Pecuario,155.83,0.7,6.9,7.4
+2023-08-01,Pecuario,154.53,-0.8,6,5.8
+2023-09-01,Pecuario,149.61,-3.2,2.6,2.6
+2023-10-01,Pecuario,148.84,-0.5,2.1,3.3
+2023-11-01,Pecuario,147.13,-1.1,0.9,1
+2023-12-01,Pecuario,148.84,1.2,2.1,2.1
+2024-01-01,Pecuario,148.1,-0.5,-0.5,2.3
+2024-02-01,Pecuario,148.79,0.5,-0,-1.1
+2024-03-01,Pecuario,153.51,3.2,3.1,-3.5
+2024-04-01,Pecuario,149.49,-2.6,0.4,-7.1
+2024-05-01,Pecuario,148.68,-0.5,-0.1,-7.6
+2024-06-01,Pecuario,145.6,-2.1,-2.2,-5.9
+2024-07-01,Pecuario,147.22,1.1,-1.1,-5.5
+2024-08-01,Pecuario,150.05,1.9,0.8,-2.9
+2024-09-01,Pecuario,152.54,1.7,2.5,2
+2024-10-01,Pecuario,154.6,1.4,3.9,3.9
+2024-11-01,Pecuario,155.44,0.5,4.4,5.6
+2024-12-01,Pecuario,155.89,0.3,4.7,4.7
+2025-01-01,Pecuario,147.94,-5.1,-5.1,-0.1
+2025-02-01,Pecuario,143.31,-3.1,-8.1,-3.7
+2025-03-01,Pecuario,152.08,6.1,-2.4,-0.9
+2025-04-01,Pecuario,154.26,1.4,-1,3.2
+2025-05-01,Pecuario,151.32,-1.9,-2.9,1.8
+2025-06-01,Pecuario,150.87,-0.3,-3.2,3.6
+2025-07-01,Pecuario,146.19,-3.1,-6.2,-0.7
+2025-08-01,Pecuario,146.39,0.1,-6.1,-2.4
+2025-09-01,Pecuario,144.11,-1.6,-7.6,-5.5
+2025-10-01,Pecuario,144.86,0.5,-7.1,-6.3
+2025-11-01,Pecuario,146.03,0.8,-6.3,-6.1
+2025-12-01,Pecuario,151.18,3.5,-3,-3
+2026-01-01,Pecuario,154.76,2.4,2.4,4.6
+2026-02-01,Pecuario,161.45,4.3,6.8,12.7
+2026-03-01,Pecuario,165.28,2.4,9.3,8.7
+2026-04-01,Pecuario,160.8,-2.7,6.4,4.2
+2014-01-01,Pesca,92.8,NA,NA,NA
+2014-02-01,Pesca,94.7,2,NA,NA
+2014-03-01,Pesca,92.27,-2.6,NA,NA
+2014-04-01,Pesca,98.36,6.6,NA,NA
+2014-05-01,Pesca,101.42,3.1,NA,NA
+2014-06-01,Pesca,101.38,-0,NA,NA
+2014-07-01,Pesca,104.31,2.9,NA,NA
+2014-08-01,Pesca,107.15,2.7,NA,NA
+2014-09-01,Pesca,108.4,1.2,NA,NA
+2014-10-01,Pesca,107.25,-1.1,NA,NA
+2014-11-01,Pesca,105.43,-1.7,NA,NA
+2014-12-01,Pesca,99.63,-5.5,NA,NA
+2015-01-01,Pesca,95.88,-3.8,-3.8,3.3
+2015-02-01,Pesca,93.78,-2.2,-5.9,-1
+2015-03-01,Pesca,97.21,3.7,-2.4,5.4
+2015-04-01,Pesca,104.67,7.7,5.1,6.4
+2015-05-01,Pesca,110.27,5.4,10.7,8.7
+2015-06-01,Pesca,112.03,1.6,12.4,10.5
+2015-07-01,Pesca,112.69,0.6,13.1,8
+2015-08-01,Pesca,116.49,3.4,16.9,8.7
+2015-09-01,Pesca,113.93,-2.2,14.4,5.1
+2015-10-01,Pesca,111.87,-1.8,12.3,4.3
+2015-11-01,Pesca,112.49,0.6,12.9,6.7
+2015-12-01,Pesca,112.29,-0.2,12.7,12.7
+2016-01-01,Pesca,113.01,0.6,0.6,17.9
+2016-02-01,Pesca,113.12,0.1,0.7,20.6
+2016-03-01,Pesca,116.79,3.2,4,20.1
+2016-04-01,Pesca,120.48,3.2,7.3,15.1
+2016-05-01,Pesca,119.99,-0.4,6.9,8.8
+2016-06-01,Pesca,122.4,2,9,9.3
+2016-07-01,Pesca,124.14,1.4,10.6,10.2
+2016-08-01,Pesca,125.15,0.8,11.5,7.4
+2016-09-01,Pesca,124.29,-0.7,10.7,9.1
+2016-10-01,Pesca,119.72,-3.7,6.6,7
+2016-11-01,Pesca,121.89,1.8,8.5,8.4
+2016-12-01,Pesca,121.85,-0,8.5,8.5
+2017-01-01,Pesca,120.33,-1.2,-1.2,6.5
+2017-02-01,Pesca,126.07,4.8,3.5,11.4
+2017-03-01,Pesca,129.13,2.4,6,10.6
+2017-04-01,Pesca,132.38,2.5,8.6,9.9
+2017-05-01,Pesca,132.49,0.1,8.7,10.4
+2017-06-01,Pesca,133.3,0.6,9.4,8.9
+2017-07-01,Pesca,138.39,3.8,13.6,11.5
+2017-08-01,Pesca,138.79,0.3,13.9,10.9
+2017-09-01,Pesca,140.84,1.5,15.6,13.3
+2017-10-01,Pesca,134.74,-4.3,10.6,12.5
+2017-11-01,Pesca,129.29,-4,6.1,6.1
+2017-12-01,Pesca,127.18,-1.6,4.4,4.4
+2018-01-01,Pesca,128.96,1.4,1.4,7.2
+2018-02-01,Pesca,130.53,1.2,2.6,3.5
+2018-03-01,Pesca,134.12,2.8,5.5,3.9
+2018-04-01,Pesca,141.43,5.5,11.2,6.8
+2018-05-01,Pesca,142.52,0.8,12.1,7.6
+2018-06-01,Pesca,143.34,0.6,12.7,7.5
+2018-07-01,Pesca,146.98,2.5,15.6,6.2
+2018-08-01,Pesca,143.26,-2.5,12.6,3.2
+2018-09-01,Pesca,148.15,3.4,16.5,5.2
+2018-10-01,Pesca,134.01,-9.5,5.4,-0.5
+2018-11-01,Pesca,128.09,-4.4,0.7,-0.9
+2018-12-01,Pesca,122.21,-4.6,-3.9,-3.9
+2019-01-01,Pesca,119.58,-2.2,-2.2,-7.3
+2019-02-01,Pesca,113.14,-5.4,-7.4,-13.3
+2019-03-01,Pesca,116.07,2.6,-5,-13.5
+2019-04-01,Pesca,124.07,6.9,1.5,-12.3
+2019-05-01,Pesca,128.74,3.8,5.3,-9.7
+2019-06-01,Pesca,126.19,-2,3.3,-12
+2019-07-01,Pesca,127.95,1.4,4.7,-12.9
+2019-08-01,Pesca,128.02,0.1,4.8,-10.6
+2019-09-01,Pesca,132.28,3.3,8.2,-10.7
+2019-10-01,Pesca,132.92,0.5,8.8,-0.8
+2019-11-01,Pesca,127.16,-4.3,4.1,-0.7
+2019-12-01,Pesca,125.05,-1.7,2.3,2.3
+2020-01-01,Pesca,120.53,-3.6,-3.6,0.8
+2020-02-01,Pesca,111.21,-7.7,-11.1,-1.7
+2020-03-01,Pesca,111.77,0.5,-10.6,-3.7
+2020-04-01,Pesca,116.63,4.3,-6.7,-6
+2020-05-01,Pesca,118.57,1.7,-5.2,-7.9
+2020-06-01,Pesca,118.14,-0.4,-5.5,-6.4
+2020-07-01,Pesca,120.91,2.3,-3.3,-5.5
+2020-08-01,Pesca,123.18,1.9,-1.5,-3.8
+2020-09-01,Pesca,125.75,2.1,0.6,-4.9
+2020-10-01,Pesca,121.38,-3.5,-2.9,-8.7
+2020-11-01,Pesca,125.7,3.6,0.5,-1.1
+2020-12-01,Pesca,123.54,-1.7,-1.2,-1.2
+2021-01-01,Pesca,124.13,0.5,0.5,3
+2021-02-01,Pesca,115.08,-7.3,-6.8,3.5
+2021-03-01,Pesca,119.28,3.6,-3.4,6.7
+2021-04-01,Pesca,124.71,4.6,0.9,6.9
+2021-05-01,Pesca,127.51,2.2,3.2,7.5
+2021-06-01,Pesca,134.19,5.2,8.6,13.6
+2021-07-01,Pesca,141.14,5.2,14.2,16.7
+2021-08-01,Pesca,155.33,10.1,25.7,26.1
+2021-09-01,Pesca,161.22,3.8,30.5,28.2
+2021-10-01,Pesca,153.8,-4.6,24.5,26.7
+2021-11-01,Pesca,150.73,-2,22,19.9
+2021-12-01,Pesca,147.11,-2.4,19.1,19.1
+2022-01-01,Pesca,141.63,-3.7,-3.7,14.1
+2022-02-01,Pesca,138.55,-2.2,-5.8,20.4
+2022-03-01,Pesca,139.69,0.8,-5,17.1
+2022-04-01,Pesca,152.97,9.5,4,22.7
+2022-05-01,Pesca,159.12,4,8.2,24.8
+2022-06-01,Pesca,154.49,-2.9,5,15.1
+2022-07-01,Pesca,159.15,3,8.2,12.8
+2022-08-01,Pesca,166.43,4.6,13.1,7.1
+2022-09-01,Pesca,170.69,2.6,16,5.9
+2022-10-01,Pesca,164.52,-3.6,11.8,7
+2022-11-01,Pesca,158.05,-3.9,7.4,4.9
+2022-12-01,Pesca,158.13,0.1,7.5,7.5
+2023-01-01,Pesca,153.74,-2.8,-2.8,8.6
+2023-02-01,Pesca,153.04,-0.5,-3.2,10.5
+2023-03-01,Pesca,160.42,4.8,1.4,14.8
+2023-04-01,Pesca,165.5,3.2,4.7,8.2
+2023-05-01,Pesca,169.62,2.5,7.3,6.6
+2023-06-01,Pesca,176.43,4,11.6,14.2
+2023-07-01,Pesca,177.33,0.5,12.1,11.4
+2023-08-01,Pesca,174.86,-1.4,10.6,5.1
+2023-09-01,Pesca,154.56,-11.6,-2.3,-9.4
+2023-10-01,Pesca,147.74,-4.4,-6.6,-10.2
+2023-11-01,Pesca,147.41,-0.2,-6.8,-6.7
+2023-12-01,Pesca,142.4,-3.4,-9.9,-9.9
+2024-01-01,Pesca,140.9,-1.1,-1.1,-8.4
+2024-02-01,Pesca,142.3,1,-0.1,-7
+2024-03-01,Pesca,148.68,4.5,4.4,-7.3
+2024-04-01,Pesca,149.45,0.5,5,-9.7
+2024-05-01,Pesca,148.92,-0.4,4.6,-12.2
+2024-06-01,Pesca,148.82,-0.1,4.5,-15.6
+2024-07-01,Pesca,144.76,-2.7,1.7,-18.4
+2024-08-01,Pesca,144.71,-0,1.6,-17.2
+2024-09-01,Pesca,148.48,2.6,4.3,-3.9
+2024-10-01,Pesca,155.32,4.6,9.1,5.1
+2024-11-01,Pesca,162.06,4.3,13.8,9.9
+2024-12-01,Pesca,155.92,-3.8,9.5,9.5
+2025-01-01,Pesca,165.48,6.1,6.1,17.4
+2025-02-01,Pesca,160.11,-3.2,2.7,12.5
+2025-03-01,Pesca,169.9,6.1,9,14.3
+2025-04-01,Pesca,189.65,11.6,21.6,26.9
+2025-05-01,Pesca,192.47,1.5,23.4,29.2
+2025-06-01,Pesca,192.78,0.2,23.6,29.5
+2025-07-01,Pesca,196.03,1.7,25.7,35.4
+2025-08-01,Pesca,186.35,-4.9,19.5,28.8
+2025-09-01,Pesca,192.46,3.3,23.4,29.6
+2025-10-01,Pesca,192.12,-0.2,23.2,23.7
+2025-11-01,Pesca,187.49,-2.4,20.2,15.7
+2025-12-01,Pesca,167.79,-10.5,7.6,7.6
+2026-01-01,Pesca,162.15,-3.4,-3.4,-2
+2026-02-01,Pesca,177.96,9.8,6.1,11.1
+2026-03-01,Pesca,188.97,6.2,12.6,11.2
+2026-04-01,Pesca,201.76,6.8,20.2,6.4
+2014-01-01,Productos Farmacéuticos,100,NA,NA,NA
+2014-02-01,Productos Farmacéuticos,100,0,NA,NA
+2014-03-01,Productos Farmacéuticos,100,0,NA,NA
+2014-04-01,Productos Farmacéuticos,99.83,-0.2,NA,NA
+2014-05-01,Productos Farmacéuticos,99.86,0,NA,NA
+2014-06-01,Productos Farmacéuticos,100.1,0.2,NA,NA
+2014-07-01,Productos Farmacéuticos,100.1,0,NA,NA
+2014-08-01,Productos Farmacéuticos,100.1,0,NA,NA
+2014-09-01,Productos Farmacéuticos,100.1,0,NA,NA
+2014-10-01,Productos Farmacéuticos,100.1,0,NA,NA
+2014-11-01,Productos Farmacéuticos,100.1,0,NA,NA
+2014-12-01,Productos Farmacéuticos,100.1,0,NA,NA
+2015-01-01,Productos Farmacéuticos,100.1,0,0,0.1
+2015-02-01,Productos Farmacéuticos,100.18,0.1,0.1,0.2
+2015-03-01,Productos Farmacéuticos,100.22,0,0.1,0.2
+2015-04-01,Productos Farmacéuticos,100.67,0.4,0.6,0.8
+2015-05-01,Productos Farmacéuticos,100.66,-0,0.6,0.8
+2015-06-01,Productos Farmacéuticos,100.66,0,0.6,0.6
+2015-07-01,Productos Farmacéuticos,100.77,0.1,0.7,0.7
+2015-08-01,Productos Farmacéuticos,100.95,0.2,0.8,0.8
+2015-09-01,Productos Farmacéuticos,101.29,0.3,1.2,1.2
+2015-10-01,Productos Farmacéuticos,101.17,-0.1,1.1,1.1
+2015-11-01,Productos Farmacéuticos,101.47,0.3,1.4,1.4
+2015-12-01,Productos Farmacéuticos,101.66,0.2,1.6,1.6
+2016-01-01,Productos Farmacéuticos,101.81,0.1,0.1,1.7
+2016-02-01,Productos Farmacéuticos,101.88,0.1,0.2,1.7
+2016-03-01,Productos Farmacéuticos,102.08,0.2,0.4,1.9
+2016-04-01,Productos Farmacéuticos,101.98,-0.1,0.3,1.3
+2016-05-01,Productos Farmacéuticos,102.34,0.4,0.7,1.7
+2016-06-01,Productos Farmacéuticos,102.61,0.3,0.9,1.9
+2016-07-01,Productos Farmacéuticos,102.95,0.3,1.3,2.2
+2016-08-01,Productos Farmacéuticos,103.59,0.6,1.9,2.6
+2016-09-01,Productos Farmacéuticos,104.2,0.6,2.5,2.9
+2016-10-01,Productos Farmacéuticos,104.2,0,2.5,3
+2016-11-01,Productos Farmacéuticos,104.19,-0,2.5,2.7
+2016-12-01,Productos Farmacéuticos,104.19,0,2.5,2.5
+2017-01-01,Productos Farmacéuticos,104.49,0.3,0.3,2.6
+2017-02-01,Productos Farmacéuticos,105,0.5,0.8,3.1
+2017-03-01,Productos Farmacéuticos,104.81,-0.2,0.6,2.7
+2017-04-01,Productos Farmacéuticos,104.84,0,0.6,2.8
+2017-05-01,Productos Farmacéuticos,104.58,-0.2,0.4,2.2
+2017-06-01,Productos Farmacéuticos,104.58,0,0.4,1.9
+2017-07-01,Productos Farmacéuticos,104.92,0.3,0.7,1.9
+2017-08-01,Productos Farmacéuticos,104.96,0,0.7,1.3
+2017-09-01,Productos Farmacéuticos,105.04,0.1,0.8,0.8
+2017-10-01,Productos Farmacéuticos,105.06,0,0.8,0.8
+2017-11-01,Productos Farmacéuticos,105.05,-0,0.8,0.8
+2017-12-01,Productos Farmacéuticos,105.07,0,0.8,0.8
+2018-01-01,Productos Farmacéuticos,105.09,0,0,0.6
+2018-02-01,Productos Farmacéuticos,105.14,0,0.1,0.1
+2018-03-01,Productos Farmacéuticos,105.14,0,0.1,0.3
+2018-04-01,Productos Farmacéuticos,105.14,0,0.1,0.3
+2018-05-01,Productos Farmacéuticos,105.25,0.1,0.2,0.6
+2018-06-01,Productos Farmacéuticos,105.2,-0,0.1,0.6
+2018-07-01,Productos Farmacéuticos,105.23,0,0.2,0.3
+2018-08-01,Productos Farmacéuticos,105.23,0,0.2,0.3
+2018-09-01,Productos Farmacéuticos,105.23,0,0.2,0.2
+2018-10-01,Productos Farmacéuticos,105.23,0,0.2,0.2
+2018-11-01,Productos Farmacéuticos,105.54,0.3,0.4,0.5
+2018-12-01,Productos Farmacéuticos,105.83,0.3,0.7,0.7
+2019-01-01,Productos Farmacéuticos,105.83,0,0,0.7
+2019-02-01,Productos Farmacéuticos,105.83,0,0,0.7
+2019-03-01,Productos Farmacéuticos,105.83,0,0,0.7
+2019-04-01,Productos Farmacéuticos,106.08,0.2,0.2,0.9
+2019-05-01,Productos Farmacéuticos,106.23,0.1,0.4,0.9
+2019-06-01,Productos Farmacéuticos,106.36,0.1,0.5,1.1
+2019-07-01,Productos Farmacéuticos,106.5,0.1,0.6,1.2
+2019-08-01,Productos Farmacéuticos,106.61,0.1,0.7,1.3
+2019-09-01,Productos Farmacéuticos,106.59,-0,0.7,1.3
+2019-10-01,Productos Farmacéuticos,106.59,0,0.7,1.3
+2019-11-01,Productos Farmacéuticos,106.42,-0.2,0.6,0.8
+2019-12-01,Productos Farmacéuticos,106.44,0,0.6,0.6
+2020-01-01,Productos Farmacéuticos,106.76,0.3,0.3,0.9
+2020-02-01,Productos Farmacéuticos,106.84,0.1,0.4,1
+2020-03-01,Productos Farmacéuticos,106.84,0,0.4,1
+2020-04-01,Productos Farmacéuticos,106.59,-0.2,0.1,0.5
+2020-05-01,Productos Farmacéuticos,106.59,0,0.1,0.3
+2020-06-01,Productos Farmacéuticos,107.18,0.6,0.7,0.8
+2020-07-01,Productos Farmacéuticos,107.21,0,0.7,0.7
+2020-08-01,Productos Farmacéuticos,107.26,0,0.8,0.6
+2020-09-01,Productos Farmacéuticos,107.27,0,0.8,0.6
+2020-10-01,Productos Farmacéuticos,107.89,0.6,1.4,1.2
+2020-11-01,Productos Farmacéuticos,107.89,0,1.4,1.4
+2020-12-01,Productos Farmacéuticos,107.89,0,1.4,1.4
+2021-01-01,Productos Farmacéuticos,108.22,0.3,0.3,1.4
+2021-02-01,Productos Farmacéuticos,108.25,0,0.3,1.3
+2021-03-01,Productos Farmacéuticos,108.25,0,0.3,1.3
+2021-04-01,Productos Farmacéuticos,108.22,-0,0.3,1.5
+2021-05-01,Productos Farmacéuticos,108.6,0.4,0.7,1.9
+2021-06-01,Productos Farmacéuticos,108.6,0,0.7,1.3
+2021-07-01,Productos Farmacéuticos,108.91,0.3,0.9,1.6
+2021-08-01,Productos Farmacéuticos,109.4,0.4,1.4,2
+2021-09-01,Productos Farmacéuticos,109.45,0,1.4,2
+2021-10-01,Productos Farmacéuticos,110.03,0.5,2,2
+2021-11-01,Productos Farmacéuticos,110.03,0,2,2
+2021-12-01,Productos Farmacéuticos,110.06,0,2,2
+2022-01-01,Productos Farmacéuticos,109.72,-0.3,-0.3,1.4
+2022-02-01,Productos Farmacéuticos,109.45,-0.2,-0.6,1.1
+2022-03-01,Productos Farmacéuticos,109.47,0,-0.5,1.1
+2022-04-01,Productos Farmacéuticos,109.48,0,-0.5,1.2
+2022-05-01,Productos Farmacéuticos,109.22,-0.2,-0.8,0.6
+2022-06-01,Productos Farmacéuticos,109.25,0,-0.7,0.6
+2022-07-01,Productos Farmacéuticos,109.28,0,-0.7,0.3
+2022-08-01,Productos Farmacéuticos,109.28,0,-0.7,-0.1
+2022-09-01,Productos Farmacéuticos,109.18,-0.1,-0.8,-0.2
+2022-10-01,Productos Farmacéuticos,109.18,0,-0.8,-0.8
+2022-11-01,Productos Farmacéuticos,109.21,0,-0.8,-0.7
+2022-12-01,Productos Farmacéuticos,109.24,0,-0.7,-0.7
+2023-01-01,Productos Farmacéuticos,109.55,0.3,0.3,-0.2
+2023-02-01,Productos Farmacéuticos,109.75,0.2,0.5,0.3
+2023-03-01,Productos Farmacéuticos,109.92,0.2,0.6,0.4
+2023-04-01,Productos Farmacéuticos,110.14,0.2,0.8,0.6
+2023-05-01,Productos Farmacéuticos,110.14,0,0.8,0.8
+2023-06-01,Productos Farmacéuticos,110.13,-0,0.8,0.8
+2023-07-01,Productos Farmacéuticos,110.37,0.2,1,1
+2023-08-01,Productos Farmacéuticos,110.37,0,1,1
+2023-09-01,Productos Farmacéuticos,110.59,0.2,1.2,1.3
+2023-10-01,Productos Farmacéuticos,110.66,0.1,1.3,1.4
+2023-11-01,Productos Farmacéuticos,110.66,0,1.3,1.3
+2023-12-01,Productos Farmacéuticos,110.66,0,1.3,1.3
+2024-01-01,Productos Farmacéuticos,110.53,-0.1,-0.1,0.9
+2024-02-01,Productos Farmacéuticos,110.54,0,-0.1,0.7
+2024-03-01,Productos Farmacéuticos,110.54,0,-0.1,0.6
+2024-04-01,Productos Farmacéuticos,110.85,0.3,0.2,0.6
+2024-05-01,Productos Farmacéuticos,110.92,0.1,0.2,0.7
+2024-06-01,Productos Farmacéuticos,110.99,0.1,0.3,0.8
+2024-07-01,Productos Farmacéuticos,111.17,0.2,0.5,0.7
+2024-08-01,Productos Farmacéuticos,111.31,0.1,0.6,0.9
+2024-09-01,Productos Farmacéuticos,111.36,0,0.6,0.7
+2024-10-01,Productos Farmacéuticos,111.38,0,0.7,0.7
+2024-11-01,Productos Farmacéuticos,111.43,0,0.7,0.7
+2024-12-01,Productos Farmacéuticos,111.43,0,0.7,0.7
+2025-01-01,Productos Farmacéuticos,111.42,-0,-0,0.8
+2025-02-01,Productos Farmacéuticos,111.4,-0,-0,0.8
+2025-03-01,Productos Farmacéuticos,111.37,-0,-0.1,0.8
+2025-04-01,Productos Farmacéuticos,111.39,0,-0,0.5
+2025-05-01,Productos Farmacéuticos,111.38,-0,-0,0.4
+2025-06-01,Productos Farmacéuticos,111.27,-0.1,-0.1,0.3
+2025-07-01,Productos Farmacéuticos,111.21,-0.1,-0.2,0
+2025-08-01,Productos Farmacéuticos,111.21,0,-0.2,-0.1
+2025-09-01,Productos Farmacéuticos,111.21,0,-0.2,-0.1
+2025-10-01,Productos Farmacéuticos,111.2,-0,-0.2,-0.2
+2025-11-01,Productos Farmacéuticos,111.1,-0.1,-0.3,-0.3
+2025-12-01,Productos Farmacéuticos,111.04,-0.1,-0.3,-0.3
+2026-01-01,Productos Farmacéuticos,110.95,-0.1,-0.1,-0.4
+2026-02-01,Productos Farmacéuticos,110.91,-0,-0.1,-0.4
+2026-03-01,Productos Farmacéuticos,110.95,0,-0.1,-0.4
+2026-04-01,Productos Farmacéuticos,110.95,0,-0.1,-0.4
+2014-01-01,Productos Minerales No Metálicos,100.07,NA,NA,NA
+2014-02-01,Productos Minerales No Metálicos,99.98,-0.1,NA,NA
+2014-03-01,Productos Minerales No Metálicos,100.26,0.3,NA,NA
+2014-04-01,Productos Minerales No Metálicos,100.82,0.6,NA,NA
+2014-05-01,Productos Minerales No Metálicos,100.64,-0.2,NA,NA
+2014-06-01,Productos Minerales No Metálicos,100.5,-0.1,NA,NA
+2014-07-01,Productos Minerales No Metálicos,100.71,0.2,NA,NA
+2014-08-01,Productos Minerales No Metálicos,100.95,0.2,NA,NA
+2014-09-01,Productos Minerales No Metálicos,101.32,0.4,NA,NA
+2014-10-01,Productos Minerales No Metálicos,101.8,0.5,NA,NA
+2014-11-01,Productos Minerales No Metálicos,101.97,0.2,NA,NA
+2014-12-01,Productos Minerales No Metálicos,101.73,-0.2,NA,NA
+2015-01-01,Productos Minerales No Metálicos,102.2,0.5,0.5,2.1
+2015-02-01,Productos Minerales No Metálicos,102.55,0.3,0.8,2.6
+2015-03-01,Productos Minerales No Metálicos,102.53,-0,0.8,2.3
+2015-04-01,Productos Minerales No Metálicos,102.16,-0.4,0.4,1.3
+2015-05-01,Productos Minerales No Metálicos,102.05,-0.1,0.3,1.4
+2015-06-01,Productos Minerales No Metálicos,102.57,0.5,0.8,2.1
+2015-07-01,Productos Minerales No Metálicos,102.83,0.3,1.1,2.1
+2015-08-01,Productos Minerales No Metálicos,102.85,0,1.1,1.9
+2015-09-01,Productos Minerales No Metálicos,103.48,0.6,1.7,2.1
+2015-10-01,Productos Minerales No Metálicos,103.42,-0.1,1.7,1.6
+2015-11-01,Productos Minerales No Metálicos,103.62,0.2,1.9,1.6
+2015-12-01,Productos Minerales No Metálicos,103.43,-0.2,1.7,1.7
+2016-01-01,Productos Minerales No Metálicos,103.8,0.4,0.4,1.6
+2016-02-01,Productos Minerales No Metálicos,104.18,0.4,0.7,1.6
+2016-03-01,Productos Minerales No Metálicos,104.79,0.6,1.3,2.2
+2016-04-01,Productos Minerales No Metálicos,104.76,-0,1.3,2.5
+2016-05-01,Productos Minerales No Metálicos,105.06,0.3,1.6,2.9
+2016-06-01,Productos Minerales No Metálicos,105.1,0,1.6,2.5
+2016-07-01,Productos Minerales No Metálicos,104.96,-0.1,1.5,2.1
+2016-08-01,Productos Minerales No Metálicos,105.22,0.2,1.7,2.3
+2016-09-01,Productos Minerales No Metálicos,105.24,0,1.7,1.7
+2016-10-01,Productos Minerales No Metálicos,105.34,0.1,1.8,1.9
+2016-11-01,Productos Minerales No Metálicos,105.61,0.3,2.1,1.9
+2016-12-01,Productos Minerales No Metálicos,105.6,-0,2.1,2.1
+2017-01-01,Productos Minerales No Metálicos,106.19,0.6,0.6,2.3
+2017-02-01,Productos Minerales No Metálicos,106.73,0.5,1.1,2.4
+2017-03-01,Productos Minerales No Metálicos,105.94,-0.7,0.3,1.1
+2017-04-01,Productos Minerales No Metálicos,106.1,0.2,0.5,1.3
+2017-05-01,Productos Minerales No Metálicos,106.02,-0.1,0.4,0.9
+2017-06-01,Productos Minerales No Metálicos,106.09,0.1,0.5,0.9
+2017-07-01,Productos Minerales No Metálicos,106.15,0.1,0.5,1.1
+2017-08-01,Productos Minerales No Metálicos,106.06,-0.1,0.4,0.8
+2017-09-01,Productos Minerales No Metálicos,106.05,-0,0.4,0.8
+2017-10-01,Productos Minerales No Metálicos,106.09,0,0.5,0.7
+2017-11-01,Productos Minerales No Metálicos,105.93,-0.2,0.3,0.3
+2017-12-01,Productos Minerales No Metálicos,105.97,0,0.4,0.4
+2018-01-01,Productos Minerales No Metálicos,106.17,0.2,0.2,-0
+2018-02-01,Productos Minerales No Metálicos,107.19,1,1.2,0.4
+2018-03-01,Productos Minerales No Metálicos,107.39,0.2,1.3,1.4
+2018-04-01,Productos Minerales No Metálicos,107.09,-0.3,1.1,0.9
+2018-05-01,Productos Minerales No Metálicos,107.23,0.1,1.2,1.1
+2018-06-01,Productos Minerales No Metálicos,106.78,-0.4,0.8,0.7
+2018-07-01,Productos Minerales No Metálicos,106.48,-0.3,0.5,0.3
+2018-08-01,Productos Minerales No Metálicos,106.51,0,0.5,0.4
+2018-09-01,Productos Minerales No Metálicos,106.46,-0,0.5,0.4
+2018-10-01,Productos Minerales No Metálicos,106.18,-0.3,0.2,0.1
+2018-11-01,Productos Minerales No Metálicos,106.42,0.2,0.4,0.5
+2018-12-01,Productos Minerales No Metálicos,106.84,0.4,0.8,0.8
+2019-01-01,Productos Minerales No Metálicos,107.12,0.3,0.3,0.9
+2019-02-01,Productos Minerales No Metálicos,107.65,0.5,0.8,0.4
+2019-03-01,Productos Minerales No Metálicos,107.8,0.1,0.9,0.4
+2019-04-01,Productos Minerales No Metálicos,107.61,-0.2,0.7,0.5
+2019-05-01,Productos Minerales No Metálicos,107.92,0.3,1,0.6
+2019-06-01,Productos Minerales No Metálicos,107.93,0,1,1.1
+2019-07-01,Productos Minerales No Metálicos,107.5,-0.4,0.6,1
+2019-08-01,Productos Minerales No Metálicos,107.8,0.3,0.9,1.2
+2019-09-01,Productos Minerales No Metálicos,107.66,-0.1,0.8,1.1
+2019-10-01,Productos Minerales No Metálicos,107.74,0.1,0.8,1.5
+2019-11-01,Productos Minerales No Metálicos,107.49,-0.2,0.6,1
+2019-12-01,Productos Minerales No Metálicos,107.45,-0,0.6,0.6
+2020-01-01,Productos Minerales No Metálicos,107.62,0.2,0.2,0.5
+2020-02-01,Productos Minerales No Metálicos,107.61,-0,0.1,-0
+2020-03-01,Productos Minerales No Metálicos,107.75,0.1,0.3,-0
+2020-04-01,Productos Minerales No Metálicos,107.58,-0.2,0.1,-0
+2020-05-01,Productos Minerales No Metálicos,108.18,0.6,0.7,0.2
+2020-06-01,Productos Minerales No Metálicos,108.15,-0,0.7,0.2
+2020-07-01,Productos Minerales No Metálicos,108.13,-0,0.6,0.6
+2020-08-01,Productos Minerales No Metálicos,108.47,0.3,0.9,0.6
+2020-09-01,Productos Minerales No Metálicos,108.32,-0.1,0.8,0.6
+2020-10-01,Productos Minerales No Metálicos,108.44,0.1,0.9,0.6
+2020-11-01,Productos Minerales No Metálicos,108.13,-0.3,0.6,0.6
+2020-12-01,Productos Minerales No Metálicos,109.08,0.9,1.5,1.5
+2021-01-01,Productos Minerales No Metálicos,109.15,0.1,0.1,1.4
+2021-02-01,Productos Minerales No Metálicos,109.56,0.4,0.4,1.8
+2021-03-01,Productos Minerales No Metálicos,110.62,1,1.4,2.7
+2021-04-01,Productos Minerales No Metálicos,110.61,-0,1.4,2.8
+2021-05-01,Productos Minerales No Metálicos,110.6,-0,1.4,2.2
+2021-06-01,Productos Minerales No Metálicos,111.68,1,2.4,3.3
+2021-07-01,Productos Minerales No Metálicos,111.82,0.1,2.5,3.4
+2021-08-01,Productos Minerales No Metálicos,111.98,0.1,2.7,3.2
+2021-09-01,Productos Minerales No Metálicos,112.79,0.7,3.4,4.1
+2021-10-01,Productos Minerales No Metálicos,113.45,0.6,4,4.6
+2021-11-01,Productos Minerales No Metálicos,113.98,0.5,4.5,5.4
+2021-12-01,Productos Minerales No Metálicos,114.51,0.5,5,5
+2022-01-01,Productos Minerales No Metálicos,114.35,-0.1,-0.1,4.8
+2022-02-01,Productos Minerales No Metálicos,115.55,1,0.9,5.5
+2022-03-01,Productos Minerales No Metálicos,117.37,1.6,2.5,6.1
+2022-04-01,Productos Minerales No Metálicos,117.67,0.3,2.8,6.4
+2022-05-01,Productos Minerales No Metálicos,119.49,1.5,4.3,8
+2022-06-01,Productos Minerales No Metálicos,120.66,1,5.4,8
+2022-07-01,Productos Minerales No Metálicos,122.05,1.2,6.6,9.1
+2022-08-01,Productos Minerales No Metálicos,122.88,0.7,7.3,9.7
+2022-09-01,Productos Minerales No Metálicos,123.42,0.4,7.8,9.4
+2022-10-01,Productos Minerales No Metálicos,124.01,0.5,8.3,9.3
+2022-11-01,Productos Minerales No Metálicos,124.24,0.2,8.5,9
+2022-12-01,Productos Minerales No Metálicos,124.13,-0.1,8.4,8.4
+2023-01-01,Productos Minerales No Metálicos,124.82,0.6,0.6,9.2
+2023-02-01,Productos Minerales No Metálicos,126.79,1.6,2.1,9.7
+2023-03-01,Productos Minerales No Metálicos,127.91,0.9,3,9
+2023-04-01,Productos Minerales No Metálicos,127.05,-0.7,2.4,8
+2023-05-01,Productos Minerales No Metálicos,127.51,0.4,2.7,6.7
+2023-06-01,Productos Minerales No Metálicos,127.54,0,2.7,5.7
+2023-07-01,Productos Minerales No Metálicos,127.27,-0.2,2.5,4.3
+2023-08-01,Productos Minerales No Metálicos,127.32,0,2.6,3.6
+2023-09-01,Productos Minerales No Metálicos,127.14,-0.1,2.4,3
+2023-10-01,Productos Minerales No Metálicos,127.02,-0.1,2.3,2.4
+2023-11-01,Productos Minerales No Metálicos,128.48,1.1,3.5,3.4
+2023-12-01,Productos Minerales No Metálicos,128.08,-0.3,3.2,3.2
+2024-01-01,Productos Minerales No Metálicos,128.27,0.1,0.1,2.8
+2024-02-01,Productos Minerales No Metálicos,129.73,1.1,1.3,2.3
+2024-03-01,Productos Minerales No Metálicos,130.86,0.9,2.2,2.3
+2024-04-01,Productos Minerales No Metálicos,131.24,0.3,2.5,3.3
+2024-05-01,Productos Minerales No Metálicos,131.25,0,2.5,2.9
+2024-06-01,Productos Minerales No Metálicos,131,-0.2,2.3,2.7
+2024-07-01,Productos Minerales No Metálicos,131.37,0.3,2.6,3.2
+2024-08-01,Productos Minerales No Metálicos,131.23,-0.1,2.5,3.1
+2024-09-01,Productos Minerales No Metálicos,131.47,0.2,2.6,3.4
+2024-10-01,Productos Minerales No Metálicos,131.94,0.4,3,3.9
+2024-11-01,Productos Minerales No Metálicos,131.95,0,3,2.7
+2024-12-01,Productos Minerales No Metálicos,131.85,-0.1,2.9,2.9
+2025-01-01,Productos Minerales No Metálicos,132.17,0.2,0.2,3
+2025-02-01,Productos Minerales No Metálicos,131.85,-0.2,0,1.6
+2025-03-01,Productos Minerales No Metálicos,132.17,0.2,0.2,1
+2025-04-01,Productos Minerales No Metálicos,132.06,-0.1,0.2,0.6
+2025-05-01,Productos Minerales No Metálicos,131.88,-0.1,0,0.5
+2025-06-01,Productos Minerales No Metálicos,131.86,-0,0,0.7
+2025-07-01,Productos Minerales No Metálicos,131.54,-0.2,-0.2,0.1
+2025-08-01,Productos Minerales No Metálicos,131.7,0.1,-0.1,0.4
+2025-09-01,Productos Minerales No Metálicos,131.86,0.1,0,0.3
+2025-10-01,Productos Minerales No Metálicos,131.95,0.1,0.1,0
+2025-11-01,Productos Minerales No Metálicos,131.97,0,0.1,0
+2025-12-01,Productos Minerales No Metálicos,132.13,0.1,0.2,0.2
+2026-01-01,Productos Minerales No Metálicos,132.17,0,0,0
+2026-02-01,Productos Minerales No Metálicos,132.93,0.6,0.6,0.8
+2026-03-01,Productos Minerales No Metálicos,133.23,0.2,0.8,0.8
+2026-04-01,Productos Minerales No Metálicos,134.46,0.9,1.8,1.8
+2014-01-01,Productos de Caucho y de Plástico,100.21,NA,NA,NA
+2014-02-01,Productos de Caucho y de Plástico,100.11,-0.1,NA,NA
+2014-03-01,Productos de Caucho y de Plástico,100.7,0.6,NA,NA
+2014-04-01,Productos de Caucho y de Plástico,100.74,0,NA,NA
+2014-05-01,Productos de Caucho y de Plástico,100.07,-0.7,NA,NA
+2014-06-01,Productos de Caucho y de Plástico,99.38,-0.7,NA,NA
+2014-07-01,Productos de Caucho y de Plástico,99.18,-0.2,NA,NA
+2014-08-01,Productos de Caucho y de Plástico,99.21,0,NA,NA
+2014-09-01,Productos de Caucho y de Plástico,99.66,0.5,NA,NA
+2014-10-01,Productos de Caucho y de Plástico,100.65,1,NA,NA
+2014-11-01,Productos de Caucho y de Plástico,101.18,0.5,NA,NA
+2014-12-01,Productos de Caucho y de Plástico,101.94,0.8,NA,NA
+2015-01-01,Productos de Caucho y de Plástico,102.33,0.4,0.4,2.1
+2015-02-01,Productos de Caucho y de Plástico,102.83,0.5,0.9,2.7
+2015-03-01,Productos de Caucho y de Plástico,103.5,0.7,1.5,2.8
+2015-04-01,Productos de Caucho y de Plástico,104.48,0.9,2.5,3.7
+2015-05-01,Productos de Caucho y de Plástico,105.14,0.6,3.1,5.1
+2015-06-01,Productos de Caucho y de Plástico,104.85,-0.3,2.9,5.5
+2015-07-01,Productos de Caucho y de Plástico,105.25,0.4,3.2,6.1
+2015-08-01,Productos de Caucho y de Plástico,105.88,0.6,3.9,6.7
+2015-09-01,Productos de Caucho y de Plástico,106.25,0.3,4.2,6.6
+2015-10-01,Productos de Caucho y de Plástico,106.67,0.4,4.6,6
+2015-11-01,Productos de Caucho y de Plástico,107.52,0.8,5.5,6.3
+2015-12-01,Productos de Caucho y de Plástico,108.36,0.8,6.3,6.3
+2016-01-01,Productos de Caucho y de Plástico,107.73,-0.6,-0.6,5.3
+2016-02-01,Productos de Caucho y de Plástico,107.97,0.2,-0.4,5
+2016-03-01,Productos de Caucho y de Plástico,107.15,-0.8,-1.1,3.5
+2016-04-01,Productos de Caucho y de Plástico,105.72,-1.3,-2.4,1.2
+2016-05-01,Productos de Caucho y de Plástico,104.86,-0.8,-3.2,-0.3
+2016-06-01,Productos de Caucho y de Plástico,105.19,0.3,-2.9,0.3
+2016-07-01,Productos de Caucho y de Plástico,104.05,-1.1,-4,-1.1
+2016-08-01,Productos de Caucho y de Plástico,104.26,0.2,-3.8,-1.5
+2016-09-01,Productos de Caucho y de Plástico,105.11,0.8,-3,-1.1
+2016-10-01,Productos de Caucho y de Plástico,105.02,-0.1,-3.1,-1.5
+2016-11-01,Productos de Caucho y de Plástico,104.7,-0.3,-3.4,-2.6
+2016-12-01,Productos de Caucho y de Plástico,105.16,0.4,-3,-3
+2017-01-01,Productos de Caucho y de Plástico,104.26,-0.9,-0.9,-3.2
+2017-02-01,Productos de Caucho y de Plástico,103.39,-0.8,-1.7,-4.2
+2017-03-01,Productos de Caucho y de Plástico,103.25,-0.1,-1.8,-3.6
+2017-04-01,Productos de Caucho y de Plástico,103.35,0.1,-1.7,-2.2
+2017-05-01,Productos de Caucho y de Plástico,103.68,0.3,-1.4,-1.1
+2017-06-01,Productos de Caucho y de Plástico,104.41,0.7,-0.7,-0.7
+2017-07-01,Productos de Caucho y de Plástico,104.28,-0.1,-0.8,0.2
+2017-08-01,Productos de Caucho y de Plástico,102.9,-1.3,-2.1,-1.3
+2017-09-01,Productos de Caucho y de Plástico,102.2,-0.7,-2.8,-2.8
+2017-10-01,Productos de Caucho y de Plástico,102.44,0.2,-2.6,-2.5
+2017-11-01,Productos de Caucho y de Plástico,102.33,-0.1,-2.7,-2.3
+2017-12-01,Productos de Caucho y de Plástico,102.42,0.1,-2.6,-2.6
+2018-01-01,Productos de Caucho y de Plástico,102.2,-0.2,-0.2,-2
+2018-02-01,Productos de Caucho y de Plástico,102.5,0.3,0.1,-0.9
+2018-03-01,Productos de Caucho y de Plástico,103.09,0.6,0.7,-0.2
+2018-04-01,Productos de Caucho y de Plástico,102.88,-0.2,0.4,-0.5
+2018-05-01,Productos de Caucho y de Plástico,103.16,0.3,0.7,-0.5
+2018-06-01,Productos de Caucho y de Plástico,103.2,0,0.8,-1.2
+2018-07-01,Productos de Caucho y de Plástico,103.44,0.2,1,-0.8
+2018-08-01,Productos de Caucho y de Plástico,103.53,0.1,1.1,0.6
+2018-09-01,Productos de Caucho y de Plástico,104.25,0.7,1.8,2
+2018-10-01,Productos de Caucho y de Plástico,104.16,-0.1,1.7,1.7
+2018-11-01,Productos de Caucho y de Plástico,105.04,0.8,2.6,2.6
+2018-12-01,Productos de Caucho y de Plástico,105.19,0.1,2.7,2.7
+2019-01-01,Productos de Caucho y de Plástico,104.3,-0.8,-0.8,2.1
+2019-02-01,Productos de Caucho y de Plástico,103.43,-0.8,-1.7,0.9
+2019-03-01,Productos de Caucho y de Plástico,102.92,-0.5,-2.2,-0.2
+2019-04-01,Productos de Caucho y de Plástico,102.86,-0.1,-2.2,-0
+2019-05-01,Productos de Caucho y de Plástico,103.03,0.2,-2.1,-0.1
+2019-06-01,Productos de Caucho y de Plástico,103.79,0.7,-1.3,0.6
+2019-07-01,Productos de Caucho y de Plástico,102.62,-1.1,-2.4,-0.8
+2019-08-01,Productos de Caucho y de Plástico,103.43,0.8,-1.7,-0.1
+2019-09-01,Productos de Caucho y de Plástico,103.5,0.1,-1.6,-0.7
+2019-10-01,Productos de Caucho y de Plástico,103.36,-0.1,-1.7,-0.8
+2019-11-01,Productos de Caucho y de Plástico,103.53,0.2,-1.6,-1.4
+2019-12-01,Productos de Caucho y de Plástico,103.63,0.1,-1.5,-1.5
+2020-01-01,Productos de Caucho y de Plástico,102.97,-0.6,-0.6,-1.3
+2020-02-01,Productos de Caucho y de Plástico,103.51,0.5,-0.1,0.1
+2020-03-01,Productos de Caucho y de Plástico,103.57,0.1,-0.1,0.6
+2020-04-01,Productos de Caucho y de Plástico,102.77,-0.8,-0.8,-0.1
+2020-05-01,Productos de Caucho y de Plástico,102.71,-0.1,-0.9,-0.3
+2020-06-01,Productos de Caucho y de Plástico,103.22,0.5,-0.4,-0.5
+2020-07-01,Productos de Caucho y de Plástico,103.43,0.2,-0.2,0.8
+2020-08-01,Productos de Caucho y de Plástico,103.6,0.2,-0,0.2
+2020-09-01,Productos de Caucho y de Plástico,103.57,-0,-0.1,0.1
+2020-10-01,Productos de Caucho y de Plástico,105.09,1.5,1.4,1.7
+2020-11-01,Productos de Caucho y de Plástico,105.98,0.8,2.3,2.4
+2020-12-01,Productos de Caucho y de Plástico,106.42,0.4,2.7,2.7
+2021-01-01,Productos de Caucho y de Plástico,106.57,0.1,0.1,3.5
+2021-02-01,Productos de Caucho y de Plástico,107.92,1.3,1.4,4.3
+2021-03-01,Productos de Caucho y de Plástico,112.39,4.1,5.6,8.5
+2021-04-01,Productos de Caucho y de Plástico,112.27,-0.1,5.5,9.2
+2021-05-01,Productos de Caucho y de Plástico,113.33,0.9,6.5,10.3
+2021-06-01,Productos de Caucho y de Plástico,117.89,4,10.8,14.2
+2021-07-01,Productos de Caucho y de Plástico,118.94,0.9,11.8,15
+2021-08-01,Productos de Caucho y de Plástico,121.01,1.7,13.7,16.8
+2021-09-01,Productos de Caucho y de Plástico,123.66,2.2,16.2,19.4
+2021-10-01,Productos de Caucho y de Plástico,124.37,0.6,16.9,18.3
+2021-11-01,Productos de Caucho y de Plástico,125.4,0.8,17.8,18.3
+2021-12-01,Productos de Caucho y de Plástico,126.21,0.6,18.6,18.6
+2022-01-01,Productos de Caucho y de Plástico,123.74,-2,-2,16.1
+2022-02-01,Productos de Caucho y de Plástico,123.9,0.1,-1.8,14.8
+2022-03-01,Productos de Caucho y de Plástico,123.84,-0,-1.9,10.2
+2022-04-01,Productos de Caucho y de Plástico,123.13,-0.6,-2.4,9.7
+2022-05-01,Productos de Caucho y de Plástico,125.53,1.9,-0.5,10.8
+2022-06-01,Productos de Caucho y de Plástico,125.2,-0.3,-0.8,6.2
+2022-07-01,Productos de Caucho y de Plástico,127.08,1.5,0.7,6.8
+2022-08-01,Productos de Caucho y de Plástico,127.05,-0,0.7,5
+2022-09-01,Productos de Caucho y de Plástico,126.74,-0.2,0.4,2.5
+2022-10-01,Productos de Caucho y de Plástico,128.35,1.3,1.7,3.2
+2022-11-01,Productos de Caucho y de Plástico,127.12,-1,0.7,1.4
+2022-12-01,Productos de Caucho y de Plástico,126.65,-0.4,0.3,0.3
+2023-01-01,Productos de Caucho y de Plástico,124.89,-1.4,-1.4,0.9
+2023-02-01,Productos de Caucho y de Plástico,125.89,0.8,-0.6,1.6
+2023-03-01,Productos de Caucho y de Plástico,123.48,-1.9,-2.5,-0.3
+2023-04-01,Productos de Caucho y de Plástico,122.71,-0.6,-3.1,-0.3
+2023-05-01,Productos de Caucho y de Plástico,121.14,-1.3,-4.4,-3.5
+2023-06-01,Productos de Caucho y de Plástico,120.95,-0.2,-4.5,-3.4
+2023-07-01,Productos de Caucho y de Plástico,119.61,-1.1,-5.6,-5.9
+2023-08-01,Productos de Caucho y de Plástico,119.6,-0,-5.6,-5.9
+2023-09-01,Productos de Caucho y de Plástico,119.95,0.3,-5.3,-5.4
+2023-10-01,Productos de Caucho y de Plástico,121.48,1.3,-4.1,-5.4
+2023-11-01,Productos de Caucho y de Plástico,120.35,-0.9,-5,-5.3
+2023-12-01,Productos de Caucho y de Plástico,119.81,-0.4,-5.4,-5.4
+2024-01-01,Productos de Caucho y de Plástico,119.98,0.1,0.1,-3.9
+2024-02-01,Productos de Caucho y de Plástico,121.31,1.1,1.3,-3.6
+2024-03-01,Productos de Caucho y de Plástico,119.7,-1.3,-0.1,-3.1
+2024-04-01,Productos de Caucho y de Plástico,117.75,-1.6,-1.7,-4
+2024-05-01,Productos de Caucho y de Plástico,118.19,0.4,-1.4,-2.4
+2024-06-01,Productos de Caucho y de Plástico,119.06,0.7,-0.6,-1.6
+2024-07-01,Productos de Caucho y de Plástico,120.06,0.8,0.2,0.4
+2024-08-01,Productos de Caucho y de Plástico,119.37,-0.6,-0.4,-0.2
+2024-09-01,Productos de Caucho y de Plástico,119.7,0.3,-0.1,-0.2
+2024-10-01,Productos de Caucho y de Plástico,119.48,-0.2,-0.3,-1.6
+2024-11-01,Productos de Caucho y de Plástico,120.18,0.6,0.3,-0.1
+2024-12-01,Productos de Caucho y de Plástico,119.71,-0.4,-0.1,-0.1
+2025-01-01,Productos de Caucho y de Plástico,120.64,0.8,0.8,0.6
+2025-02-01,Productos de Caucho y de Plástico,119.69,-0.8,-0,-1.3
+2025-03-01,Productos de Caucho y de Plástico,118.78,-0.8,-0.8,-0.8
+2025-04-01,Productos de Caucho y de Plástico,119.05,0.2,-0.6,1.1
+2025-05-01,Productos de Caucho y de Plástico,118.59,-0.4,-0.9,0.3
+2025-06-01,Productos de Caucho y de Plástico,118.03,-0.5,-1.4,-0.9
+2025-07-01,Productos de Caucho y de Plástico,117.22,-0.7,-2.1,-2.4
+2025-08-01,Productos de Caucho y de Plástico,116.64,-0.5,-2.6,-2.3
+2025-09-01,Productos de Caucho y de Plástico,116.22,-0.4,-2.9,-2.9
+2025-10-01,Productos de Caucho y de Plástico,115.25,-0.8,-3.7,-3.5
+2025-11-01,Productos de Caucho y de Plástico,114.47,-0.7,-4.4,-4.8
+2025-12-01,Productos de Caucho y de Plástico,114.47,0,-4.4,-4.4
+2026-01-01,Productos de Caucho y de Plástico,114.47,0,0,-5.1
+2026-02-01,Productos de Caucho y de Plástico,113.1,-1.2,-1.2,-5.5
+2026-03-01,Productos de Caucho y de Plástico,114.75,1.5,0.2,-3.4
+2026-04-01,Productos de Caucho y de Plástico,114.84,0.1,0.3,-3.5
+2014-01-01,Productos de Madera y de Papel,100.04,NA,NA,NA
+2014-02-01,Productos de Madera y de Papel,100.46,0.4,NA,NA
+2014-03-01,Productos de Madera y de Papel,100.43,-0,NA,NA
+2014-04-01,Productos de Madera y de Papel,100.35,-0.1,NA,NA
+2014-05-01,Productos de Madera y de Papel,100.35,0,NA,NA
+2014-06-01,Productos de Madera y de Papel,100.44,0.1,NA,NA
+2014-07-01,Productos de Madera y de Papel,100.71,0.3,NA,NA
+2014-08-01,Productos de Madera y de Papel,100.73,0,NA,NA
+2014-09-01,Productos de Madera y de Papel,100.86,0.1,NA,NA
+2014-10-01,Productos de Madera y de Papel,100.89,0,NA,NA
+2014-11-01,Productos de Madera y de Papel,101.01,0.1,NA,NA
+2014-12-01,Productos de Madera y de Papel,101.1,0.1,NA,NA
+2015-01-01,Productos de Madera y de Papel,101.33,0.2,0.2,1.3
+2015-02-01,Productos de Madera y de Papel,101.75,0.4,0.6,1.3
+2015-03-01,Productos de Madera y de Papel,102.1,0.3,1,1.7
+2015-04-01,Productos de Madera y de Papel,102.38,0.3,1.3,2
+2015-05-01,Productos de Madera y de Papel,102.86,0.5,1.7,2.5
+2015-06-01,Productos de Madera y de Papel,102.9,0,1.8,2.4
+2015-07-01,Productos de Madera y de Papel,103,0.1,1.9,2.3
+2015-08-01,Productos de Madera y de Papel,103.26,0.3,2.1,2.5
+2015-09-01,Productos de Madera y de Papel,103.51,0.2,2.4,2.6
+2015-10-01,Productos de Madera y de Papel,103.51,0,2.4,2.6
+2015-11-01,Productos de Madera y de Papel,103.78,0.3,2.7,2.7
+2015-12-01,Productos de Madera y de Papel,103.95,0.2,2.8,2.8
+2016-01-01,Productos de Madera y de Papel,104.27,0.3,0.3,2.9
+2016-02-01,Productos de Madera y de Papel,104.68,0.4,0.7,2.9
+2016-03-01,Productos de Madera y de Papel,104.77,0.1,0.8,2.6
+2016-04-01,Productos de Madera y de Papel,104.54,-0.2,0.6,2.1
+2016-05-01,Productos de Madera y de Papel,104.46,-0.1,0.5,1.6
+2016-06-01,Productos de Madera y de Papel,104.5,0,0.5,1.6
+2016-07-01,Productos de Madera y de Papel,105.06,0.5,1.1,2
+2016-08-01,Productos de Madera y de Papel,105.85,0.8,1.8,2.5
+2016-09-01,Productos de Madera y de Papel,106.49,0.6,2.4,2.9
+2016-10-01,Productos de Madera y de Papel,106.93,0.4,2.9,3.3
+2016-11-01,Productos de Madera y de Papel,107.34,0.4,3.3,3.4
+2016-12-01,Productos de Madera y de Papel,107.35,0,3.3,3.3
+2017-01-01,Productos de Madera y de Papel,107.35,0,0,3
+2017-02-01,Productos de Madera y de Papel,107.55,0.2,0.2,2.7
+2017-03-01,Productos de Madera y de Papel,107.85,0.3,0.5,2.9
+2017-04-01,Productos de Madera y de Papel,108.2,0.3,0.8,3.5
+2017-05-01,Productos de Madera y de Papel,108.74,0.5,1.3,4.1
+2017-06-01,Productos de Madera y de Papel,109.19,0.4,1.7,4.5
+2017-07-01,Productos de Madera y de Papel,109.54,0.3,2,4.3
+2017-08-01,Productos de Madera y de Papel,109.7,0.1,2.2,3.6
+2017-09-01,Productos de Madera y de Papel,109.87,0.2,2.3,3.2
+2017-10-01,Productos de Madera y de Papel,110.58,0.6,3,3.4
+2017-11-01,Productos de Madera y de Papel,110.98,0.4,3.4,3.4
+2017-12-01,Productos de Madera y de Papel,111,0,3.4,3.4
+2018-01-01,Productos de Madera y de Papel,111.06,0.1,0.1,3.5
+2018-02-01,Productos de Madera y de Papel,111.16,0.1,0.1,3.4
+2018-03-01,Productos de Madera y de Papel,111.39,0.2,0.4,3.3
+2018-04-01,Productos de Madera y de Papel,112.51,1,1.4,4
+2018-05-01,Productos de Madera y de Papel,113.29,0.7,2.1,4.2
+2018-06-01,Productos de Madera y de Papel,113.93,0.6,2.6,4.3
+2018-07-01,Productos de Madera y de Papel,113.92,-0,2.6,4
+2018-08-01,Productos de Madera y de Papel,113.92,0,2.6,3.8
+2018-09-01,Productos de Madera y de Papel,114,0.1,2.7,3.8
+2018-10-01,Productos de Madera y de Papel,114.25,0.2,2.9,3.3
+2018-11-01,Productos de Madera y de Papel,114.25,0,2.9,2.9
+2018-12-01,Productos de Madera y de Papel,115.19,0.8,3.8,3.8
+2019-01-01,Productos de Madera y de Papel,115.33,0.1,0.1,3.8
+2019-02-01,Productos de Madera y de Papel,115.27,-0.1,0.1,3.7
+2019-03-01,Productos de Madera y de Papel,115.33,0.1,0.1,3.5
+2019-04-01,Productos de Madera y de Papel,115.41,0.1,0.2,2.6
+2019-05-01,Productos de Madera y de Papel,115.48,0.1,0.3,1.9
+2019-06-01,Productos de Madera y de Papel,115.51,0,0.3,1.4
+2019-07-01,Productos de Madera y de Papel,115.43,-0.1,0.2,1.3
+2019-08-01,Productos de Madera y de Papel,115.6,0.1,0.4,1.5
+2019-09-01,Productos de Madera y de Papel,115.61,0,0.4,1.4
+2019-10-01,Productos de Madera y de Papel,115.64,0,0.4,1.2
+2019-11-01,Productos de Madera y de Papel,115.59,-0,0.3,1.2
+2019-12-01,Productos de Madera y de Papel,115.63,0,0.4,0.4
+2020-01-01,Productos de Madera y de Papel,115.55,-0.1,-0.1,0.2
+2020-02-01,Productos de Madera y de Papel,115.68,0.1,0,0.4
+2020-03-01,Productos de Madera y de Papel,116.03,0.3,0.3,0.6
+2020-04-01,Productos de Madera y de Papel,116.03,0,0.3,0.5
+2020-05-01,Productos de Madera y de Papel,116.05,0,0.4,0.5
+2020-06-01,Productos de Madera y de Papel,115.85,-0.2,0.2,0.3
+2020-07-01,Productos de Madera y de Papel,116.06,0.2,0.4,0.5
+2020-08-01,Productos de Madera y de Papel,116.08,0,0.4,0.4
+2020-09-01,Productos de Madera y de Papel,116.17,0.1,0.5,0.5
+2020-10-01,Productos de Madera y de Papel,117.47,1.1,1.6,1.6
+2020-11-01,Productos de Madera y de Papel,118.22,0.6,2.2,2.3
+2020-12-01,Productos de Madera y de Papel,118.41,0.2,2.4,2.4
+2021-01-01,Productos de Madera y de Papel,118.58,0.1,0.1,2.6
+2021-02-01,Productos de Madera y de Papel,118.9,0.3,0.4,2.8
+2021-03-01,Productos de Madera y de Papel,119.2,0.3,0.7,2.7
+2021-04-01,Productos de Madera y de Papel,119.7,0.4,1.1,3.2
+2021-05-01,Productos de Madera y de Papel,120.47,0.6,1.7,3.8
+2021-06-01,Productos de Madera y de Papel,120.51,0,1.8,4
+2021-07-01,Productos de Madera y de Papel,120.99,0.4,2.2,4.2
+2021-08-01,Productos de Madera y de Papel,121.42,0.4,2.5,4.6
+2021-09-01,Productos de Madera y de Papel,121.88,0.4,2.9,4.9
+2021-10-01,Productos de Madera y de Papel,123.6,1.4,4.4,5.2
+2021-11-01,Productos de Madera y de Papel,124.1,0.4,4.8,5
+2021-12-01,Productos de Madera y de Papel,124.3,0.2,5,5
+2022-01-01,Productos de Madera y de Papel,124.82,0.4,0.4,5.3
+2022-02-01,Productos de Madera y de Papel,125.56,0.6,1,5.6
+2022-03-01,Productos de Madera y de Papel,126.19,0.5,1.5,5.9
+2022-04-01,Productos de Madera y de Papel,126.92,0.6,2.1,6
+2022-05-01,Productos de Madera y de Papel,127.29,0.3,2.4,5.7
+2022-06-01,Productos de Madera y de Papel,127.81,0.4,2.8,6.1
+2022-07-01,Productos de Madera y de Papel,128.35,0.4,3.3,6.1
+2022-08-01,Productos de Madera y de Papel,128.45,0.1,3.3,5.8
+2022-09-01,Productos de Madera y de Papel,129.15,0.5,3.9,6
+2022-10-01,Productos de Madera y de Papel,130.63,1.1,5.1,5.7
+2022-11-01,Productos de Madera y de Papel,130.63,0,5.1,5.3
+2022-12-01,Productos de Madera y de Papel,130.57,-0,5,5
+2023-01-01,Productos de Madera y de Papel,130.51,-0,-0,4.6
+2023-02-01,Productos de Madera y de Papel,130.58,0.1,0,4
+2023-03-01,Productos de Madera y de Papel,130.37,-0.2,-0.2,3.3
+2023-04-01,Productos de Madera y de Papel,130.36,-0,-0.2,2.7
+2023-05-01,Productos de Madera y de Papel,130.2,-0.1,-0.3,2.3
+2023-06-01,Productos de Madera y de Papel,129.4,-0.6,-0.9,1.2
+2023-07-01,Productos de Madera y de Papel,129.15,-0.2,-1.1,0.6
+2023-08-01,Productos de Madera y de Papel,127.8,-1,-2.1,-0.5
+2023-09-01,Productos de Madera y de Papel,127.6,-0.2,-2.3,-1.2
+2023-10-01,Productos de Madera y de Papel,127.81,0.2,-2.1,-2.2
+2023-11-01,Productos de Madera y de Papel,127.49,-0.3,-2.4,-2.4
+2023-12-01,Productos de Madera y de Papel,127.02,-0.4,-2.7,-2.7
+2024-01-01,Productos de Madera y de Papel,126.41,-0.5,-0.5,-3.1
+2024-02-01,Productos de Madera y de Papel,126.22,-0.2,-0.6,-3.3
+2024-03-01,Productos de Madera y de Papel,125.67,-0.4,-1.1,-3.6
+2024-04-01,Productos de Madera y de Papel,125.85,0.1,-0.9,-3.5
+2024-05-01,Productos de Madera y de Papel,125.78,-0.1,-1,-3.4
+2024-06-01,Productos de Madera y de Papel,125.73,-0,-1,-2.8
+2024-07-01,Productos de Madera y de Papel,125.39,-0.3,-1.3,-2.9
+2024-08-01,Productos de Madera y de Papel,125.35,-0,-1.3,-1.9
+2024-09-01,Productos de Madera y de Papel,125.5,0.1,-1.2,-1.6
+2024-10-01,Productos de Madera y de Papel,125.39,-0.1,-1.3,-1.9
+2024-11-01,Productos de Madera y de Papel,125.49,0.1,-1.2,-1.6
+2024-12-01,Productos de Madera y de Papel,125.2,-0.2,-1.4,-1.4
+2025-01-01,Productos de Madera y de Papel,125.25,0,0,-0.9
+2025-02-01,Productos de Madera y de Papel,125.45,0.2,0.2,-0.6
+2025-03-01,Productos de Madera y de Papel,125.44,-0,0.2,-0.2
+2025-04-01,Productos de Madera y de Papel,125.38,-0,0.1,-0.4
+2025-05-01,Productos de Madera y de Papel,125.64,0.2,0.4,-0.1
+2025-06-01,Productos de Madera y de Papel,125.84,0.2,0.5,0.1
+2025-07-01,Productos de Madera y de Papel,125.67,-0.1,0.4,0.2
+2025-08-01,Productos de Madera y de Papel,125.73,0,0.4,0.3
+2025-09-01,Productos de Madera y de Papel,125.74,0,0.4,0.2
+2025-10-01,Productos de Madera y de Papel,125.6,-0.1,0.3,0.2
+2025-11-01,Productos de Madera y de Papel,125.21,-0.3,0,-0.2
+2025-12-01,Productos de Madera y de Papel,125.26,0,0,0
+2026-01-01,Productos de Madera y de Papel,125.23,-0,-0,-0
+2026-02-01,Productos de Madera y de Papel,125.3,0.1,0,-0.1
+2026-03-01,Productos de Madera y de Papel,125.52,0.2,0.2,0.1
+2026-04-01,Productos de Madera y de Papel,125.62,0.1,0.3,0.2
+2014-01-01,Productos de la Refinación del Petróleo,100.95,NA,NA,NA
+2014-02-01,Productos de la Refinación del Petróleo,101.33,0.4,NA,NA
+2014-03-01,Productos de la Refinación del Petróleo,103.05,1.7,NA,NA
+2014-04-01,Productos de la Refinación del Petróleo,102.3,-0.7,NA,NA
+2014-05-01,Productos de la Refinación del Petróleo,101.37,-0.9,NA,NA
+2014-06-01,Productos de la Refinación del Petróleo,101.28,-0.1,NA,NA
+2014-07-01,Productos de la Refinación del Petróleo,100.71,-0.6,NA,NA
+2014-08-01,Productos de la Refinación del Petróleo,99.6,-1.1,NA,NA
+2014-09-01,Productos de la Refinación del Petróleo,98.4,-1.2,NA,NA
+2014-10-01,Productos de la Refinación del Petróleo,97.78,-0.6,NA,NA
+2014-11-01,Productos de la Refinación del Petróleo,92.91,-5,NA,NA
+2014-12-01,Productos de la Refinación del Petróleo,85.68,-7.8,NA,NA
+2015-01-01,Productos de la Refinación del Petróleo,73.95,-13.7,-13.7,-26.7
+2015-02-01,Productos de la Refinación del Petróleo,72.95,-1.4,-14.9,-28
+2015-03-01,Productos de la Refinación del Petróleo,78.63,7.8,-8.2,-23.7
+2015-04-01,Productos de la Refinación del Petróleo,76.17,-3.1,-11.1,-25.5
+2015-05-01,Productos de la Refinación del Petróleo,80.73,6,-5.8,-20.4
+2015-06-01,Productos de la Refinación del Petróleo,81.11,0.5,-5.3,-19.9
+2015-07-01,Productos de la Refinación del Petróleo,79.38,-2.1,-7.4,-21.2
+2015-08-01,Productos de la Refinación del Petróleo,76.89,-3.1,-10.3,-22.8
+2015-09-01,Productos de la Refinación del Petróleo,75.8,-1.4,-11.5,-23
+2015-10-01,Productos de la Refinación del Petróleo,75.02,-1,-12.4,-23.3
+2015-11-01,Productos de la Refinación del Petróleo,74.2,-1.1,-13.4,-20.1
+2015-12-01,Productos de la Refinación del Petróleo,71.29,-3.9,-16.8,-16.8
+2016-01-01,Productos de la Refinación del Petróleo,65.14,-8.6,-8.6,-11.9
+2016-02-01,Productos de la Refinación del Petróleo,63.14,-3.1,-11.4,-13.4
+2016-03-01,Productos de la Refinación del Petróleo,63.4,0.4,-11.1,-19.4
+2016-04-01,Productos de la Refinación del Petróleo,63.64,0.4,-10.7,-16.5
+2016-05-01,Productos de la Refinación del Petróleo,67.7,6.4,-5,-16.1
+2016-06-01,Productos de la Refinación del Petróleo,72.39,6.9,1.5,-10.8
+2016-07-01,Productos de la Refinación del Petróleo,71.27,-1.5,-0,-10.2
+2016-08-01,Productos de la Refinación del Petróleo,69.49,-2.5,-2.5,-9.6
+2016-09-01,Productos de la Refinación del Petróleo,72.13,3.8,1.2,-4.8
+2016-10-01,Productos de la Refinación del Petróleo,73.88,2.4,3.6,-1.5
+2016-11-01,Productos de la Refinación del Petróleo,74.67,1.1,4.7,0.6
+2016-12-01,Productos de la Refinación del Petróleo,77.12,3.3,8.2,8.2
+2017-01-01,Productos de la Refinación del Petróleo,80.3,4.1,4.1,23.3
+2017-02-01,Productos de la Refinación del Petróleo,77.73,-3.2,0.8,23.1
+2017-03-01,Productos de la Refinación del Petróleo,76.81,-1.2,-0.4,21.2
+2017-04-01,Productos de la Refinación del Petróleo,75.68,-1.5,-1.9,18.9
+2017-05-01,Productos de la Refinación del Petróleo,75.09,-0.8,-2.6,10.9
+2017-06-01,Productos de la Refinación del Petróleo,75.21,0.2,-2.5,3.9
+2017-07-01,Productos de la Refinación del Petróleo,73.79,-1.9,-4.3,3.5
+2017-08-01,Productos de la Refinación del Petróleo,76.77,4,-0.5,10.5
+2017-09-01,Productos de la Refinación del Petróleo,79.92,4.1,3.6,10.8
+2017-10-01,Productos de la Refinación del Petróleo,80.27,0.4,4.1,8.6
+2017-11-01,Productos de la Refinación del Petróleo,81.45,1.5,5.6,9.1
+2017-12-01,Productos de la Refinación del Petróleo,82.31,1.1,6.7,6.7
+2018-01-01,Productos de la Refinación del Petróleo,84.75,3,3,5.5
+2018-02-01,Productos de la Refinación del Petróleo,86.26,1.8,4.8,11
+2018-03-01,Productos de la Refinación del Petróleo,83.87,-2.8,1.9,9.2
+2018-04-01,Productos de la Refinación del Petróleo,84.37,0.6,2.5,11.5
+2018-05-01,Productos de la Refinación del Petróleo,89.8,6.4,9.1,19.6
+2018-06-01,Productos de la Refinación del Petróleo,92.54,3.1,12.4,23
+2018-07-01,Productos de la Refinación del Petróleo,91.76,-0.8,11.5,24.4
+2018-08-01,Productos de la Refinación del Petróleo,91.32,-0.5,10.9,19
+2018-09-01,Productos de la Refinación del Petróleo,93.17,2,13.2,16.6
+2018-10-01,Productos de la Refinación del Petróleo,96.43,3.5,17.2,20.1
+2018-11-01,Productos de la Refinación del Petróleo,95.3,-1.2,15.8,17
+2018-12-01,Productos de la Refinación del Petróleo,92.33,-3.1,12.2,12.2
+2019-01-01,Productos de la Refinación del Petróleo,90.43,-2.1,-2.1,6.7
+2019-02-01,Productos de la Refinación del Petróleo,88.35,-2.3,-4.3,2.4
+2019-03-01,Productos de la Refinación del Petróleo,90.86,2.8,-1.6,8.3
+2019-04-01,Productos de la Refinación del Petróleo,92.82,2.2,0.5,10
+2019-05-01,Productos de la Refinación del Petróleo,94.66,2,2.5,5.4
+2019-06-01,Productos de la Refinación del Petróleo,93.68,-1,1.5,1.2
+2019-07-01,Productos de la Refinación del Petróleo,95.59,2,3.5,4.2
+2019-08-01,Productos de la Refinación del Petróleo,95.41,-0.2,3.3,4.5
+2019-09-01,Productos de la Refinación del Petróleo,94.64,-0.8,2.5,1.6
+2019-10-01,Productos de la Refinación del Petróleo,95.74,1.2,3.7,-0.7
+2019-11-01,Productos de la Refinación del Petróleo,94.75,-1,2.6,-0.6
+2019-12-01,Productos de la Refinación del Petróleo,93.49,-1.3,1.3,1.3
+2020-01-01,Productos de la Refinación del Petróleo,94.73,1.3,1.3,4.8
+2020-02-01,Productos de la Refinación del Petróleo,90.68,-4.3,-3,2.6
+2020-03-01,Productos de la Refinación del Petróleo,85.73,-5.5,-8.3,-5.6
+2020-04-01,Productos de la Refinación del Petróleo,82.38,-3.9,-11.9,-11.2
+2020-05-01,Productos de la Refinación del Petróleo,78.95,-4.2,-15.6,-16.6
+2020-06-01,Productos de la Refinación del Petróleo,74.89,-5.1,-19.9,-20.1
+2020-07-01,Productos de la Refinación del Petróleo,76.06,1.6,-18.6,-20.4
+2020-08-01,Productos de la Refinación del Petróleo,79.24,4.2,-15.2,-16.9
+2020-09-01,Productos de la Refinación del Petróleo,80.62,1.7,-13.8,-14.8
+2020-10-01,Productos de la Refinación del Petróleo,79.38,-1.5,-15.1,-17.1
+2020-11-01,Productos de la Refinación del Petróleo,78.97,-0.5,-15.5,-16.7
+2020-12-01,Productos de la Refinación del Petróleo,85.08,7.7,-9,-9
+2021-01-01,Productos de la Refinación del Petróleo,91.74,7.8,7.8,-3.2
+2021-02-01,Productos de la Refinación del Petróleo,96.54,5.2,13.5,6.5
+2021-03-01,Productos de la Refinación del Petróleo,102.76,6.4,20.8,19.9
+2021-04-01,Productos de la Refinación del Petróleo,101.01,-1.7,18.7,22.6
+2021-05-01,Productos de la Refinación del Petróleo,106.28,5.2,24.9,34.6
+2021-06-01,Productos de la Refinación del Petróleo,111.24,4.7,30.7,48.5
+2021-07-01,Productos de la Refinación del Petróleo,116.1,4.4,36.5,52.6
+2021-08-01,Productos de la Refinación del Petróleo,119.38,2.8,40.3,50.7
+2021-09-01,Productos de la Refinación del Petróleo,121.44,1.7,42.7,50.6
+2021-10-01,Productos de la Refinación del Petróleo,128.79,6.1,51.4,62.2
+2021-11-01,Productos de la Refinación del Petróleo,129.39,0.5,52.1,63.8
+2021-12-01,Productos de la Refinación del Petróleo,123.99,-4.2,45.7,45.7
+2022-01-01,Productos de la Refinación del Petróleo,123.05,-0.8,-0.8,34.1
+2022-02-01,Productos de la Refinación del Petróleo,132.09,7.3,6.5,36.8
+2022-03-01,Productos de la Refinación del Petróleo,150.54,14,21.4,46.5
+2022-04-01,Productos de la Refinación del Petróleo,152.67,1.4,23.1,51.1
+2022-05-01,Productos de la Refinación del Petróleo,165.54,8.4,33.5,55.8
+2022-06-01,Productos de la Refinación del Petróleo,170.87,3.2,37.8,53.6
+2022-07-01,Productos de la Refinación del Petróleo,180.67,5.7,45.7,55.6
+2022-08-01,Productos de la Refinación del Petróleo,168.78,-6.6,36.1,41.4
+2022-09-01,Productos de la Refinación del Petróleo,165.66,-1.8,33.6,36.4
+2022-10-01,Productos de la Refinación del Petróleo,166.61,0.6,34.4,29.4
+2022-11-01,Productos de la Refinación del Petróleo,168.6,1.2,36,30.3
+2022-12-01,Productos de la Refinación del Petróleo,152.41,-9.6,22.9,22.9
+2023-01-01,Productos de la Refinación del Petróleo,152.93,0.3,0.3,24.3
+2023-02-01,Productos de la Refinación del Petróleo,155.99,2,2.3,18.1
+2023-03-01,Productos de la Refinación del Petróleo,152.32,-2.4,-0.1,1.2
+2023-04-01,Productos de la Refinación del Petróleo,153.04,0.5,0.4,0.2
+2023-05-01,Productos de la Refinación del Petróleo,148.98,-2.7,-2.3,-10
+2023-06-01,Productos de la Refinación del Petróleo,141.46,-5,-7.2,-17.2
+2023-07-01,Productos de la Refinación del Petróleo,139.7,-1.2,-8.3,-22.7
+2023-08-01,Productos de la Refinación del Petróleo,151.76,8.6,-0.4,-10.1
+2023-09-01,Productos de la Refinación del Petróleo,160.59,5.8,5.4,-3.1
+2023-10-01,Productos de la Refinación del Petróleo,163.25,1.7,7.1,-2
+2023-11-01,Productos de la Refinación del Petróleo,155.61,-4.7,2.1,-7.7
+2023-12-01,Productos de la Refinación del Petróleo,148.81,-4.4,-2.4,-2.4
+2024-01-01,Productos de la Refinación del Petróleo,143.27,-3.7,-3.7,-6.3
+2024-02-01,Productos de la Refinación del Petróleo,141.63,-1.1,-4.8,-9.2
+2024-03-01,Productos de la Refinación del Petróleo,137.94,-2.6,-7.3,-9.4
+2024-04-01,Productos de la Refinación del Petróleo,137.91,-0,-7.3,-9.9
+2024-05-01,Productos de la Refinación del Petróleo,134.36,-2.6,-9.7,-9.8
+2024-06-01,Productos de la Refinación del Petróleo,132,-1.8,-11.3,-6.7
+2024-07-01,Productos de la Refinación del Petróleo,137.53,4.2,-7.6,-1.6
+2024-08-01,Productos de la Refinación del Petróleo,131.71,-4.2,-11.5,-13.2
+2024-09-01,Productos de la Refinación del Petróleo,124.2,-5.7,-16.5,-22.7
+2024-10-01,Productos de la Refinación del Petróleo,121.33,-2.3,-18.5,-25.7
+2024-11-01,Productos de la Refinación del Petróleo,121.9,0.5,-18.1,-21.7
+2024-12-01,Productos de la Refinación del Petróleo,121.32,-0.5,-18.5,-18.5
+2025-01-01,Productos de la Refinación del Petróleo,124.68,2.8,2.8,-13
+2025-02-01,Productos de la Refinación del Petróleo,125.74,0.9,3.6,-11.2
+2025-03-01,Productos de la Refinación del Petróleo,119.56,-4.9,-1.5,-13.3
+2025-04-01,Productos de la Refinación del Petróleo,118.58,-0.8,-2.3,-14
+2025-05-01,Productos de la Refinación del Petróleo,117.23,-1.1,-3.4,-12.7
+2025-06-01,Productos de la Refinación del Petróleo,118.38,1,-2.4,-10.3
+2025-07-01,Productos de la Refinación del Petróleo,113.91,-3.8,-6.1,-17.2
+2025-08-01,Productos de la Refinación del Petróleo,107.69,-5.5,-11.2,-18.2
+2025-09-01,Productos de la Refinación del Petróleo,107.33,-0.3,-11.5,-13.6
+2025-10-01,Productos de la Refinación del Petróleo,105.54,-1.7,-13,-13
+2025-11-01,Productos de la Refinación del Petróleo,108.38,2.7,-10.7,-11.1
+2025-12-01,Productos de la Refinación del Petróleo,108.32,-0.1,-10.7,-10.7
+2026-01-01,Productos de la Refinación del Petróleo,105.62,-2.5,-2.5,-15.3
+2026-02-01,Productos de la Refinación del Petróleo,107.83,2.1,-0.5,-14.2
+2026-03-01,Productos de la Refinación del Petróleo,140.72,30.5,29.9,17.7
+2026-04-01,Productos de la Refinación del Petróleo,160.58,14.1,48.2,35.4
+2014-01-01,Sustancias y Productos Químicos,100.46,NA,NA,NA
+2014-02-01,Sustancias y Productos Químicos,100.63,0.2,NA,NA
+2014-03-01,Sustancias y Productos Químicos,100.81,0.2,NA,NA
+2014-04-01,Sustancias y Productos Químicos,100.93,0.1,NA,NA
+2014-05-01,Sustancias y Productos Químicos,100.79,-0.1,NA,NA
+2014-06-01,Sustancias y Productos Químicos,100.77,-0,NA,NA
+2014-07-01,Sustancias y Productos Químicos,100.78,0,NA,NA
+2014-08-01,Sustancias y Productos Químicos,101,0.2,NA,NA
+2014-09-01,Sustancias y Productos Químicos,101.45,0.4,NA,NA
+2014-10-01,Sustancias y Productos Químicos,101.76,0.3,NA,NA
+2014-11-01,Sustancias y Productos Químicos,101.98,0.2,NA,NA
+2014-12-01,Sustancias y Productos Químicos,102.18,0.2,NA,NA
+2015-01-01,Sustancias y Productos Químicos,102.76,0.6,0.6,2.3
+2015-02-01,Sustancias y Productos Químicos,103.34,0.6,1.1,2.7
+2015-03-01,Sustancias y Productos Químicos,103.74,0.4,1.5,2.9
+2015-04-01,Sustancias y Productos Químicos,103.45,-0.3,1.2,2.5
+2015-05-01,Sustancias y Productos Químicos,103.9,0.4,1.7,3.1
+2015-06-01,Sustancias y Productos Químicos,103.92,0,1.7,3.1
+2015-07-01,Sustancias y Productos Químicos,104.36,0.4,2.1,3.6
+2015-08-01,Sustancias y Productos Químicos,104.97,0.6,2.7,3.9
+2015-09-01,Sustancias y Productos Químicos,104.91,-0.1,2.7,3.4
+2015-10-01,Sustancias y Productos Químicos,104.78,-0.1,2.5,3
+2015-11-01,Sustancias y Productos Químicos,105.39,0.6,3.1,3.3
+2015-12-01,Sustancias y Productos Químicos,105.64,0.2,3.4,3.4
+2016-01-01,Sustancias y Productos Químicos,105.85,0.2,0.2,3
+2016-02-01,Sustancias y Productos Químicos,106.4,0.5,0.7,3
+2016-03-01,Sustancias y Productos Químicos,106.21,-0.2,0.5,2.4
+2016-04-01,Sustancias y Productos Químicos,105.58,-0.6,-0.1,2.1
+2016-05-01,Sustancias y Productos Químicos,105.75,0.2,0.1,1.8
+2016-06-01,Sustancias y Productos Químicos,106.12,0.3,0.5,2.1
+2016-07-01,Sustancias y Productos Químicos,106.04,-0.1,0.4,1.6
+2016-08-01,Sustancias y Productos Químicos,106.35,0.3,0.7,1.3
+2016-09-01,Sustancias y Productos Químicos,106.9,0.5,1.2,1.9
+2016-10-01,Sustancias y Productos Químicos,106.97,0.1,1.3,2.1
+2016-11-01,Sustancias y Productos Químicos,107.11,0.1,1.4,1.6
+2016-12-01,Sustancias y Productos Químicos,107.35,0.2,1.6,1.6
+2017-01-01,Sustancias y Productos Químicos,107.26,-0.1,-0.1,1.3
+2017-02-01,Sustancias y Productos Químicos,106.98,-0.3,-0.3,0.5
+2017-03-01,Sustancias y Productos Químicos,108.64,1.6,1.2,2.3
+2017-04-01,Sustancias y Productos Químicos,108.5,-0.1,1.1,2.8
+2017-05-01,Sustancias y Productos Químicos,108.68,0.2,1.2,2.8
+2017-06-01,Sustancias y Productos Químicos,108.62,-0.1,1.2,2.4
+2017-07-01,Sustancias y Productos Químicos,108.28,-0.3,0.9,2.1
+2017-08-01,Sustancias y Productos Químicos,108.47,0.2,1,2
+2017-09-01,Sustancias y Productos Químicos,108.66,0.2,1.2,1.6
+2017-10-01,Sustancias y Productos Químicos,108.84,0.2,1.4,1.7
+2017-11-01,Sustancias y Productos Químicos,108.9,0.1,1.4,1.7
+2017-12-01,Sustancias y Productos Químicos,108.76,-0.1,1.3,1.3
+2018-01-01,Sustancias y Productos Químicos,108.57,-0.2,-0.2,1.2
+2018-02-01,Sustancias y Productos Químicos,109.04,0.4,0.3,1.9
+2018-03-01,Sustancias y Productos Químicos,109.55,0.5,0.7,0.8
+2018-04-01,Sustancias y Productos Químicos,109.34,-0.2,0.5,0.8
+2018-05-01,Sustancias y Productos Químicos,109.79,0.4,0.9,1
+2018-06-01,Sustancias y Productos Químicos,109.95,0.1,1.1,1.2
+2018-07-01,Sustancias y Productos Químicos,110.17,0.2,1.3,1.7
+2018-08-01,Sustancias y Productos Químicos,110.34,0.2,1.5,1.7
+2018-09-01,Sustancias y Productos Químicos,110.98,0.6,2,2.1
+2018-10-01,Sustancias y Productos Químicos,111.16,0.2,2.2,2.1
+2018-11-01,Sustancias y Productos Químicos,111.65,0.4,2.7,2.5
+2018-12-01,Sustancias y Productos Químicos,111.78,0.1,2.8,2.8
+2019-01-01,Sustancias y Productos Químicos,111.35,-0.4,-0.4,2.6
+2019-02-01,Sustancias y Productos Químicos,111.52,0.2,-0.2,2.3
+2019-03-01,Sustancias y Productos Químicos,112.23,0.6,0.4,2.4
+2019-04-01,Sustancias y Productos Químicos,112.36,0.1,0.5,2.8
+2019-05-01,Sustancias y Productos Químicos,112.84,0.4,0.9,2.8
+2019-06-01,Sustancias y Productos Químicos,112.18,-0.6,0.4,2
+2019-07-01,Sustancias y Productos Químicos,111.89,-0.3,0.1,1.6
+2019-08-01,Sustancias y Productos Químicos,111.67,-0.2,-0.1,1.2
+2019-09-01,Sustancias y Productos Químicos,111.74,0.1,-0,0.7
+2019-10-01,Sustancias y Productos Químicos,111.74,0,-0,0.5
+2019-11-01,Sustancias y Productos Químicos,111.53,-0.2,-0.2,-0.1
+2019-12-01,Sustancias y Productos Químicos,111.44,-0.1,-0.3,-0.3
+2020-01-01,Sustancias y Productos Químicos,111.23,-0.2,-0.2,-0.1
+2020-02-01,Sustancias y Productos Químicos,111.64,0.4,0.2,0.1
+2020-03-01,Sustancias y Productos Químicos,112.58,0.8,1,0.3
+2020-04-01,Sustancias y Productos Químicos,112.12,-0.4,0.6,-0.2
+2020-05-01,Sustancias y Productos Químicos,112.35,0.2,0.8,-0.4
+2020-06-01,Sustancias y Productos Químicos,112.44,0.1,0.9,0.2
+2020-07-01,Sustancias y Productos Químicos,113.21,0.7,1.6,1.2
+2020-08-01,Sustancias y Productos Químicos,113.48,0.2,1.8,1.6
+2020-09-01,Sustancias y Productos Químicos,113.7,0.2,2,1.8
+2020-10-01,Sustancias y Productos Químicos,114.06,0.3,2.4,2.1
+2020-11-01,Sustancias y Productos Químicos,113.96,-0.1,2.3,2.2
+2020-12-01,Sustancias y Productos Químicos,114.14,0.2,2.4,2.4
+2021-01-01,Sustancias y Productos Químicos,114.49,0.3,0.3,2.9
+2021-02-01,Sustancias y Productos Químicos,115.25,0.7,1,3.2
+2021-03-01,Sustancias y Productos Químicos,117.05,1.6,2.5,4
+2021-04-01,Sustancias y Productos Químicos,117.26,0.2,2.7,4.6
+2021-05-01,Sustancias y Productos Químicos,118.42,1,3.7,5.4
+2021-06-01,Sustancias y Productos Químicos,120.97,2.2,6,7.6
+2021-07-01,Sustancias y Productos Químicos,121.46,0.4,6.4,7.3
+2021-08-01,Sustancias y Productos Químicos,123.68,1.8,8.4,9
+2021-09-01,Sustancias y Productos Químicos,125.26,1.3,9.7,10.2
+2021-10-01,Sustancias y Productos Químicos,125.51,0.2,10,10
+2021-11-01,Sustancias y Productos Químicos,125.55,0,10,10.2
+2021-12-01,Sustancias y Productos Químicos,126.12,0.5,10.5,10.5
+2022-01-01,Sustancias y Productos Químicos,125.47,-0.5,-0.5,9.6
+2022-02-01,Sustancias y Productos Químicos,125.6,0.1,-0.4,9
+2022-03-01,Sustancias y Productos Químicos,125.7,0.1,-0.3,7.4
+2022-04-01,Sustancias y Productos Químicos,127.4,1.4,1,8.6
+2022-05-01,Sustancias y Productos Químicos,129.85,1.9,3,9.7
+2022-06-01,Sustancias y Productos Químicos,129.68,-0.1,2.8,7.2
+2022-07-01,Sustancias y Productos Químicos,130.67,0.8,3.6,7.6
+2022-08-01,Sustancias y Productos Químicos,131.5,0.6,4.3,6.3
+2022-09-01,Sustancias y Productos Químicos,132.64,0.9,5.2,5.9
+2022-10-01,Sustancias y Productos Químicos,133.83,0.9,6.1,6.6
+2022-11-01,Sustancias y Productos Químicos,133.55,-0.2,5.9,6.4
+2022-12-01,Sustancias y Productos Químicos,133.53,-0,5.9,5.9
+2023-01-01,Sustancias y Productos Químicos,133.65,0.1,0.1,6.5
+2023-02-01,Sustancias y Productos Químicos,135.68,1.5,1.6,8
+2023-03-01,Sustancias y Productos Químicos,135.33,-0.3,1.3,7.7
+2023-04-01,Sustancias y Productos Químicos,135.17,-0.1,1.2,6.1
+2023-05-01,Sustancias y Productos Químicos,134.5,-0.5,0.7,3.6
+2023-06-01,Sustancias y Productos Químicos,134.23,-0.2,0.5,3.5
+2023-07-01,Sustancias y Productos Químicos,133.72,-0.4,0.1,2.3
+2023-08-01,Sustancias y Productos Químicos,134.55,0.6,0.8,2.3
+2023-09-01,Sustancias y Productos Químicos,134.88,0.2,1,1.7
+2023-10-01,Sustancias y Productos Químicos,134.66,-0.2,0.8,0.6
+2023-11-01,Sustancias y Productos Químicos,133.94,-0.5,0.3,0.3
+2023-12-01,Sustancias y Productos Químicos,133.56,-0.3,0,0
+2024-01-01,Sustancias y Productos Químicos,133.26,-0.2,-0.2,-0.3
+2024-02-01,Sustancias y Productos Químicos,133.99,0.5,0.3,-1.2
+2024-03-01,Sustancias y Productos Químicos,133.4,-0.4,-0.1,-1.4
+2024-04-01,Sustancias y Productos Químicos,133.23,-0.1,-0.2,-1.4
+2024-05-01,Sustancias y Productos Químicos,133.6,0.3,0,-0.7
+2024-06-01,Sustancias y Productos Químicos,134.08,0.4,0.4,-0.1
+2024-07-01,Sustancias y Productos Químicos,134.03,-0,0.4,0.2
+2024-08-01,Sustancias y Productos Químicos,133.53,-0.4,-0,-0.8
+2024-09-01,Sustancias y Productos Químicos,133.58,0,0,-1
+2024-10-01,Sustancias y Productos Químicos,133.32,-0.2,-0.2,-1
+2024-11-01,Sustancias y Productos Químicos,133.63,0.2,0.1,-0.2
+2024-12-01,Sustancias y Productos Químicos,133.24,-0.3,-0.2,-0.2
+2025-01-01,Sustancias y Productos Químicos,133.34,0.1,0.1,0.1
+2025-02-01,Sustancias y Productos Químicos,132.76,-0.4,-0.4,-0.9
+2025-03-01,Sustancias y Productos Químicos,132.34,-0.3,-0.7,-0.8
+2025-04-01,Sustancias y Productos Químicos,132.77,0.3,-0.4,-0.3
+2025-05-01,Sustancias y Productos Químicos,132.23,-0.4,-0.8,-1
+2025-06-01,Sustancias y Productos Químicos,131.79,-0.3,-1.1,-1.7
+2025-07-01,Sustancias y Productos Químicos,131.14,-0.5,-1.6,-2.2
+2025-08-01,Sustancias y Productos Químicos,130.92,-0.2,-1.7,-2
+2025-09-01,Sustancias y Productos Químicos,130.51,-0.3,-2,-2.3
+2025-10-01,Sustancias y Productos Químicos,129.89,-0.5,-2.5,-2.6
+2025-11-01,Sustancias y Productos Químicos,129.55,-0.3,-2.8,-3.1
+2025-12-01,Sustancias y Productos Químicos,129.58,0,-2.7,-2.7
+2026-01-01,Sustancias y Productos Químicos,129.52,-0,-0,-2.9
+2026-02-01,Sustancias y Productos Químicos,129.79,0.2,0.2,-2.2
+2026-03-01,Sustancias y Productos Químicos,130.5,0.5,0.7,-1.4
+2026-04-01,Sustancias y Productos Químicos,130.52,0,0.7,-1.7
+2014-01-01,Textil,99.86,NA,NA,NA
+2014-02-01,Textil,100.03,0.2,NA,NA
+2014-03-01,Textil,100.2,0.2,NA,NA
+2014-04-01,Textil,100.32,0.1,NA,NA
+2014-05-01,Textil,100.29,-0,NA,NA
+2014-06-01,Textil,100.4,0.1,NA,NA
+2014-07-01,Textil,100.75,0.3,NA,NA
+2014-08-01,Textil,100.86,0.1,NA,NA
+2014-09-01,Textil,101.17,0.3,NA,NA
+2014-10-01,Textil,101.37,0.2,NA,NA
+2014-11-01,Textil,101.81,0.4,NA,NA
+2014-12-01,Textil,102.04,0.2,NA,NA
+2015-01-01,Textil,102.29,0.2,0.2,2.4
+2015-02-01,Textil,102.57,0.3,0.5,2.5
+2015-03-01,Textil,102.87,0.3,0.8,2.7
+2015-04-01,Textil,102.82,-0,0.8,2.5
+2015-05-01,Textil,103.26,0.4,1.2,3
+2015-06-01,Textil,103.48,0.2,1.4,3.1
+2015-07-01,Textil,103.61,0.1,1.5,2.8
+2015-08-01,Textil,103.8,0.2,1.7,2.9
+2015-09-01,Textil,103.83,0,1.8,2.6
+2015-10-01,Textil,103.84,0,1.8,2.4
+2015-11-01,Textil,104.35,0.5,2.3,2.5
+2015-12-01,Textil,104.55,0.2,2.5,2.5
+2016-01-01,Textil,104.72,0.2,0.2,2.4
+2016-02-01,Textil,105.03,0.3,0.5,2.4
+2016-03-01,Textil,105.01,-0,0.4,2.1
+2016-04-01,Textil,104.54,-0.4,-0,1.7
+2016-05-01,Textil,104.62,0.1,0.1,1.3
+2016-06-01,Textil,104.46,-0.2,-0.1,0.9
+2016-07-01,Textil,104.04,-0.4,-0.5,0.4
+2016-08-01,Textil,104.01,-0,-0.5,0.2
+2016-09-01,Textil,104.33,0.3,-0.2,0.5
+2016-10-01,Textil,104.28,-0,-0.3,0.4
+2016-11-01,Textil,104.37,0.1,-0.2,0
+2016-12-01,Textil,104.45,0.1,-0.1,-0.1
+2017-01-01,Textil,103.98,-0.4,-0.4,-0.7
+2017-02-01,Textil,103.56,-0.4,-0.9,-1.4
+2017-03-01,Textil,103.77,0.2,-0.7,-1.2
+2017-04-01,Textil,103.91,0.1,-0.5,-0.6
+2017-05-01,Textil,103.99,0.1,-0.4,-0.6
+2017-06-01,Textil,104.19,0.2,-0.2,-0.3
+2017-07-01,Textil,104.14,-0,-0.3,0.1
+2017-08-01,Textil,104.07,-0.1,-0.4,0.1
+2017-09-01,Textil,104.23,0.2,-0.2,-0.1
+2017-10-01,Textil,104.49,0.2,0,0.2
+2017-11-01,Textil,104.4,-0.1,-0,0
+2017-12-01,Textil,104.37,-0,-0.1,-0.1
+2018-01-01,Textil,104.34,-0,-0,0.3
+2018-02-01,Textil,104.39,0,0,0.8
+2018-03-01,Textil,104.54,0.1,0.2,0.7
+2018-04-01,Textil,104.8,0.2,0.4,0.9
+2018-05-01,Textil,105.09,0.3,0.7,1.1
+2018-06-01,Textil,105.17,0.1,0.8,0.9
+2018-07-01,Textil,105.25,0.1,0.8,1.1
+2018-08-01,Textil,105.42,0.2,1,1.3
+2018-09-01,Textil,105.71,0.3,1.3,1.4
+2018-10-01,Textil,106.46,0.7,2,1.9
+2018-11-01,Textil,107.05,0.6,2.6,2.5
+2018-12-01,Textil,106.94,-0.1,2.5,2.5
+2019-01-01,Textil,106.68,-0.2,-0.2,2.2
+2019-02-01,Textil,106.55,-0.1,-0.4,2.1
+2019-03-01,Textil,106.44,-0.1,-0.5,1.8
+2019-04-01,Textil,106.47,0,-0.4,1.6
+2019-05-01,Textil,106.53,0.1,-0.4,1.4
+2019-06-01,Textil,106.52,-0,-0.4,1.3
+2019-07-01,Textil,106.21,-0.3,-0.7,0.9
+2019-08-01,Textil,106.4,0.2,-0.5,0.9
+2019-09-01,Textil,106.33,-0.1,-0.6,0.6
+2019-10-01,Textil,106.33,0,-0.6,-0.1
+2019-11-01,Textil,106.28,-0,-0.6,-0.7
+2019-12-01,Textil,106.4,0.1,-0.5,-0.5
+2020-01-01,Textil,106.09,-0.3,-0.3,-0.6
+2020-02-01,Textil,106.03,-0.1,-0.3,-0.5
+2020-03-01,Textil,106.53,0.5,0.1,0.1
+2020-04-01,Textil,106.23,-0.3,-0.2,-0.2
+2020-05-01,Textil,106.21,-0,-0.2,-0.3
+2020-06-01,Textil,106.46,0.2,0.1,-0.1
+2020-07-01,Textil,106.81,0.3,0.4,0.6
+2020-08-01,Textil,106.85,0,0.4,0.4
+2020-09-01,Textil,106.93,0.1,0.5,0.6
+2020-10-01,Textil,107.09,0.1,0.6,0.7
+2020-11-01,Textil,107.25,0.1,0.8,0.9
+2020-12-01,Textil,107.22,-0,0.8,0.8
+2021-01-01,Textil,107.28,0.1,0.1,1.1
+2021-02-01,Textil,107.74,0.4,0.5,1.6
+2021-03-01,Textil,107.82,0.1,0.6,1.2
+2021-04-01,Textil,107.88,0.1,0.6,1.6
+2021-05-01,Textil,108.5,0.6,1.2,2.2
+2021-06-01,Textil,109.36,0.8,2,2.7
+2021-07-01,Textil,109.8,0.4,2.4,2.8
+2021-08-01,Textil,110.51,0.6,3.1,3.4
+2021-09-01,Textil,111.32,0.7,3.8,4.1
+2021-10-01,Textil,111.9,0.5,4.4,4.5
+2021-11-01,Textil,111.94,0,4.4,4.4
+2021-12-01,Textil,112.87,0.8,5.3,5.3
+2022-01-01,Textil,112.97,0.1,0.1,5.3
+2022-02-01,Textil,113.02,0,0.1,4.9
+2022-03-01,Textil,113.16,0.1,0.3,5
+2022-04-01,Textil,113.52,0.3,0.6,5.2
+2022-05-01,Textil,114.32,0.7,1.3,5.4
+2022-06-01,Textil,114.46,0.1,1.4,4.7
+2022-07-01,Textil,115.24,0.7,2.1,5
+2022-08-01,Textil,115.03,-0.2,1.9,4.1
+2022-09-01,Textil,116.38,1.2,3.1,4.5
+2022-10-01,Textil,118.09,1.5,4.6,5.5
+2022-11-01,Textil,117.82,-0.2,4.4,5.3
+2022-12-01,Textil,117.23,-0.5,3.9,3.9
+2023-01-01,Textil,116.89,-0.3,-0.3,3.5
+2023-02-01,Textil,117,0.1,-0.2,3.5
+2023-03-01,Textil,116.05,-0.8,-1,2.6
+2023-04-01,Textil,115.68,-0.3,-1.3,1.9
+2023-05-01,Textil,115.03,-0.6,-1.9,0.6
+2023-06-01,Textil,114.55,-0.4,-2.3,0.1
+2023-07-01,Textil,114.13,-0.4,-2.6,-1
+2023-08-01,Textil,114.14,0,-2.6,-0.8
+2023-09-01,Textil,114.39,0.2,-2.4,-1.7
+2023-10-01,Textil,114.89,0.4,-2,-2.7
+2023-11-01,Textil,114.4,-0.4,-2.4,-2.9
+2023-12-01,Textil,114.06,-0.3,-2.7,-2.7
+2024-01-01,Textil,113.99,-0.1,-0.1,-2.5
+2024-02-01,Textil,114.35,0.3,0.3,-2.3
+2024-03-01,Textil,113.93,-0.4,-0.1,-1.8
+2024-04-01,Textil,113.77,-0.1,-0.3,-1.7
+2024-05-01,Textil,113.75,-0,-0.3,-1.1
+2024-06-01,Textil,114.03,0.2,-0,-0.5
+2024-07-01,Textil,114.24,0.2,0.2,0.1
+2024-08-01,Textil,114.14,-0.1,0.1,0
+2024-09-01,Textil,114.12,-0,0.1,-0.2
+2024-10-01,Textil,113.99,-0.1,-0.1,-0.8
+2024-11-01,Textil,114.26,0.2,0.2,-0.1
+2024-12-01,Textil,114.01,-0.2,-0,-0
+2025-01-01,Textil,114.2,0.2,0.2,0.2
+2025-02-01,Textil,114.15,-0,0.1,-0.2
+2025-03-01,Textil,113.9,-0.2,-0.1,-0
+2025-04-01,Textil,114,0.1,-0,0.2
+2025-05-01,Textil,113.83,-0.1,-0.2,0.1
+2025-06-01,Textil,113.63,-0.2,-0.3,-0.4
+2025-07-01,Textil,113.27,-0.3,-0.6,-0.8
+2025-08-01,Textil,113.2,-0.1,-0.7,-0.8
+2025-09-01,Textil,112.95,-0.2,-0.9,-1
+2025-10-01,Textil,112.56,-0.3,-1.3,-1.3
+2025-11-01,Textil,112.13,-0.4,-1.6,-1.9
+2025-12-01,Textil,112.03,-0.1,-1.7,-1.7
+2026-01-01,Textil,111.9,-0.1,-0.1,-2
+2026-02-01,Textil,111.92,0,-0.1,-2
+2026-03-01,Textil,112.21,0.3,0.2,-1.5
+2026-04-01,Textil,112.31,0.1,0.2,-1.5
+2014-01-01,otra Maquinaria y Equipo,100.05,NA,NA,NA
+2014-02-01,otra Maquinaria y Equipo,99.9,-0.1,NA,NA
+2014-03-01,otra Maquinaria y Equipo,99.89,-0,NA,NA
+2014-04-01,otra Maquinaria y Equipo,99.88,-0,NA,NA
+2014-05-01,otra Maquinaria y Equipo,99.84,-0,NA,NA
+2014-06-01,otra Maquinaria y Equipo,99.79,-0.1,NA,NA
+2014-07-01,otra Maquinaria y Equipo,99.81,0,NA,NA
+2014-08-01,otra Maquinaria y Equipo,99.85,0,NA,NA
+2014-09-01,otra Maquinaria y Equipo,100.24,0.4,NA,NA
+2014-10-01,otra Maquinaria y Equipo,100.37,0.1,NA,NA
+2014-11-01,otra Maquinaria y Equipo,100.47,0.1,NA,NA
+2014-12-01,otra Maquinaria y Equipo,100.57,0.1,NA,NA
+2015-01-01,otra Maquinaria y Equipo,100.74,0.2,0.2,0.7
+2015-02-01,otra Maquinaria y Equipo,100.98,0.2,0.4,1.1
+2015-03-01,otra Maquinaria y Equipo,101.16,0.2,0.6,1.3
+2015-04-01,otra Maquinaria y Equipo,101.21,0,0.6,1.3
+2015-05-01,otra Maquinaria y Equipo,101.68,0.5,1.1,1.8
+2015-06-01,otra Maquinaria y Equipo,101.99,0.3,1.4,2.2
+2015-07-01,otra Maquinaria y Equipo,102.21,0.2,1.6,2.4
+2015-08-01,otra Maquinaria y Equipo,102.63,0.4,2,2.8
+2015-09-01,otra Maquinaria y Equipo,102.75,0.1,2.2,2.5
+2015-10-01,otra Maquinaria y Equipo,102.85,0.1,2.3,2.5
+2015-11-01,otra Maquinaria y Equipo,103.65,0.8,3.1,3.2
+2015-12-01,otra Maquinaria y Equipo,104.2,0.5,3.6,3.6
+2016-01-01,otra Maquinaria y Equipo,104.69,0.5,0.5,3.9
+2016-02-01,otra Maquinaria y Equipo,105.38,0.7,1.1,4.4
+2016-03-01,otra Maquinaria y Equipo,104.9,-0.5,0.7,3.7
+2016-04-01,otra Maquinaria y Equipo,103.63,-1.2,-0.5,2.4
+2016-05-01,otra Maquinaria y Equipo,103.54,-0.1,-0.6,1.8
+2016-06-01,otra Maquinaria y Equipo,103.7,0.2,-0.5,1.7
+2016-07-01,otra Maquinaria y Equipo,103.56,-0.1,-0.6,1.3
+2016-08-01,otra Maquinaria y Equipo,103.69,0.1,-0.5,1
+2016-09-01,otra Maquinaria y Equipo,106.58,2.8,2.3,3.7
+2016-10-01,otra Maquinaria y Equipo,106.68,0.1,2.4,3.7
+2016-11-01,otra Maquinaria y Equipo,106.7,0,2.4,2.9
+2016-12-01,otra Maquinaria y Equipo,106.88,0.2,2.6,2.6
+2017-01-01,otra Maquinaria y Equipo,106.53,-0.3,-0.3,1.8
+2017-02-01,otra Maquinaria y Equipo,105.41,-1.1,-1.4,0
+2017-03-01,otra Maquinaria y Equipo,105.39,-0,-1.4,0.5
+2017-04-01,otra Maquinaria y Equipo,105.13,-0.2,-1.6,1.4
+2017-05-01,otra Maquinaria y Equipo,105.39,0.2,-1.4,1.8
+2017-06-01,otra Maquinaria y Equipo,105.44,0,-1.3,1.7
+2017-07-01,otra Maquinaria y Equipo,105.23,-0.2,-1.5,1.6
+2017-08-01,otra Maquinaria y Equipo,105.14,-0.1,-1.6,1.4
+2017-09-01,otra Maquinaria y Equipo,105.09,-0,-1.7,-1.4
+2017-10-01,otra Maquinaria y Equipo,105.29,0.2,-1.5,-1.3
+2017-11-01,otra Maquinaria y Equipo,105.13,-0.2,-1.6,-1.5
+2017-12-01,otra Maquinaria y Equipo,105.15,0,-1.6,-1.6
+2018-01-01,otra Maquinaria y Equipo,104.91,-0.2,-0.2,-1.5
+2018-02-01,otra Maquinaria y Equipo,105.1,0.2,-0,-0.3
+2018-03-01,otra Maquinaria y Equipo,105.28,0.2,0.1,-0.1
+2018-04-01,otra Maquinaria y Equipo,105.01,-0.3,-0.1,-0.1
+2018-05-01,otra Maquinaria y Equipo,105.36,0.3,0.2,-0
+2018-06-01,otra Maquinaria y Equipo,105.43,0.1,0.3,-0
+2018-07-01,otra Maquinaria y Equipo,105.48,0,0.3,0.2
+2018-08-01,otra Maquinaria y Equipo,105.52,0,0.4,0.4
+2018-09-01,otra Maquinaria y Equipo,105.83,0.3,0.6,0.7
+2018-10-01,otra Maquinaria y Equipo,105.97,0.1,0.8,0.6
+2018-11-01,otra Maquinaria y Equipo,106.45,0.5,1.2,1.3
+2018-12-01,otra Maquinaria y Equipo,106.43,-0,1.2,1.2
+2019-01-01,otra Maquinaria y Equipo,105.98,-0.4,-0.4,1
+2019-02-01,otra Maquinaria y Equipo,105.53,-0.4,-0.8,0.4
+2019-03-01,otra Maquinaria y Equipo,105.72,0.2,-0.7,0.4
+2019-04-01,otra Maquinaria y Equipo,105.71,-0,-0.7,0.7
+2019-05-01,otra Maquinaria y Equipo,105.92,0.2,-0.5,0.5
+2019-06-01,otra Maquinaria y Equipo,106.11,0.2,-0.3,0.6
+2019-07-01,otra Maquinaria y Equipo,105.58,-0.5,-0.8,0.1
+2019-08-01,otra Maquinaria y Equipo,106.32,0.7,-0.1,0.8
+2019-09-01,otra Maquinaria y Equipo,106.34,0,-0.1,0.5
+2019-10-01,otra Maquinaria y Equipo,106.4,0.1,-0,0.4
+2019-11-01,otra Maquinaria y Equipo,106.35,-0,-0.1,-0.1
+2019-12-01,otra Maquinaria y Equipo,106.53,0.2,0.1,0.1
+2020-01-01,otra Maquinaria y Equipo,105.92,-0.6,-0.6,-0.1
+2020-02-01,otra Maquinaria y Equipo,106.47,0.5,-0.1,0.9
+2020-03-01,otra Maquinaria y Equipo,106.47,0,-0.1,0.7
+2020-04-01,otra Maquinaria y Equipo,106.47,0,-0.1,0.7
+2020-05-01,otra Maquinaria y Equipo,106.67,0.2,0.1,0.7
+2020-06-01,otra Maquinaria y Equipo,106.88,0.2,0.3,0.7
+2020-07-01,otra Maquinaria y Equipo,107.24,0.3,0.7,1.6
+2020-08-01,otra Maquinaria y Equipo,108.33,1,1.7,1.9
+2020-09-01,otra Maquinaria y Equipo,108.3,-0,1.7,1.8
+2020-10-01,otra Maquinaria y Equipo,108.76,0.4,2.1,2.2
+2020-11-01,otra Maquinaria y Equipo,108.94,0.2,2.3,2.4
+2020-12-01,otra Maquinaria y Equipo,108.84,-0.1,2.2,2.2
+2021-01-01,otra Maquinaria y Equipo,109.95,1,1,3.8
+2021-02-01,otra Maquinaria y Equipo,110.16,0.2,1.2,3.5
+2021-03-01,otra Maquinaria y Equipo,110.65,0.4,1.7,3.9
+2021-04-01,otra Maquinaria y Equipo,110.54,-0.1,1.6,3.8
+2021-05-01,otra Maquinaria y Equipo,111.7,1,2.6,4.7
+2021-06-01,otra Maquinaria y Equipo,112.89,1.1,3.7,5.6
+2021-07-01,otra Maquinaria y Equipo,113.48,0.5,4.3,5.8
+2021-08-01,otra Maquinaria y Equipo,117.58,3.6,8,8.5
+2021-09-01,otra Maquinaria y Equipo,118.92,1.1,9.3,9.8
+2021-10-01,otra Maquinaria y Equipo,120.33,1.2,10.6,10.6
+2021-11-01,otra Maquinaria y Equipo,119.8,-0.4,10.1,10
+2021-12-01,otra Maquinaria y Equipo,120.31,0.4,10.5,10.5
+2022-01-01,otra Maquinaria y Equipo,125.68,4.5,4.5,14.3
+2022-02-01,otra Maquinaria y Equipo,128.46,2.2,6.8,16.6
+2022-03-01,otra Maquinaria y Equipo,127.76,-0.5,6.2,15.5
+2022-04-01,otra Maquinaria y Equipo,127.53,-0.2,6,15.4
+2022-05-01,otra Maquinaria y Equipo,128.25,0.6,6.6,14.8
+2022-06-01,otra Maquinaria y Equipo,127.55,-0.5,6,13
+2022-07-01,otra Maquinaria y Equipo,129.45,1.5,7.6,14.1
+2022-08-01,otra Maquinaria y Equipo,129.39,-0,7.5,10
+2022-09-01,otra Maquinaria y Equipo,129.45,0,7.6,8.9
+2022-10-01,otra Maquinaria y Equipo,130.55,0.8,8.5,8.5
+2022-11-01,otra Maquinaria y Equipo,129.53,-0.8,7.7,8.1
+2022-12-01,otra Maquinaria y Equipo,128.86,-0.5,7.1,7.1
+2023-01-01,otra Maquinaria y Equipo,129.94,0.8,0.8,3.4
+2023-02-01,otra Maquinaria y Equipo,130.23,0.2,1.1,1.4
+2023-03-01,otra Maquinaria y Equipo,129.48,-0.6,0.5,1.3
+2023-04-01,otra Maquinaria y Equipo,129.3,-0.1,0.3,1.4
+2023-05-01,otra Maquinaria y Equipo,128.41,-0.7,-0.3,0.1
+2023-06-01,otra Maquinaria y Equipo,127.98,-0.3,-0.7,0.3
+2023-07-01,otra Maquinaria y Equipo,127.35,-0.5,-1.2,-1.6
+2023-08-01,otra Maquinaria y Equipo,128.27,0.7,-0.5,-0.9
+2023-09-01,otra Maquinaria y Equipo,128.66,0.3,-0.2,-0.6
+2023-10-01,otra Maquinaria y Equipo,130.12,1.1,1,-0.3
+2023-11-01,otra Maquinaria y Equipo,129.41,-0.5,0.4,-0.1
+2023-12-01,otra Maquinaria y Equipo,128.93,-0.4,0.1,0.1
+2024-01-01,otra Maquinaria y Equipo,128.78,-0.1,-0.1,-0.9
+2024-02-01,otra Maquinaria y Equipo,130.02,1,0.8,-0.2
+2024-03-01,otra Maquinaria y Equipo,130.56,0.4,1.3,0.8
+2024-04-01,otra Maquinaria y Equipo,133.05,1.9,3.2,2.9
+2024-05-01,otra Maquinaria y Equipo,133.18,0.1,3.3,3.7
+2024-06-01,otra Maquinaria y Equipo,133.83,0.5,3.8,4.6
+2024-07-01,otra Maquinaria y Equipo,133.93,0.1,3.9,5.2
+2024-08-01,otra Maquinaria y Equipo,133.46,-0.4,3.5,4
+2024-09-01,otra Maquinaria y Equipo,133.82,0.3,3.8,4
+2024-10-01,otra Maquinaria y Equipo,133.52,-0.2,3.6,2.6
+2024-11-01,otra Maquinaria y Equipo,133.95,0.3,3.9,3.5
+2024-12-01,otra Maquinaria y Equipo,133.41,-0.4,3.5,3.5
+2025-01-01,otra Maquinaria y Equipo,133.61,0.1,0.1,3.8
+2025-02-01,otra Maquinaria y Equipo,133.04,-0.4,-0.3,2.3
+2025-03-01,otra Maquinaria y Equipo,132.42,-0.5,-0.7,1.4
+2025-04-01,otra Maquinaria y Equipo,132.9,0.4,-0.4,-0.1
+2025-05-01,otra Maquinaria y Equipo,132.52,-0.3,-0.7,-0.5
+2025-06-01,otra Maquinaria y Equipo,131.93,-0.4,-1.1,-1.4
+2025-07-01,otra Maquinaria y Equipo,131.11,-0.6,-1.7,-2.1
+2025-08-01,otra Maquinaria y Equipo,131.01,-0.1,-1.8,-1.8
+2025-09-01,otra Maquinaria y Equipo,130.58,-0.3,-2.1,-2.4
+2025-10-01,otra Maquinaria y Equipo,129.5,-0.8,-2.9,-3
+2025-11-01,otra Maquinaria y Equipo,128.87,-0.5,-3.4,-3.8
+2025-12-01,otra Maquinaria y Equipo,128.74,-0.1,-3.5,-3.5
+2026-01-01,otra Maquinaria y Equipo,128.67,-0.1,-0.1,-3.7
+2026-02-01,otra Maquinaria y Equipo,128.6,-0.1,-0.1,-3.3
+2026-03-01,otra Maquinaria y Equipo,129.49,0.7,0.6,-2.2
+2026-04-01,otra Maquinaria y Equipo,129.59,0.1,0.7,-2.5
