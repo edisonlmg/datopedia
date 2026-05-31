@@ -54,7 +54,7 @@ social_mapa_departamentos <- function(
     label_format      = "%.1f",
     mostrar_etiquetas = TRUE,
     etiqueta          = "ambos",
-    fondo             = "blanco"
+    fondo             = "beige"
 ) {
   bg_color     <- if (fondo == "beige") "#F6F5F0" else "white"
   low_color    <- if (fondo == "beige") "#dedad2" else "#e8e8e8"
@@ -114,15 +114,15 @@ social_mapa_departamentos <- function(
 
       plot.title = element_textbox_simple(
         family = "playfair", face = "bold", size = 28, color = text_color,
-        halign = 0, lineheight = 1.2, margin = margin(b = .mb_titulo(title), t = 8)
+        halign = 0, lineheight = 1.0, margin = margin(b = .mb_titulo(title), t = 8)
       ),
       plot.subtitle = element_textbox_simple(
         family = "montserrat", size = 18, color = sub_color,
-        halign = 0, lineheight = 1.3, margin = margin(b = 14)
+        halign = 0, lineheight = 1.0, margin = margin(b = 14)
       ),
       plot.caption = element_textbox_simple(
         family = "montserrat", size = 18, color = cap_color,
-        halign = 0, lineheight = 1.4, margin = margin(t = 12)
+        halign = 0, lineheight = 1.0, margin = margin(t = 12)
       ),
       plot.title.position   = "plot",
       plot.caption.position = "plot",
@@ -145,7 +145,7 @@ social_mapa_lima_callao <- function(
     label_format      = "%.1f",
     mostrar_etiquetas = TRUE,
     etiqueta          = "ambos",
-    fondo             = "blanco"
+    fondo             = "beige"
 ) {
   bg_color     <- if (fondo == "beige") "#F6F5F0" else "white"
   low_color    <- if (fondo == "beige") "#dedad2" else "#e8e8e8"
@@ -209,15 +209,15 @@ social_mapa_lima_callao <- function(
 
       plot.title = element_textbox_simple(
         family = "playfair", face = "bold", size = 28, color = text_color,
-        halign = 0, lineheight = 1.2, margin = margin(b = .mb_titulo(title), t = 8)
+        halign = 0, lineheight = 1.0, margin = margin(b = .mb_titulo(title), t = 8)
       ),
       plot.subtitle = element_textbox_simple(
         family = "montserrat", size = 18, color = sub_color,
-        halign = 0, lineheight = 1.3, margin = margin(b = 14)
+        halign = 0, lineheight = 1.0, margin = margin(b = 14)
       ),
       plot.caption = element_textbox_simple(
         family = "montserrat", size = 18, color = cap_color,
-        halign = 0, lineheight = 1.4, margin = margin(t = 12)
+        halign = 0, lineheight = 1.0, margin = margin(t = 12)
       ),
       plot.title.position   = "plot",
       plot.caption.position = "plot",

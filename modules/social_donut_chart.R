@@ -45,7 +45,7 @@ social_donut_chart <- function(
     hole_size      = 0.5,
     center_label   = NULL,
     center_size    = 8,
-    fondo          = "blanco"
+    fondo          = "beige"
 ) {
   .mb_titulo <- function(s) (ceiling(nchar(s) / 28) - 1) * 22 + 5
 
@@ -102,15 +102,15 @@ social_donut_chart <- function(
 
       plot.title = element_textbox_simple(
         family = "playfair", face = "bold", size = 28, color = text_color,
-        halign = 0, lineheight = 1.2, margin = margin(b = .mb_titulo(title), t = 8)
+        halign = 0, lineheight = 1.0, margin = margin(b = .mb_titulo(title), t = 8)
       ),
       plot.subtitle = element_textbox_simple(
         family = "montserrat", size = 18, color = sub_color,
-        halign = 0, lineheight = 1.3, margin = margin(b = 14)
+        halign = 0, lineheight = 1.0, margin = margin(b = 14)
       ),
       plot.caption = element_textbox_simple(
-        family = "montserrat", size = 18, color = cap_color,
-        halign = 0, lineheight = 1.4, margin = margin(t = 12)
+        family = "montserrat", size = 16, color = cap_color,
+        halign = 0, lineheight = 1.0, margin = margin(t = 12)
       ),
       plot.title.position   = "plot",
       plot.caption.position = "plot",

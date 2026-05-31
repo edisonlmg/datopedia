@@ -53,7 +53,7 @@ social_line_chart <- function(
     show_labels  = TRUE,
     label_format = "%.1f",
     show_legend  = TRUE,
-    fondo        = "blanco"
+    fondo        = "beige"
 ) {
   bg_color   <- if (fondo == "beige") "#F6F5F0" else "white"
   grid_color <- if (fondo == "beige") "#d8d5cd" else "#e8e8e8"
@@ -162,15 +162,15 @@ social_line_chart <- function(
 
       plot.title = element_textbox_simple(
         family = "playfair", face = "bold", size = 28, color = text_color,
-        halign = 0, lineheight = 1.2, margin = margin(b = .mb_titulo(title), t = 8)
+        halign = 0, lineheight = 1.0, margin = margin(b = .mb_titulo(title), t = 8)
       ),
       plot.subtitle = element_textbox_simple(
         family = "montserrat", size = 18, color = sub_color,
-        halign = 0, lineheight = 1.3, margin = margin(b = 14)
+        halign = 0, lineheight = 1.0, margin = margin(b = 14)
       ),
       plot.caption = element_textbox_simple(
         family = "montserrat", size = 18, color = cap_color,
-        halign = 0, lineheight = 1.4, margin = margin(t = 12)
+        halign = 0, lineheight = 1.0, margin = margin(t = 12)
       ),
       plot.title.position   = "plot",
       plot.caption.position = "plot",

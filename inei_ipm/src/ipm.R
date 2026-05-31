@@ -53,6 +53,10 @@ dir_create(dir_raw)
 dir_create(dir_processed)
 dir_create(dir_figures)
 
+path_raw_ipm       <- path(dir_raw, "ipm.xlsx")
+path_raw_nacional  <- path(dir_raw, "ipm_nacional.xlsx")
+path_raw_importado <- path(dir_raw, "ipm_importado.xlsx")
+
 path_ipm_general   <- path(dir_processed, "ipm_general.csv")
 path_ipm_nacional  <- path(dir_processed, "ipm_nacional.csv")
 path_ipm_importado <- path(dir_processed, "ipm_importado.csv")
@@ -91,7 +95,7 @@ path_fig_importado <- path(dir_figures, glue("ipm_importado_{fecha_fin}.png"))
 # IPM general (total, nacional, importado) --------------------------------
 
 ipm_general <- .leer_ipm(
-  path(dir_raw, "ipm.xlsx"),
+  path_raw_ipm,
   fechas = fechas,
   grupos = "INDICADOR"
 ) %>%
@@ -110,7 +114,7 @@ write_csv(ipm_general, path_ipm_general)
 # IPM por subsector nacional ----------------------------------------------
 
 ipm_nacional <- .leer_ipm(
-  path(dir_raw, "ipm_nacional.xlsx"),
+  path_raw_nacional,
   fechas = fechas,
   grupos = "INDICADOR"
 ) %>%
@@ -126,7 +130,7 @@ write_csv(ipm_nacional, path_ipm_nacional)
 # IPM por subsector importado ---------------------------------------------
 
 ipm_importado <- .leer_ipm(
-  path(dir_raw, "ipm_importado.xlsx"),
+  path_raw_importado,
   fechas = fechas,
   grupos = "INDICADOR"
 ) %>%
@@ -222,7 +226,7 @@ fig_nacional <- nacional_data %>%
     max_y              = 44,
     title              = paste(
       "PERÚ | ÍNDICE DE PRECIOS AL POR MAYOR (IPM): VARIACIÓN ANUAL POR",
-      glue("SUBSECTOR - {titulo_fecha} (%)")
+      glue("SUBSECTOR NACIONAL - {titulo_fecha} (%)")
     ),
     subtitle = paste(
       "El gran aumento en productos de la refinación del petróleo podría",

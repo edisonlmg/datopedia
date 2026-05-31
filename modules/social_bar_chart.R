@@ -43,7 +43,7 @@ social_bar_chart <- function(
     label_decimals = 0,
     label_big_mark = ",",
     max_x          = 36,     # máx. caracteres en etiquetas eje x (0 = sin truncar)
-    fondo          = "blanco"
+    fondo          = "beige"
 ) {
   bg_color    <- if (fondo == "beige") "#F6F5F0" else "white"
   grid_color  <- if (fondo == "beige") "#d8d5cd" else "#e8e8e8"
@@ -151,15 +151,15 @@ social_bar_chart <- function(
 
       plot.title = element_textbox_simple(
         family = "playfair", face = "bold", size = 28, color = text_color,
-        halign = 0, lineheight = 1.2, margin = margin(b = .mb_titulo(title), t = 8)
+        halign = 0, lineheight = 1.0, margin = margin(b = .mb_titulo(title), t = 8)
       ),
       plot.subtitle = element_textbox_simple(
         family = "montserrat", size = 18, color = sub_color,
-        halign = 0, lineheight = 1.3, margin = margin(b = 14)
+        halign = 0, lineheight = 1.0, margin = margin(b = 14)
       ),
       plot.caption = element_textbox_simple(
         family = "montserrat", size = 18, color = cap_color,
-        halign = 0, lineheight = 1.4, margin = margin(t = 12)
+        halign = 0, lineheight = 1.0, margin = margin(t = 12)
       ),
       plot.title.position   = "plot",
       plot.caption.position = "plot",
@@ -173,7 +173,7 @@ social_bar_chart <- function(
       axis.title.y      = element_text(margin = margin(r = 10)),
       axis.title.x      = element_text(margin = margin(t = 10)),
 
-      panel.grid.major.y = element_line(color = grid_color, linewidth = 0.5),
+      panel.grid.major.y = element_blank(),
       panel.grid.major.x = element_blank(),
       panel.grid.minor   = element_blank(),
 

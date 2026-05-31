@@ -50,6 +50,6 @@ rsconnect/
 .positai
 
 # Data raw
-mef_gasto_publico/data/raw/
-mef_inversion_publica/data/raw/
+mef_gasto_publico/data/
+mef_inversion_publica/data/
 

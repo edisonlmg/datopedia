@@ -85,7 +85,7 @@ names(df_raw) <- file_path_sans_ext(basename(path_files))
 
 # establecer manualmente periodo y mes
 periodo = 2026
-mes     = "MARZO"
+mes     = "ABRIL"
 
 # establecer manualmente en cada dataset el número de fila donde se encuentran
 # los siguientes datos:

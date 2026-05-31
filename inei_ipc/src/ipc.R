@@ -48,6 +48,9 @@ dir_create(dir_raw)
 dir_create(dir_processed)
 dir_create(dir_figures)
 
+path_raw        <- path(dir_raw, "ipc_nacional_2021.xlsx")
+path_raw_region <- path(dir_raw, "ipc_region_2021.xlsx")
+
 path_ipc_nacional <- path(dir_processed, "ipc_nacional.csv")
 path_ipc_region   <- path(dir_processed, "ipc_region.csv")
 
@@ -61,7 +64,7 @@ path_fig_calor <- path(dir_figures, glue("inflacion_categoria_{fecha_fin}.png"))
 # col 3 = unidad, col 4+ = valores mensuales con punto decimal
 
 raw_ipc_nacional <- read_excel(
-  path(dir_raw, "ipc_nacional_2021.xlsx"),
+  path_raw,
   sheet     = 1,
   skip      = 3,
   col_names = FALSE
@@ -96,9 +99,9 @@ write_csv(ipc_nacional, path_ipc_nacional)
 # col 3 = vacía, col 4+ = valores mensuales con coma decimal
 
 raw_ipc_region <- read_excel(
-  path(dir_raw, "ipc_region_2021.xlsx"),
+  path_raw_region,
   sheet     = 1,
-  skip      = 15,
+  skip      = 3,
   col_names = FALSE
 )
 

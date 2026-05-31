@@ -7,6 +7,8 @@
 #             · Gasohol Regular y Gasohol Premium (serie comparativa)
 #             · Diésel B5 S-50 UV
 #             · GLP vehicular
+#           También genera mapas de precios por departamento para el último
+#           periodo disponible, uno por cada tipo de producto.
 #
 # Input:
 #   - osinergmin_combustibles/data/raw/precios_mensuales.csv
@@ -14,10 +16,16 @@
 #     por producto con el precio promedio mensual en S/ por galón.
 #     Descarga manual desde el SCOP de Osinergmin.
 #
-# Outputs:
+# Outputs (líneas - Lima):
 #   - osinergmin_combustibles/figures/combustibles_gasoholes_{fecha_fin}.png
 #   - osinergmin_combustibles/figures/combustibles_diesel_{fecha_fin}.png
 #   - osinergmin_combustibles/figures/combustibles_glp_{fecha_fin}.png
+#
+# Outputs (mapas - último periodo):
+#   - osinergmin_combustibles/figures/combustibles_mapa_glp_{fecha_fin}.png
+#   - osinergmin_combustibles/figures/combustibles_mapa_diesel_{fecha_fin}.png
+#   - osinergmin_combustibles/figures/combustibles_mapa_gasohol_regular_{fecha_fin}.png
+#   - osinergmin_combustibles/figures/combustibles_mapa_gasohol_premium_{fecha_fin}.png
 #
 # Fuente: Osinergmin - SCOP
 #   https://www.osinergmin.gob.pe/empresas/hidrocarburos/scop/documentos-scop
@@ -25,6 +33,7 @@
 #===============================================================================
 
 source("modules/social_line_chart.R")
+source("modules/social_choropleth_map.R")
 
 library(tidyverse) # manejo y visualización de datos
 library(lubridate) # manejo de fechas
@@ -55,9 +64,14 @@ fecha_fin <- format(
 
 titulo_fecha <- toupper(format(as.Date(fecha_fin), "%B %Y"))
 
-path_fig_gasoholes <- path(dir_figures, glue("combustibles_gasoholes_{fecha_fin}.png"))
-path_fig_diesel    <- path(dir_figures, glue("combustibles_diesel_{fecha_fin}.png"))
-path_fig_glp       <- path(dir_figures, glue("combustibles_glp_{fecha_fin}.png"))
+path_fig_gasoholes <- path(dir_figures, glue("gasoholes_{fecha_fin}.png"))
+path_fig_diesel    <- path(dir_figures, glue("diesel_{fecha_fin}.png"))
+path_fig_glp       <- path(dir_figures, glue("glp_{fecha_fin}.png"))
+
+path_mapa_glp              <- path(dir_figures, glue("mapa_glp_{fecha_fin}.png"))
+path_mapa_diesel           <- path(dir_figures, glue("mapa_diesel_{fecha_fin}.png"))
+path_mapa_gasohol_regular  <- path(dir_figures, glue("mapa_gasohol_regular_{fecha_fin}.png"))
+path_mapa_gasohol_premium  <- path(dir_figures, glue("mapa_gasohol_premium_{fecha_fin}.png"))
 
 
 # transformación ----------------------------------------------------------
@@ -164,8 +178,131 @@ fig_glp_lima <- social_line_chart(
 ggsave(path_fig_glp, plot = fig_glp_lima, width = 8, height = 10, dpi = 135)
 
 
+# mapas por departamento - último periodo ----------------------------------
+
+ultimo <- p_mensuales %>%
+  filter(PERIODO == max(PERIODO, na.rm = TRUE)) %>%
+  select(DEPARTAMENTO, PRODUCTO, PRECIO)
 
 
+# mapa: GLP vehicular
+glp_depto <- ultimo %>% filter(PRODUCTO == "GLP")
+
+glp_depto %>%
+  arrange(desc(PRECIO)) %>%
+  head()
+
+glp_depto %>%
+  arrange(PRECIO) %>%
+  head()
+
+fig_mapa_glp <- social_mapa_departamentos(
+  data         = glp_depto,
+  value_col    = "PRECIO",
+  color_alto   = "morado",
+  label_format = "%.1f",
+  title        = paste(
+    "PERÚ | GLP VEHICULAR: PRECIO PROMEDIO MENSUAL - ",
+    glue("{titulo_fecha} (S/ POR GALÓN)")
+    ),
+  subtitle     = paste(
+    "Madre de Dios y Ucayali con lo precios promedios más elevados.",
+    "Ica y Junín con los precios promedios más bajos."
+    ),
+  caption      = "Fuente: Osinergmin | X: @EdisonMondragon"
+)
+
+ggsave(path_mapa_glp, plot = fig_mapa_glp, width = 8, height = 10, dpi = 135)
+
+
+# mapa: Diésel B5 S-50 UV
+diesel_depto <- ultimo %>% filter(PRODUCTO == "DIESEL B5 S-50 UV")
+
+diesel_depto %>%
+  arrange(desc(PRECIO)) %>%
+  head()
+
+diesel_depto %>%
+  arrange(PRECIO) %>%
+  head()
+
+fig_mapa_diesel <- social_mapa_departamentos(
+  data         = diesel_depto,
+  value_col    = "PRECIO",
+  color_alto   = "rojo",
+  label_format = "%.1f",
+  title        = paste(
+    "PERÚ | DIÉSEL B5 S-50 UV: PRECIO PROMEDIO MENSUAL - ",
+    glue("{titulo_fecha} (S/ POR GALÓN)")
+  ),
+  subtitle     = paste(
+    "Ucayali y Madre de Dios con lo precios promedios más elevados.",
+    "Loreto y Lambayeque con los precios promedios más bajos."
+  ),
+  caption      = "Fuente: Osinergmin | X: @EdisonMondragon"
+)
+
+ggsave(path_mapa_diesel, plot = fig_mapa_diesel, width = 8, height = 10, dpi = 135)
+
+
+# mapa: Gasohol Regular
+gasohol_reg_depto <- ultimo %>% filter(PRODUCTO == "GASOHOL REGULAR")
+
+gasohol_reg_depto %>%
+  arrange(desc(PRECIO)) %>%
+  head()
+
+gasohol_reg_depto %>%
+  arrange(PRECIO) %>%
+  head()
+
+fig_mapa_gasohol_regular <- social_mapa_departamentos(
+  data         = gasohol_reg_depto,
+  value_col    = "PRECIO",
+  color_alto   = "azul",
+  label_format = "%.1f",
+  title        = paste(
+    "PERÚ | GASOHOL REGULAR: PRECIO PROMEDIO MENSUAL - ",
+    glue("{titulo_fecha} (S/ POR GALÓN)")
+  ),
+  subtitle     = paste(
+    "Puno y Tacna con lo precios promedios más elevados.",
+    "Junín, Ica y Lima con los precios promedios más bajos."
+  ),
+  caption      = "Fuente: Osinergmin | X: @EdisonMondragon"
+)
+
+ggsave(path_mapa_gasohol_regular, plot = fig_mapa_gasohol_regular, width = 8, height = 10, dpi = 135)
+
+
+# mapa: Gasohol Premium
+gasohol_prem_depto <- ultimo %>% filter(PRODUCTO == "GASOHOL PREMIUM")
+
+gasohol_prem_depto %>%
+  arrange(desc(PRECIO)) %>%
+  head()
+
+gasohol_prem_depto %>%
+  arrange(PRECIO) %>%
+  head()
+
+fig_mapa_gasohol_premium <- social_mapa_departamentos(
+  data         = gasohol_prem_depto,
+  value_col    = "PRECIO",
+  color_alto   = "verde",
+  label_format = "%.1f",
+  title        = paste(
+    "PERÚ | GASOHOL PREMIUM: PRECIO PROMEDIO MENSUAL - ",
+    glue("{titulo_fecha} (S/ POR GALÓN)")
+  ),
+  subtitle     = paste(
+    "Loreto y Ucayali con lo precios promedios más elevados.",
+    "Junín e Ica con los precios promedios más bajos."
+  ),
+  caption      = "Fuente: Osinergmin | X: @EdisonMondragon"
+)
+
+ggsave(path_mapa_gasohol_premium, plot = fig_mapa_gasohol_premium, width = 8, height = 10, dpi = 135)
 
 
 
